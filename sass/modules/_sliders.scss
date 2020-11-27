@@ -1,0 +1,100 @@
+.flickity-prev-next-button{
+	width: 60px;
+	height: 60px;
+	background: #FFF;
+	box-shadow: 0 4px 10px 0 rgba(#000,0.2);
+	transition: all 0.3s ease;
+	@include res(l){
+		width: 40px;
+		height: 40px;
+	}
+	@include res(xs){
+		width: 30px;
+		height: 30px;
+	}
+
+	&:hover{
+		background: $purple-hover;
+		box-shadow: 0 4px 10px 0 rgba(#000,0.5);
+
+		.flickity-button-icon{
+			fill: #FFF;
+		}
+	}
+
+	&:focus{
+		box-shadow: 0 4px 10px 0 rgba(#6c81a0,0.3);
+	}
+
+	&:active{
+		opacity: 1;
+	}
+
+	&:disabled{
+		opacity: 0.2;
+		pointer-events: all;
+		cursor: default;
+		background: #FFF;
+		box-shadow: 0 4px 10px 0 rgba(#000,0.2);
+
+		.flickity-button-icon{
+			fill: $text-color;
+		}
+	}
+
+	.flickity-button-icon{
+		width: 40%;
+		height: 40%;
+		top: 30%;
+		left: 30%;
+		transition: all 0.3s ease;
+		fill: $text-color;
+	}
+
+	&.next{
+		right: 20px;
+		@include res(l){
+			right: 10px;
+		}
+	}
+	&.previous{
+		left: 20px;
+		@include res(l){
+			left: 10px;
+		}
+	}
+}
+
+
+.flickity-page-dots{
+	bottom: 50px;
+	@include res(xl){
+		bottom: 20px;
+	}
+	@include res(xs){
+		bottom: 5px;
+	}
+
+	.dot{
+		border: 2px solid $text-color;
+		width: 18px;
+		height: 18px;
+		background: #FFF;
+		opacity: 1;
+		margin: 0 6px;
+		transition: all 0.3s ease;
+		@include res(xs){
+			width: 12px;
+			height: 12px;
+		}
+
+		&:hover{
+			border-color: $purple-hover;
+		}
+
+		&.is-selected{
+			background: $text-color;
+			border-color: $text-color;
+		}
+	}
+}

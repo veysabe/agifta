@@ -1,0 +1,176 @@
+.s-site-header{
+	background: $text-color;
+	padding: 40px 0 20px 0;
+	@include res(xl){
+		padding: 20px 0;
+	}
+	@include res(l){
+		display: none;
+	}
+}
+
+//site-header-top
+.site-header-top{
+	display: flex;
+	align-items: center;
+}
+
+.site-header-top__logo{
+	display: flex;
+	align-items: center;
+	color: #FFF;
+}
+
+.site-header-top__descr{
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 1.6;
+	width: 180px;
+	text-transform: uppercase;
+	margin-left: 24px;
+}
+
+.site-header-top__nav{
+	display: flex;
+	margin-left: auto;
+	padding-left: 40px;
+
+	a{
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFF;
+		text-transform: uppercase;
+		transition: color 0.3s ease;
+		margin-left: 20px;
+		white-space: nowrap;
+
+		&:hover{
+			color: $purple-hover;
+		}
+
+		&.active{
+			color: $gray-text;
+		}
+	}
+}
+
+.site-header-top__langs{
+	display: flex;
+	padding-left: 20px;
+	white-space: nowrap;
+
+	a{
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFF;
+		text-transform: uppercase;
+		transition: color 0.3s ease;
+
+		&:hover{
+			color: $purple-hover;
+		}
+
+		&.active{
+			color: $gray-text;
+			pointer-events: none;
+		}
+	}
+
+	figure{
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFF;
+		margin: 0 5px;
+	}
+}
+//site-header-top
+
+
+//site-header-bottom
+.site-header-bottom{
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.site-header-bottom__nav{
+	display: flex;
+
+	a{
+		color: #FFF;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 1;
+		margin-right: 60px;
+		transition: color 0.3s ease;
+		@include res(xl){
+			font-size: 20px;
+		}
+
+		&:hover{
+			color: $purple-hover;
+		}
+
+		&.active{
+			color: $gray-text;
+		}
+	}
+}
+
+.site-header-user{
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+
+.site-header-user__lk{
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFF;
+	transition: color 0.3s ease;
+	@include res(xl){
+		font-size: 20px;
+	}
+
+	&:hover{
+		color: $purple-hover;
+	}
+}
+
+.site-header-user__cart{
+	margin-left: 24px;
+	position: relative;
+	font-size: 20px;
+	@include res(xl){
+		font-size: 15px;
+	}
+
+	&:hover{
+		svg{
+			fill: $purple-hover;
+		}
+		span{
+			color: $purple-hover;
+		}
+	}
+
+	svg{
+		display: block;
+		transition: fill 0.3s ease;
+		height: 2.5em;
+		width: auto;
+	}
+
+	span{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0.8em;
+		color: #FFF;
+		font-size: 1em;
+		font-weight: bold;
+		text-align: center;
+		transition: color 0.3s ease;
+	}
+}
+//site-header-bottom

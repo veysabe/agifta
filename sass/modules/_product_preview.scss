@@ -1,0 +1,166 @@
+.product-grid{
+	margin-bottom: -50px;
+	justify-content: center;
+	@include res(l){
+		margin-bottom: -$gutter * 2;
+	}
+
+	.product-preview{
+		margin-bottom: 50px;
+		@include res(l){
+			margin-bottom: $gutter * 2;
+		}
+	}
+}
+
+.product-preview{
+	display: block;
+	position: relative;
+	border-radius: 20px;
+	background: #FFF;
+	transition: all 0.2s ease;
+	z-index: 4;
+
+	&:hover{
+		transform: translate3d(0,-10px,0);
+		box-shadow: $shadow-block;
+
+		.product-preview__img-hover{
+			opacity: 1;
+		}
+
+		.product-preview__price{
+			background: $purple-hover;
+		}
+	}
+}
+
+.product-preview__imgwrap{
+	position: relative;
+	z-index: 2;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.product-preview__img{
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: all 0.3s ease;
+}
+
+.product-preview__img-hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+}
+
+.product-preview__labels{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	z-index: 2;
+	@include res(l){
+		left: 15px;
+		top: 15px;
+	}
+}
+
+.product-preview__label{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border-radius: 15px;
+	white-space: nowrap;
+	line-height: 1;
+	text-transform: uppercase;
+	@include res(l){
+		font-size: 10px;
+	}
+
+	&--hit{
+		background: #fed00c;
+		color: $text-color;
+	}
+
+	&--new{
+		background: #69df64;
+		color: #FFF;
+	}
+}
+
+.product-preview__info{
+	position: relative;
+	z-index: 2;
+	padding: 15px 25px;
+	@include res(l){
+		padding: 15px;
+	}
+}
+
+.product-preview__vendor-code{
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+	@include res(l){
+		font-size: 10px;
+	}
+	@include res(xs){
+		font-size: 8px;
+	}
+}
+
+.product-preview__name{
+	@include res(l){
+		font-size: 16px;
+	}
+	@include res(xs){
+		font-size: 13px;
+	}
+}
+
+.product-preview__price-wrap{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.product-preview__price{
+	display: inline-block;
+	color: #FFF;
+	background: $purple;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 2px 15px;
+	border-radius: 30px;
+	transition: all 0.3s ease;
+	white-space: nowrap;
+	@include res(xl){
+		font-size: 24px;
+	}
+	@include res(l){
+		font-size: 18px;
+	}
+	@include res(m){
+		font-size: 14px;
+	}
+
+	small{
+		font-size: 75%;
+	}
+}
+
+.product-preview__price-note{
+	display: block;
+	padding-top: 5px;
+	font-size: 12px;
+	line-height: 1.1;
+	font-weight: bold;
+	@include res(m){
+		font-size: 10px;
+	}
+}

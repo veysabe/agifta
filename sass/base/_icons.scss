@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'agifta-icons';
+	src:
+		url('../fonts/agifta-icons.ttf?tutogn') format('truetype'),
+		url('../fonts/agifta-icons.woff?tutogn') format('woff'),
+		url('../fonts/agifta-icons.svg?tutogn#agifta-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+i {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'agifta-icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.i-arrow-left:before {
+	content: "\e900";
+}
+.i-arrow-right:before {
+	content: "\e901";
+}
+.i-fb:before {
+	content: "\e902";
+}
+.i-insta:before {
+	content: "\e903";
+}
+.i-vk:before {
+	content: "\e904";
+}
