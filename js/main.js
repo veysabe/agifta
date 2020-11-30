@@ -131,6 +131,36 @@ $(function () {
 
 
 /***********************
+ Elems Desc Enable BEGIN
+ ***********************/
+
+$(function () {
+	$('body').on('click', '[data-toggle="desc-toggle"] [data-toggle-num]', function () {
+		let targetName = $(this).parents('[data-toggle]').data('target'),
+			num  = $(this).data('toggle-num'),
+			targetContainer = $(`[data-toggle-content=${targetName}]`),
+			toggleItem = targetContainer.find(`[data-toggle-num=${num}]`),
+			activeItem = targetContainer.find(`.active`);
+
+		$(this).parents('[data-toggle]').find('.active').removeClass('active');
+		$(this).addClass('active');
+		activeItem.css('opacity', '0');
+		setTimeout(function () {
+			activeItem.removeClass('active');
+			toggleItem.addClass('active');
+			toggleItem.css('opacity', '0');
+			setTimeout(function () {
+				toggleItem.css('opacity', '1');
+			},100)
+		},300)
+	})
+})
+
+/***********************
+ Elems Desc Enable END
+ ***********************/
+
+/***********************
  fancybox BEGIN
  ***********************/
 $.fancybox.defaults.backFocus = false;
@@ -217,23 +247,42 @@ $(function () {
  Mob menu BEGIN
  ***********************/
 $(function () {
-	$('.burger').on('click', function () {
+	$('.burger.mob').on('click', function () {
 		$(this).toggleClass('active');
 		$('.mob-panel').toggleClass('active');
 		$('body').toggleClass('stopped');
 	});
 
 	$(document).on('click touchstart', function (e) {
-		const div = $(".burger,.mob-panel");
+		const div = $(".burger.mob.active,.mob-panel.active, .catalog-menu, .site-header-menu, .site-header-menu .burger");
 		if (!div.is(e.target) && div.has(e.target).length === 0) {
-			$('.burger').removeClass('active');
+			$('.burger.mob').removeClass('active');
+			$('.site-header-menu .burger').removeClass('active');
 			$('.mob-panel').removeClass('active');
+			$('.catalog-menu').removeClass('active');
 			$('body').removeClass('stopped');
 		}
 	});
 });
 /***********************
  Mob menu END
+ ***********************/
+
+
+/***********************
+ Catalog BEGIN
+ ***********************/
+$(function () {
+	$('.site-header-menu').on('click', function () {
+		let burger = $(this).find('.burger');
+		burger.toggleClass('active');
+		$('.catalog-menu').toggleClass('active');
+		$('body').toggleClass('stopped');
+		$('.black-overflow').addClass('active');
+	});
+});
+/***********************
+ catalog END
  ***********************/
 
 
@@ -284,6 +333,24 @@ $(function($){
 /***********************
 Logos slider END
 ***********************/
+
+/***********************
+ Catalog slider BEGIN
+ ***********************/
+$(function($){
+	$('.catalog-slider').flickity({
+		contain: true,
+		imagesLoaded: true,
+		lazyLoad: true,
+		pageDots: false,
+		groupCells: true,
+		wrapAround: true,
+		draggable: false
+	});
+});
+/***********************
+ Catalog slider END
+ ***********************/
 
 
 /***********************

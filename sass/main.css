@@ -1214,6 +1214,11 @@ h4, .h4 {
   }
 }
 
+.big-title {
+  font-weight: bold;
+  font-size: 140px;
+}
+
 .link-arrow {
   display: inline-flex;
   align-items: center;
@@ -3493,6 +3498,37 @@ body.stopped {
   .product-preview__price-note {
     font-size: 10px;
   }
+}
+
+.main-banner {
+  position: relative;
+}
+.main-banner__title {
+  font-weight: bold;
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  top: 255px;
+  left: 0;
+  transform: translate(0, 0);
+}
+
+.mission__tiles-block {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.mission__tiles-block > * {
+  padding: 0 25px;
+}
+.mission__tile__text {
+  margin-top: 20px;
+}
+.mission__tile__text .h3 {
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .intro-slider {

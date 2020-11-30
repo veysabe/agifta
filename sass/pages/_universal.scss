@@ -1,0 +1,15 @@
+.main-banner {
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 255px;
+    left: 0;
+    transform: translate(0, 0);
+  }
+}
