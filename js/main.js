@@ -261,6 +261,8 @@ $(function () {
 			$('.mob-panel').removeClass('active');
 			$('.catalog-menu').removeClass('active');
 			$('body').removeClass('stopped');
+			$('.black-overflow').removeClass('active');
+
 		}
 	});
 });
@@ -278,7 +280,7 @@ $(function () {
 		burger.toggleClass('active');
 		$('.catalog-menu').toggleClass('active');
 		$('body').toggleClass('stopped');
-		$('.black-overflow').addClass('active');
+		$('.black-overflow').toggleClass('active');
 	});
 });
 /***********************

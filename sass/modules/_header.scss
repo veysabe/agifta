@@ -257,14 +257,18 @@
 }
 
 .black-overflow {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100vw;
+  top: 0;
+  left: 0;
+  background: transparentize(black, 0.5);
+  transition: .3s all ease-in-out;
   &.active {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100vw;
-    top: 0;
-    left: 0;
-    background: transparentize(black, 0.5);
+    transition: .3s all ease-in-out;
+    opacity: 1;
   }
 }
 
