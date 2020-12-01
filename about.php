@@ -2,9 +2,13 @@
 
     <section class="main-banner">
         <div class="container">
-            <div class="main-banner__title">О нас</div>
+            <div class="main-banner__content">
+                <div class="main-banner__title">О нас</div>
+            </div>
         </div>
-        <img src="/img/about/about-main-banner.png" alt="intro">
+        <img src="/img/about/banner-image.png" class="main-banner__additional-image magazine"
+             data-parallax='{"y" : 20}'>
+        <img src="/img/about/banner-bg.png" alt="intro">
     </section>
 
     <section class="mission s-def">
@@ -468,97 +472,95 @@
                 <div class="logo-slider__slide">
                     <img src="/img/home/logos/thumb.png" data-flickity-lazyload="/img/home/logos/6.jpg" alt="1">
                 </div>
-
             </div>
-
         </div>
     </section>
 
 <?
 $teamArray = array(
     [
-        "NAME" => "Руслан Акбиров",
-        "POSITION" => "Генеральный директор",
+        "NAME" => "Юлия Шустова",
+        "POSITION" => "Главный бухгалтер",
         "IMAGE" => "img/about/our-team/1.png",
-        "BG_COLOR" => "#29c8ab"
+        "BG_COLOR" => "#fecd00"
     ],
     [
         "NAME" => "Юлия Грачева",
         "POSITION" => "Исполнительный директор",
         "IMAGE" => "img/about/our-team/2.png",
-        "BG_COLOR" => "#d1044b"
+        "BG_COLOR" => "#2abb24"
+    ],
+    [
+        "NAME" => "Фарит Насыров",
+        "POSITION" => "Специалист по УФ-печати",
+        "IMAGE" => "img/about/our-team/3.png",
+        "BG_COLOR" => "#009fe3"
+    ],
+    [
+        "NAME" => "Руслан Акбиров",
+        "POSITION" => "Генеральный директор",
+        "IMAGE" => "img/about/our-team/4.png",
+        "BG_COLOR" => "#e1004e"
+    ],
+    [
+        "NAME" => "Кристина Трифонова",
+        "POSITION" => "Старшая по производству",
+        "IMAGE" => "img/about/our-team/5.png",
+        "BG_COLOR" => "#29c8ab"
     ],
     [
         "NAME" => "Елена Ащеулова",
         "POSITION" => "Руководитель отдела продаж",
-        "IMAGE" => "img/about/our-team/3.png",
-        "BG_COLOR" => "#c924ae"
+        "IMAGE" => "img/about/our-team/6.png",
+        "BG_COLOR" => "#fecd00"
     ],
     [
         "NAME" => "Диана Гадельшина",
         "POSITION" => "Креативный директор",
-        "IMAGE" => "img/about/our-team/4.png",
+        "IMAGE" => "img/about/our-team/7.png",
         "BG_COLOR" => "#29c8ab"
     ],
     [
-        "NAME" => "Руслан Акбиров",
-        "POSITION" => "Генеральный директор",
-        "IMAGE" => "img/about/our-team/1.png",
-        "BG_COLOR" => "#c924ae"
+        "NAME" => "Владислав  Сидоров",
+        "POSITION" => "Cтарший дизайнер",
+        "IMAGE" => "img/about/our-team/8.png",
+        "BG_COLOR" => "#2abb24"
     ],
     [
-        "NAME" => "Руслан Акбиров",
-        "POSITION" => "Генеральный директор",
-        "IMAGE" => "img/about/our-team/1.png",
-        "BG_COLOR" => "#d1044b"
+        "NAME" => "Валерий Сарычев",
+        "POSITION" => "Видеограф, SMM-менеджер",
+        "IMAGE" => "img/about/our-team/9.png",
+        "BG_COLOR" => "#009fe3"
     ],
     [
-        "NAME" => "Юлия Грачева",
-        "POSITION" => "Исполнительный директор",
-        "IMAGE" => "img/about/our-team/2.png",
-        "BG_COLOR" => "#d1044b"
-    ],
-    [
-        "NAME" => "Елена Ащеулова",
-        "POSITION" => "Руководитель отдела продаж",
-        "IMAGE" => "img/about/our-team/3.png",
-        "BG_COLOR" => "#c924ae"
-    ],
-    [
-        "NAME" => "Диана Гадельшина",
-        "POSITION" => "Креативный директор",
-        "IMAGE" => "img/about/our-team/4.png",
+        "NAME" => "Артем Савин",
+        "POSITION" => "Логист",
+        "IMAGE" => "img/about/our-team/10.png",
         "BG_COLOR" => "#29c8ab"
     ],
     [
-        "NAME" => "Руслан Акбиров",
-        "POSITION" => "Генеральный директор",
-        "IMAGE" => "img/about/our-team/1.png",
-        "BG_COLOR" => "#29c8ab"
+        "NAME" => "Альбина Шарифуоллина",
+        "POSITION" => "Руководитель отдела дизайна",
+        "IMAGE" => "img/about/our-team/11.png",
+        "BG_COLOR" => "#e1004e"
     ],
     [
-        "NAME" => "Руслан Акбиров",
-        "POSITION" => "Генеральный директор",
-        "IMAGE" => "img/about/our-team/1.png",
-        "BG_COLOR" => "#29c8ab"
+        "NAME" => "Алмаз Ассадулин",
+        "POSITION" => "Системный администратор",
+        "IMAGE" => "img/about/our-team/12.png",
+        "BG_COLOR" => "#fecd00"
     ],
     [
-        "NAME" => "Юлия Грачева",
-        "POSITION" => "Исполнительный директор",
-        "IMAGE" => "img/about/our-team/2.png",
-        "BG_COLOR" => "#d1044b"
+        "NAME" => "Александр Иванов",
+        "POSITION" => "Старший менеджер по продажам",
+        "IMAGE" => "img/about/our-team/13.png",
+        "BG_COLOR" => "#2abb24"
     ],
     [
-        "NAME" => "Елена Ащеулова",
-        "POSITION" => "Руководитель отдела продаж",
-        "IMAGE" => "img/about/our-team/3.png",
-        "BG_COLOR" => "#c924ae"
-    ],
-    [
-        "NAME" => "Диана Гадельшина",
-        "POSITION" => "Креативный директор",
-        "IMAGE" => "img/about/our-team/4.png",
-        "BG_COLOR" => "#29c8ab"
+        "NAME" => "Аделя Хафизова",
+        "POSITION" => "Менеджер по работе с клиентами",
+        "IMAGE" => "img/about/our-team/14.png",
+        "BG_COLOR" => "#009fe3"
     ],
 );
 ?>
@@ -571,8 +573,9 @@ $teamArray = array(
                     <div class="grid-3 grid-12_l">
                         <div class="our-team__item">
                             <div class="our-team__item__image">
-                                <div class="our-team__item__image-color" style="background-color: <?=$item['BG_COLOR']?>"></div>
-                                <img src="<?= $item['IMAGE'] ?>">
+                                <div class="our-team__item__image-color"
+                                     style="background-color: <?= $item['BG_COLOR'] ?>"></div>
+                                <img src="<?= $item['IMAGE'] ?>" class="our-team__item__image__pic">
                             </div>
                             <div class="our-team__item__footer">
                                 <p class="our-team__item__position"><?= $item['POSITION'] ?></p>

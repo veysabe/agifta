@@ -41,7 +41,7 @@
                 <span class="site-header-top__descr">Сувенирная продукция с&nbsp;вашим логотипом</span>
             </a>
             <nav class="site-header-top__nav">
-                <a href="#">Доставка и оплата</a>
+                <a href="/delivery.php">Доставка и оплата</a>
                 <a href="#" class="active">Частые вопросы</a>
                 <a href="#">Контакты</a>
             </nav>

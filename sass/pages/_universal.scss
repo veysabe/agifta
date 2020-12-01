@@ -1,15 +1,39 @@
 .main-banner {
   position: relative;
+  height: 670px;
   img {
     max-width: 100%;
+  }
+  &__content {
+    height: 670px;
+    width: 40%;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   &__title {
     font-weight: bold;
     font-size: 80px;
-    color: white;
+    line-height: 120%;
+  }
+  &__text {
+    margin: 30px 0 0 0;
+    font-size: 24px;
+  }
+  &__button {
+    margin-top: 90px;
+  }
+  &__additional-image {
     position: absolute;
-    top: 255px;
-    left: 0;
-    transform: translate(0, 0);
+    &.handles {
+      top: -25%;
+      right: 5%;
+    }
+    &.magazine {
+      top: -10%;
+      right: 10%;
+    }
   }
 }

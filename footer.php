@@ -19,13 +19,19 @@
 				<nav class="site-footer-nav">
 					<a href="#">Бумажные ручки</a>
 					<a href="#">Зубные щетки</a>
+					<a href="#">Бумажные карандаши</a>
+					<a href="#">Шоколад</a>
+					<a href="#">Деревянные расчески</a>
+					<a href="#">Закладки для книг</a>
+					<a href="#">Ежедневники и блокноты</a>
+					<a href="#">Когтеточки</a>
 				</nav>
 			</div>
 			<div class="site-footer-middle__col">
 				<div class="site-footer-title">О нас</div>
 				<nav class="site-footer-nav">
-					<a href="#">Гарантия качества</a>
-					<a href="#" class="active">Доставка и Оплата</a>
+					<a href="/warranty.php">Гарантия качества</a>
+					<a href="/delivery.php" class="active">Доставка и Оплата</a>
 					<a href="#">Блог</a>
 					<a href="#">Отзывы</a>
 				</nav>

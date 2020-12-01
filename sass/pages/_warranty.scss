@@ -1,0 +1,38 @@
+.warranty-list {
+	margin-top: 45px;
+}
+
+.warranty-item {
+	display: flex;
+	margin-bottom: 90px;
+	justify-content: space-between;
+	&__title {
+		width: 40%;
+		line-height: normal;
+		font-size: 36px;
+		font-weight: bold;
+		display: flex;
+		.count {
+			color: $selling-red;
+			padding-right: 30px;
+		}
+	}
+	&__desc {
+		background: white;
+		padding: 25px;
+		width: 50%;
+		border-radius: 20px;
+		font-size: 18px;
+		position: relative;
+		box-shadow: $shadow-block;
+		&:before {
+			content: '';
+			position: absolute;
+			width: 65px;
+			height: 5px;
+			left: -95px;
+			top: 40px;
+			background: black;
+		}
+	}
+}

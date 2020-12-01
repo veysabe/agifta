@@ -1,7 +1,7 @@
 //intro-slider
 .intro-slider{
 	display: block;
-	overflow: hidden;
+	margin-bottom: 70px;
 
 	&.flickity-enabled{
 		display: block;
@@ -317,11 +317,13 @@
 		height: auto;
 		border-radius: 20px;
 		filter: grayscale(100%);
+		transition: .3s all ease-in-out;
 		@include res(xs){
 			border-radius: 10px;
 		}
 
 		&:hover{
+			transition: .3s all ease-in-out;
 			z-index: 2;
 			filter: grayscale(0%);
 			box-shadow: 0 5px 10px 0 rgba(#6c81a0,0.2);

@@ -13,6 +13,7 @@
 @import 'base/forms';
 @import 'base/buttons';
 @import 'base/modals';
+@import 'base/utils';
 
 @import 'modules/header';
 @import 'modules/header-mob';
@@ -23,5 +24,7 @@
 @import 'pages/universal';
 
 
-@import 'pages/about';
 @import 'pages/home';
+@import 'pages/about';
+@import 'pages/delivery';
+@import 'pages/warranty';

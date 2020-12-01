@@ -67,7 +67,7 @@
 
 
 .flickity-page-dots{
-	bottom: 50px;
+	z-index: 1;
 	@include res(xl){
 		bottom: 20px;
 	}

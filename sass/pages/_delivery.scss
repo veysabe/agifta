@@ -1,0 +1,10 @@
+.info-block {
+  &__content {
+    & > * + * {
+      margin-top: 30px;
+    }
+    &__map {
+      padding-left: 30px;
+    }
+  }
+}
