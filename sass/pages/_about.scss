@@ -122,7 +122,8 @@
   &-block {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: -15px;
+    margin: -24px $gutter;
+    width: 100%;
   }
 
   &-item {
@@ -130,10 +131,10 @@
     border-radius: 20px;
     overflow: hidden;
     transition: .3s all ease-in-out;
-    margin: 15px;
+    margin: 24px $gutter;
 
     &:hover {
-      box-shadow: 0 13px 29px transparentize($gray-text, 0.5);
+      box-shadow: $shadow-block;
       transition: .3s all ease-in-out;
       transform: scale(1.03);
     }

@@ -1,16 +1,19 @@
 .custom-list {
   ul {
     list-style-type: none;
+
     li {
       padding-left: 30px;
       position: relative;
       margin-bottom: 25px;
+
       &:before {
         position: absolute;
         content: '';
       }
     }
   }
+
   &--purple {
     li:before {
       width: 17px;
@@ -21,8 +24,77 @@
       top: 6px;
     }
   }
+
+  &--count {
+    ol {
+      li + li {
+        margin-top: 20px;
+      }
+
+      li {
+        font-size: 24px;
+        font-weight: bold;
+        transition: .3s all ease-in-out;
+
+        &:hover {
+          color: $purple-hover;
+
+          a:after {
+            opacity: 1;
+            position: absolute;
+            font-family: 'agifta-icons' !important;
+            content: "\e901";
+            top: 0px;
+            right: -30px;
+          }
+        }
+
+        a {
+          &:after {
+            content: '';
+            opacity: 0;
+            transition: .3s all ease-in-out;
+            color: $purple-hover;
+          }
+
+          position: relative;
+        }
+      }
+    }
+  }
+
   &__desc {
     margin-top: 15px;
+  }
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.page-navigation {
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 3px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: $shadow-block;
+
+    li {
+      font-size: 18px;
+      padding: 4px 15px;
+      cursor: pointer;
+      border-radius: 20px;
+      background: transparent;
+      transition: .3s all ease-in-out;
+
+      &.active {
+        transition: .3s all ease-in-out;
+        background: transparentize($gray-text, 0.7);
+      }
+    }
   }
 }
 
@@ -32,10 +104,12 @@
     padding: 30px 120px 50px 40px;
     border-radius: 20px;
   }
+
   &__title {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+
     img {
       width: 22px;
       height: 24px;
@@ -47,11 +121,13 @@
 .map-icon {
   display: flex;
   align-items: center;
+
   img {
     border-radius: 50%;
     width: 80px;
     height: 80px;
   }
+
   &__text {
     color: $purple;
     padding-left: 20px;
