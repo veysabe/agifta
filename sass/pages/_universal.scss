@@ -1,9 +1,24 @@
 .main-banner {
   position: relative;
   height: 670px;
+  @include res(xl) {
+    height: auto;
+  }
+
+  .flickity-page-dots {
+    @include res(xl) {
+      display: none;
+    }
+  }
+
+  * {
+    transition: .3s all;
+  }
+
   img {
     max-width: 100%;
   }
+
   &__content {
     height: 670px;
     width: 40%;
@@ -12,28 +27,162 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    @include res(xxl) {
+      width: 50%;
+      padding-left: 70px;
+      height: 550px;
+    }
+    @include res(xl) {
+      height: 400px;
+    }
+    @include res(l) {
+      height: 300px;
+    }
+    @include res(m) {
+      height: 250px;
+    }
+    @include res(s) {
+      padding-left: 30px;
+      height: 200px;
+    }
   }
+
   &__title {
     font-weight: bold;
     font-size: 80px;
     line-height: 120%;
+    @include res(xxl) {
+      font-size: 60px;
+    }
+    @include res(xl) {
+      font-size: 40px;
+    }
+    @include res(m) {
+      font-size: 30px;
+    }
+    @include res(m) {
+      font-size: 16px;
+    }
   }
+
   &__text {
     margin: 30px 0 0 0;
     font-size: 24px;
+    @include res(xxl) {
+      font-size: 20px;
+      margin: 10px 0 0 0;
+    }
+    @include res(xl) {
+      font-size: 16px;
+    }
+    @include res(m) {
+      font-size: 12px;
+    }
+    @include res(m) {
+      font-size: 10px;
+      margin-top: 3px;
+    }
   }
+
   &__button {
     margin-top: 90px;
+    @include res(xxl) {
+      margin-top: 40px;
+    }
+    @include res(xl) {
+      margin-top: 20px;
+    }
   }
+
   &__additional-image {
     position: absolute;
+
     &.handles {
       top: -25%;
       right: 5%;
     }
+
     &.magazine {
       top: -10%;
       right: 10%;
+    }
+  }
+}
+
+.detailed {
+  &-article {
+    .title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    &-navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+
+      a {
+        color: $purple;
+        display: flex;
+        align-items: center;
+        margin: 0 -5px;
+
+        i {
+          margin: 0 5px;
+        }
+
+        &:hover {
+          color: $purple-hover;
+        }
+      }
+    }
+
+    .info {
+      margin: 0 0 30px 0;
+      padding: 7px 0;
+      border-top: 4px solid black;
+      border-bottom: 4px solid black;
+      font-weight: bold;
+      font-size: 14px;
+
+      & > * {
+        padding: 0;
+        display: flex;
+        align-items: center;
+      }
+
+      i {
+        padding-right: 5px;
+        font-size: 20px;
+      }
+    }
+
+    .description {
+      font-size: 20px;
+      margin-bottom: 35px;
+    }
+
+    .subtitle {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .text {
+      margin: 10px 0;
+    }
+
+    .image {
+      margin: 30px 0;
+
+      img {
+        border-radius: 20px;
+      }
+
+      &__desc {
+        font-size: 14px;
+        color: $gray-text;
+      }
     }
   }
 }

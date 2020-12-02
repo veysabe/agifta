@@ -17,7 +17,7 @@
         <div class="container">
             <div class="main-banner__content">
                 <div class="main-banner__title">Ручки с твоей надписью</div>
-                <div class="main-banner__text">Сделай заказ с тиражом <strong>всего</strong> в 50<br> бумажных ручек</div>
+                <div class="main-banner__text">Сделай заказ с тиражом <strong>всего</strong> в 50<br class="visible-l"> бумажных ручек</div>
                 <div class="main-banner__button">
                     <a href="#" class="btn btn--white">Узнать больше</a>
                 </div>
@@ -371,7 +371,7 @@
         </div>
 
         <div class="btn-center">
-            <a href="#" class="btn btn--outline">Читать еще</a>
+            <a href="/blog.php" class="btn btn--outline">Читать еще</a>
         </div>
 
     </div>

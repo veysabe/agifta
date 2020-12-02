@@ -39,18 +39,21 @@ i {
 .i-vk:before {
 	content: "\e904";
 }
-.i-delivery:before {
-	content: "\e906";
-	color: #394553;
-}
 .i-sell:before {
 	content: "\e905";
-	color: #394553;
+}
+.i-delivery:before {
+	content: "\e906";
 }
 .i-factory:before {
 	content: "\e90b";
-	color: #505050;
 }
 .i-chevron:before {
 	content: "\e907";
+}
+.i-stopwatch:before {
+	content: "\e909";
+}
+.i-calendar:before {
+	content: "\e908";
 }

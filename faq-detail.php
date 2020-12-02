@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row">
                     <div class="grid-8 grid-12_l">
-                        <div class="faq-detail-article">
+                        <div class="detailed-article">
                             <div class="title">
                                 Какие технологии мы используем?
                             </div>

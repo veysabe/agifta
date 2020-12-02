@@ -1,0 +1,30 @@
+.notfound {
+  &-digits {
+    font-size: 350px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    letter-spacing: -20px;
+    line-height: 1;
+    margin-bottom: 60px;
+    .null-blob {
+      font-size: 350px;
+      background-image: url("/img/blob.png");
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: transparent;
+      padding: 0 30px;
+    }
+  }
+  &-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px -21px;
+    margin-bottom: 0px;
+    & > * + * {
+      margin-left: 42px;
+    }
+  }
+}

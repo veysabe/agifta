@@ -27,6 +27,8 @@
     <!-- og -->
 
     <link href="css/main.css" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=371bf593-2e29-43d0-ab4c-eaec2c1b7c6a&lang=ru_RU"
+            type="text/javascript"></script>
 </head>
 
 <body>

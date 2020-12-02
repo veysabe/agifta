@@ -41,96 +41,70 @@
   }
 }
 
-.faq-detail {
-  &-article {
-    .title {
-      font-size: 36px;
-      font-weight: bold;
-      margin-bottom: 10px;
+.faq-detail-badge {
+  padding: 32px;
+  background: white;
+  border-radius: 20px;
+
+  &__accordion {
+    div + h3 {
+      margin-top: 40px;
     }
 
-    .description {
-      font-size: 20px;
-      margin-bottom: 35px;
-    }
+    h3 {
+      font-size: 18px;
+      text-transform: uppercase;
+      cursor: pointer;
 
-    .subtitle {
-      font-weight: bold;
-      font-size: 20px;
-    }
-
-    .text {
-      margin: 10px 0;
-    }
-
-    .image {
-      margin: 30px 0;
-
-      img {
-        border-radius: 20px;
+      &:focus {
+        outline: none;
+        border: none;
       }
 
-      &__desc {
+      i {
+        font-size: 24px;
+        padding-right: 12px;
+      }
+
+      display: flex;
+      justify-content: flex-start;
+      position: relative;
+
+      &:after {
+        font-family: 'agifta-icons';
+        content: '\e907';
+        position: absolute;
+        right: 0;
+        top: 3px;
+        transform: rotate(90deg);
+        font-size: 12px;
+        transition: .3s all ease-in-out;
+      }
+
+      &.ui-state-active {
+        &:after {
+          transition: .3s all ease-in-out;
+          transform: rotate(-90deg);
+        }
+      }
+    }
+
+    &__content {
+      padding-top: 34px;
+    }
+
+    .custom-list {
+      ol li {
+        &.active {
+          font-size: 20px;
+          color: $purple-hover;
+          font-weight: bold;
+        }
+
+        padding-left: 5px;
         font-size: 14px;
         color: $gray-text;
-      }
-    }
-  }
-  &-badge {
-    padding: 32px;
-    background: white;
-    border-radius: 20px;
-    &__accordion {
-      div + h3 {
-        margin-top: 40px;
-      }
-      h3 {
-        font-size: 18px;
-        text-transform: uppercase;
-        cursor: pointer;
-        &:focus {
-          outline: none;
-          border: none;
-        }
-        i {
-          font-size: 24px;
-          padding-right: 12px;
-        }
-        display: flex;
-        justify-content: flex-start;
-        position: relative;
-        &:after {
-          font-family: 'agifta-icons';
-          content: '\e907';
-          position: absolute;
-          right: 0;
-          top: 3px;
-          transform: rotate(90deg);
-          font-size: 12px;
-          transition: .3s all ease-in-out;
-        }
-        &.ui-state-active {
-          &:after {
-            transition: .3s all ease-in-out;
-            transform: rotate(-90deg);
-          }
-        }
-      }
-      &__content {
-        padding-top: 34px;
-      }
-      .custom-list {
-        ol li {
-          &.active {
-            font-size: 20px;
-            color: $purple-hover;
-            font-weight: bold;
-          }
-          padding-left: 5px;
-          font-size: 14px;
-          color: $gray-text;
-          font-weight: normal;
-        }
+        font-weight: normal;
       }
     }
   }

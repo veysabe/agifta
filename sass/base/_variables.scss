@@ -5,7 +5,7 @@ $breakpoints: (
 	'm': (max-width: 768px),
 	's': (max-width: 680px),
 	'xs': (max-width: 480px),
-	'xxs': (max-width: 375px),
+	'xxs': (max-width: 320px),
 );
 
 $font: 'Geometria', 'Helvetica Neue', Arial, sans-serif;
@@ -22,5 +22,6 @@ $purple-hover: #c924ae;
 $gray-text: #6c81a0;
 $cyan: #29c8ab;
 $selling-red: #e1004e;
+$orange: #fecd00;
 
 $shadow-block: 0 10px 30px 0 rgba(#6c81a0,0.2)
