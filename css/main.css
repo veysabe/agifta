@@ -961,6 +961,21 @@ i {
 .i-vk:before {
   content: "\e904"; }
 
+.i-delivery:before {
+  content: "\e906";
+  color: #394553; }
+
+.i-sell:before {
+  content: "\e905";
+  color: #394553; }
+
+.i-factory:before {
+  content: "\e90b";
+  color: #505050; }
+
+.i-chevron:before {
+  content: "\e907"; }
+
 body {
   background: #f9f9fa;
   font-family: "Geometria", "Helvetica Neue", Arial, sans-serif;
@@ -1847,6 +1862,8 @@ button::-moz-focus-inner {
   overflow: visible !important; }
 
 .custom-list ul {
+  padding: 0;
+  margin-left: 20px;
   list-style-type: none; }
   .custom-list ul li {
     padding-left: 30px;
@@ -1864,29 +1881,31 @@ button::-moz-focus-inner {
   left: 0;
   top: 6px; }
 
-.custom-list--count ol li + li {
-  margin-top: 20px; }
-
-.custom-list--count ol li {
-  font-size: 24px;
-  font-weight: bold;
-  transition: .3s all ease-in-out; }
-  .custom-list--count ol li:hover {
-    color: #c924ae; }
-    .custom-list--count ol li:hover a:after {
-      opacity: 1;
-      position: absolute;
-      font-family: 'agifta-icons' !important;
-      content: "\e901";
-      top: 0px;
-      right: -30px; }
-  .custom-list--count ol li a {
-    position: relative; }
-    .custom-list--count ol li a:after {
-      content: '';
-      opacity: 0;
-      transition: .3s all ease-in-out;
+.custom-list--count ol {
+  padding: 0;
+  margin-left: 20px; }
+  .custom-list--count ol li + li {
+    margin-top: 20px; }
+  .custom-list--count ol li {
+    font-size: 24px;
+    font-weight: bold;
+    transition: .3s all ease-in-out; }
+    .custom-list--count ol li:hover {
       color: #c924ae; }
+      .custom-list--count ol li:hover a:after {
+        opacity: 1;
+        position: absolute;
+        font-family: 'agifta-icons' !important;
+        content: "\e901";
+        top: 0px;
+        right: -30px; }
+    .custom-list--count ol li a {
+      position: relative; }
+      .custom-list--count ol li a:after {
+        content: '';
+        opacity: 0;
+        transition: .3s all ease-in-out;
+        color: #c924ae; }
 
 .custom-list__desc {
   margin-top: 15px; }
@@ -1904,7 +1923,7 @@ button::-moz-focus-inner {
   box-shadow: 0 10px 30px 0 rgba(108, 129, 160, 0.2); }
   .page-navigation ul li {
     font-size: 18px;
-    padding: 4px 15px;
+    padding: 7px 19px;
     cursor: pointer;
     border-radius: 20px;
     background: transparent;
@@ -3478,7 +3497,8 @@ body.stopped {
 
 .faq-detail-article .title {
   font-size: 36px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 10px; }
 
 .faq-detail-article .description {
   font-size: 20px;
@@ -3503,3 +3523,52 @@ body.stopped {
   padding: 32px;
   background: white;
   border-radius: 20px; }
+  .faq-detail-badge__accordion div + h3 {
+    margin-top: 40px; }
+  .faq-detail-badge__accordion h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    position: relative; }
+    .faq-detail-badge__accordion h3:focus {
+      outline: none;
+      border: none; }
+    .faq-detail-badge__accordion h3 i {
+      font-size: 24px;
+      padding-right: 12px; }
+    .faq-detail-badge__accordion h3:after {
+      font-family: 'agifta-icons';
+      content: '\e907';
+      position: absolute;
+      right: 0;
+      top: 3px;
+      transform: rotate(90deg);
+      font-size: 12px;
+      transition: .3s all ease-in-out; }
+    .faq-detail-badge__accordion h3.ui-state-active:after {
+      transition: .3s all ease-in-out;
+      transform: rotate(-90deg); }
+  .faq-detail-badge__accordion__content {
+    padding-top: 34px; }
+  .faq-detail-badge__accordion .custom-list ol li {
+    padding-left: 5px;
+    font-size: 14px;
+    color: #6c81a0;
+    font-weight: normal; }
+    .faq-detail-badge__accordion .custom-list ol li.active {
+      font-size: 20px;
+      color: #c924ae;
+      font-weight: bold; }
+
+.blog .home-blog-intro {
+  padding: 24px;
+  transition: .3s;
+  border-radius: 20px; }
+  .blog .home-blog-intro:hover {
+    background: white;
+    box-shadow: 0 10px 30px 0 rgba(108, 129, 160, 0.2); }
+
+.blog .flickity-slider .home-blog-list {
+  width: 100%; }

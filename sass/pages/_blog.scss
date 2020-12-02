@@ -1,0 +1,16 @@
+.blog {
+  .home-blog-intro {
+    padding: 24px;
+    transition: .3s;
+    border-radius: 20px;
+    &:hover{
+      background: white;
+      box-shadow: $shadow-block;
+    }
+  }
+  .flickity-slider {
+    .home-blog-list {
+      width: 100%;
+    }
+  }
+}

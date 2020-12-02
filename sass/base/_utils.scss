@@ -1,5 +1,7 @@
 .custom-list {
   ul {
+    padding: 0;
+    margin-left: 20px;
     list-style-type: none;
 
     li {
@@ -27,6 +29,8 @@
 
   &--count {
     ol {
+      padding: 0;
+      margin-left: 20px;
       li + li {
         margin-top: 20px;
       }
@@ -84,7 +88,7 @@
 
     li {
       font-size: 18px;
-      padding: 4px 15px;
+      padding: 7px 19px;
       cursor: pointer;
       border-radius: 20px;
       background: transparent;

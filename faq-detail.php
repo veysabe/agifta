@@ -74,17 +74,131 @@
                     <div class="grid-3 grid-12_l">
                         <div class="faq-detail-badge">
                             <div class="faq-detail-badge__accordion">
-                                <h3>Производство</h3>
-                                <div>
-                                    1
+                                <h3><i class="i-factory"></i>Производство</h3>
+                                <div class="faq-detail-badge__accordion__content">
+                                    <div class="custom-list custom-list--count">
+                                        <ol>
+                                            <li class="active">
+                                                <a href="/faq-detail.php">Какие технологии мы используем</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                        </ol>
+                                    </div>
                                 </div>
-                                <h3>Производство</h3>
-                                <div>
-                                    1
+                                <h3><i class="i-sell"></i>Продажа</h3>
+                                <div class="faq-detail-badge__accordion__content">
+                                    <div class="custom-list custom-list--count">
+                                        <ol>
+                                            <li class="active">
+                                                <a href="/faq-detail.php">Какие технологии мы используем</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                        </ol>
+                                    </div>
                                 </div>
-                                <h3>Производство</h3>
-                                <div>
-                                    1
+                                <h3><i class="i-delivery"></i>Доставка</h3>
+                                <div class="faq-detail-badge__accordion__content">
+                                    <div class="custom-list custom-list--count">
+                                        <ol>
+                                            <li class="active">
+                                                <a href="/faq-detail.php">Какие технологии мы используем</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Какие технологии мы используем?</a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq-detail.php">Сколько минимальный тираж печатаемой
+                                                    продукции?</a>
+                                            </li>
+                                        </ol>
+                                    </div>
                                 </div>
                             </div>
                         </div>

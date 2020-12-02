@@ -127,7 +127,10 @@ $(function () {
 });
 
 $(function() {
-	$( ".faq-detail-badge__accordion" ).accordion();
+	$( ".faq-detail-badge__accordion" ).accordion({
+		heightStyle: "content",
+		collapsible: true,
+	});
 });
 /***********************
  Input mask END
@@ -308,15 +311,15 @@ Intro slider END
 
 
 /***********************
- Intro slider BEGIN
+ Reviews slider BEGIN
  ***********************/
 $(function($){
-	let $carousel = $('.reviews-slider').flickity({
+	let $slider = $('.reviews-slider').flickity({
 		pageDots: false,
 		draggable: true,
 		prevNextButtons: false,
 	});
-	$carousel.on( 'change.flickity', function( event, index ) {
+	$slider.on( 'change.flickity', function( event, index ) {
 		let pagerItem = $('.page-navigation').find(`[data-page=${index + 1}]`);
 		$('.page-navigation').find(`.active`).removeClass('active');
 		pagerItem.addClass('active');
@@ -325,11 +328,37 @@ $(function($){
 		let index = Number($(this).data('page')) - 1;
 		$(this).siblings('.active').removeClass('active');
 		$(this).addClass('active');
-		$carousel.flickity('select', index);
+		$slider.flickity('select', index);
 	});
 });
 /***********************
- Intro slider END
+ Reviews slider END
+ ***********************/
+
+
+/***********************
+ Blog slider BEGIN
+ ***********************/
+$(function($){
+	let $slider = $('.blog-slider').flickity({
+		pageDots: false,
+		draggable: true,
+		prevNextButtons: false,
+	});
+	$slider.on( 'change.flickity', function( event, index ) {
+		let pagerItem = $('.page-navigation').find(`[data-page=${index + 1}]`);
+		$('.page-navigation').find(`.active`).removeClass('active');
+		pagerItem.addClass('active');
+	});
+	$('.page-navigation').on('click', 'li', function () {
+		let index = Number($(this).data('page')) - 1;
+		$(this).siblings('.active').removeClass('active');
+		$(this).addClass('active');
+		$slider.flickity('select', index);
+	});
+});
+/***********************
+ Blog slider END
  ***********************/
 
 
