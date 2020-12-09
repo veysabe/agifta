@@ -1,6 +1,6 @@
 var ParallaxScroll = {
 	/* PUBLIC VARIABLES */
-	showLogs: false,
+	showLogs: true,
 	round: 1000,
 
 	/* PUBLIC FUNCTIONS */

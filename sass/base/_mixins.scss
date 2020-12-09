@@ -71,6 +71,12 @@ $cross-bg-color--hover: #fffb42;
 	}
 }
 
+@mixin margin($res, $size, $way) {
+	@include res(#{$res}) {
+		margin-#{$way}: 10px * $size;
+	}
+}
+
 
 //fix ro min() max() css functions
 @function max($numbers...){

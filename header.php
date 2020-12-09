@@ -15,6 +15,7 @@
     <link rel="manifest" href="favicons/manifest.json">
     <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="favicons/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
     <meta name="msapplication-config" content="favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <!-- favicons -->
@@ -178,7 +179,7 @@ $catalogElems = array(
 
 <div class="catalog-menu">
     <div class="container">
-        <div class="catalog-elems row">
+        <div class="catalog-elems">
             <? foreach ($catalogElems as $item): ?>
                 <a href="<?= $item['LINK'] ?>" class="catalog-elems__item">
                     <img src="<?= $item['IMG'] ?>">

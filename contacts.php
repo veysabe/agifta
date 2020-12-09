@@ -9,9 +9,9 @@
                 </div>
                 <div class="contacts-hotline">
                     <div class="contacts-hotline__text">
-                        Горячая линия 8 800 777-20-45
+                        Горячая линия <br class="hidden-xl">8 800 777-20-45
                     </div>
-                    <a href="#" class="btn btn--outline">Скачать карту партнера</a>
+                    <a href="#" class="btn btn--outline mt-2-l">Скачать карту партнера</a>
                 </div>
                 <div class="contacts-info s-def">
                     <div class="row">
@@ -44,7 +44,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grid-6 grid-12_l">
+                        <div class="grid-6 grid-12_l mt-5-l">
                             <div class="contacts-map">
                                 <div id="map"></div>
                             </div>

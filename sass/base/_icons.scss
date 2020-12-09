@@ -23,7 +23,66 @@ i {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+.i-cross:before {
+	content: "\e918";
+}
+.i-pen:before {
+	content: "\e917";
+}
+.i-download:before {
+	content: "\e916";
+}
+.i-eye:before {
+	content: "\e914";
+}
+.i-copy:before {
+	content: "\e915";
+}
+.i-pennant:before {
+	content: "\e910";
+}
+.i-rubl:before {
+	content: "\e911";
+}
+.i-marker-star:before {
+	content: "\e912";
+}
+.i-clock:before {
+	content: "\e913";
+}
+.i-telegram:before {
+	content: "\e90f";
+}
+.i-viber:before {
+	content: "\e90d";
+}
+.i-whatsapp:before {
+	content: "\e90e";
+}
+.i-glasses:before {
+	content: "\e90c";
+}
+.i-play:before {
+	content: "\e90a";
+}
+.i-calendar:before {
+	content: "\e908";
+}
+.i-stopwatch:before {
+	content: "\e909";
+}
+.i-chevron:before {
+	content: "\e907";
+}
+.i-delivery:before {
+	content: "\e906";
+}
+.i-sell:before {
+	content: "\e905";
+}
+.i-factory:before {
+	content: "\e90b";
+}
 .i-arrow-left:before {
 	content: "\e900";
 }
@@ -38,22 +97,4 @@ i {
 }
 .i-vk:before {
 	content: "\e904";
-}
-.i-sell:before {
-	content: "\e905";
-}
-.i-delivery:before {
-	content: "\e906";
-}
-.i-factory:before {
-	content: "\e90b";
-}
-.i-chevron:before {
-	content: "\e907";
-}
-.i-stopwatch:before {
-	content: "\e909";
-}
-.i-calendar:before {
-	content: "\e908";
 }

@@ -27,41 +27,17 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    @include res(xxl) {
-      width: 50%;
-      padding-left: 70px;
-      height: 550px;
-    }
-    @include res(xl) {
-      height: 400px;
-    }
-    @include res(l) {
-      height: 300px;
-    }
-    @include res(m) {
-      height: 250px;
-    }
-    @include res(s) {
-      padding-left: 30px;
-      height: 200px;
-    }
   }
 
   &__title {
     font-weight: bold;
     font-size: 80px;
     line-height: 120%;
-    @include res(xxl) {
+    @include res(l) {
       font-size: 60px;
     }
-    @include res(xl) {
+    @include res(m) {
       font-size: 40px;
-    }
-    @include res(m) {
-      font-size: 30px;
-    }
-    @include res(m) {
-      font-size: 16px;
     }
   }
 
@@ -72,15 +48,8 @@
       font-size: 20px;
       margin: 10px 0 0 0;
     }
-    @include res(xl) {
+    @include res(m) {
       font-size: 16px;
-    }
-    @include res(m) {
-      font-size: 12px;
-    }
-    @include res(m) {
-      font-size: 10px;
-      margin-top: 3px;
     }
   }
 
@@ -97,14 +66,85 @@
   &__additional-image {
     position: absolute;
 
-    &.handles {
-      top: -25%;
-      right: 5%;
-    }
-
     &.magazine {
-      top: -10%;
       right: 10%;
+      top: -10%;
+      max-width: 50%;
+      @include res(xl) {
+        top: 0;
+      }
+      @include res(l) {
+        top: 15%;
+      }
+      @include res(m) {
+        top: auto;
+        bottom: -40px;
+      }
+      @include res(s) {
+        right: 13%;
+        max-width: 60%;
+      }
+      @include res(xxs) {
+        max-width: 80%;
+      }
+    }
+    &.handles {
+      right: 0;
+      top: -20%;
+      max-width: 50%;
+      @include res(xl) {
+        top: 0;
+      }
+      @include res(l) {
+        top: 15%;
+      }
+      @include res(m) {
+        top: auto;
+        bottom: -40px;
+      }
+      @include res(s) {
+        right: 13%;
+        max-width: 60%;
+        bottom: -90px;
+      }
+      @include res(xxs) {
+        max-width: 80%;
+      }
+    }
+  }
+
+  &.w-image {
+    @include res(xl) {
+      height: 670px;
+      .main-banner__content {
+        height: 560px;
+      }
+    }
+    @include res(m) {
+      .main-banner {
+        &__title {
+
+          br {
+            display: none;
+          }
+        }
+
+      }
+      .main-banner__content {
+        width: auto;
+        height: 300px;
+        @include res(l) {
+          height: auto;
+          padding-top: 30px;
+        }
+      }
+    }
+    @include res(l) {
+      height: 600px;
+    }
+    @include res(s) {
+      height: 350px;
+      margin-bottom: 70px;
     }
   }
 }
@@ -115,6 +155,9 @@
       font-size: 36px;
       font-weight: bold;
       margin-bottom: 10px;
+      @include res(s) {
+        font-size: 30px;
+      }
     }
 
     &-navigation {
@@ -161,6 +204,9 @@
     .description {
       font-size: 20px;
       margin-bottom: 35px;
+      @include res(s) {
+        font-size: 18px;
+      }
     }
 
     .subtitle {
@@ -177,11 +223,15 @@
 
       img {
         border-radius: 20px;
+        max-width: 100%;
       }
 
       &__desc {
         font-size: 14px;
         color: $gray-text;
+        @include res(s) {
+          font-size: 8px;
+        }
       }
     }
   }

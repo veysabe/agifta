@@ -1,9 +1,22 @@
 <?php include('header.php'); ?>
 
-<section class="main-banner">
+<!--<section class="main-banner delivery-banner">-->
+<!--    <div class="container">-->
+<!--        <div class="main-banner__title">Доставка<br>и оплата</div>-->
+<!--        <div class="main-banner__text"><strong>Заказ оплачивается после утверждения дизайна</strong>, когда-->
+<!--            продукция уже готова к-->
+<!--            производству. Доставляем курьером до двери или в ближайший пункт выдачи.-->
+<!--        </div>-->
+<!--        <div class="main-banner__button"></div>-->
+<!--        <img src="/img/delivery/van.png" alt="intro" class="main-banner__additional-image van">-->
+<!--    </div>-->
+<!--</section>-->
+
+
+<section class="main-banner delivery-banner w-image">
     <div class="container">
         <div class="main-banner__content">
-            <div class="main-banner__title">Доставка<br>и оплата</div>
+            <div class="main-banner__title">Доставка <br>и оплата</div>
             <div class="main-banner__text"><strong>Заказ оплачивается после утверждения дизайна</strong>, когда
                 продукция уже готова к
                 производству. Доставляем курьером до двери или в ближайший пункт выдачи.
@@ -11,7 +24,7 @@
             <div class="main-banner__button"></div>
         </div>
     </div>
-    <img src="/img/delivery/banner-img.png" alt="intro">
+    <img src="/img/delivery/van.png" alt="intro" class="main-banner__additional-image van">
 </section>
 
 <section class="pay-info s-def">

@@ -1,0 +1,296 @@
+.pens-banner {
+  .main-banner__title {
+    position: relative;
+    z-index: 6;
+  }
+  &.main-banner {
+    background-image: url(../img/paper-pens/banner-bg-color.png);
+    background-size: cover;
+
+    .pens-banner-pens {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      @include res(xl) {
+        right: -250px;
+      }
+      @include res(l) {
+        bottom: 0px;
+      }
+
+      &-wrapper {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        @include res(l) {
+          height: 130%;
+        }
+      }
+
+      .blue {
+        right: 530px;
+        transform: rotate(-12deg);
+        width: 300px;
+        bottom: 330px;
+        z-index: 3;
+      }
+
+      .yellow {
+        right: 200px;
+        transform: rotate(-168deg);
+        width: 590px;
+        bottom: 130px;
+        z-index: 3;
+      }
+
+      .red {
+        right: -8px;
+        transform: rotate(-12deg);
+        width: 600px;
+        bottom: 217px;
+        z-index: 4;
+      }
+
+      img {
+        position: absolute;
+      }
+
+      .black {
+        right: 80px;
+        transform: rotate(-45deg);
+        width: 770px;
+        bottom: 350px;
+        z-index: 5;
+      }
+    }
+  }
+
+  .main-banner {
+    &__content {
+      width: 60%;
+    }
+
+    &__button {
+      margin-top: 15px;
+      @include res(l) {
+        display: none;
+      }
+
+      .btn {
+        position: relative;
+        z-index: 2;
+        color: $purple-hover;
+      }
+    }
+
+    &__additional-image {
+      &.pen {
+        width: 100%;
+        bottom: -70px;
+        right: 0;
+        overflow: hidden;
+        z-index: 6;
+
+        img {
+          margin: {
+            left: 700px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.interactive-pen-content {
+  overflow: hidden;
+}
+
+.two-ways-content {
+  display: flex;
+  align-items: center;
+}
+
+.two-ways-text-block {
+  width: 50%;
+  position: relative;
+  padding: 100px 0;
+
+  &__text-content {
+    &.one {
+      margin-right: 50%;
+    }
+    &.two {
+      margin-left: 50%;
+    }
+  }
+
+  &__image {
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $orange;
+    img {
+      max-height: 100%;
+    }
+    &.one {
+      height: 250px;
+      width: 250px;
+      left: 55%;
+      bottom: 0;
+      z-index: 1;
+    }
+    &.two {
+      height: 500px;
+      width: 500px;
+      right: 55%;
+      bottom: -25px;
+    }
+  }
+
+  &__watch {
+    display: flex;
+    align-items: center;
+
+    .btn {
+      padding: 20px;
+      font-size: 24px;
+      color: $purple-hover;
+      box-shadow: $shadow-block;
+    }
+
+    &__text {
+      font-size: 14px;
+      color: $gray-text;
+      line-height: 1.1;
+      margin-left: 15px;
+      font-weight: bold;
+    }
+  }
+
+  &__text {
+    margin: {
+      top: 25px;
+      bottom: 55px;
+    }
+  }
+}
+
+.algorithm {
+  &-grid {
+    display: flex;
+    margin: 0 -50px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    @include res(l) {
+      margin: 0 -35px;
+    }
+  }
+
+  &-item {
+    padding: 0 35px;
+    width: calc(100% / 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    @include res(l) {
+      width: calc(100%);
+      margin-top: 35px;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    @include res(s) {
+      flex-direction: column;
+    }
+
+    &__image {
+      height: 100px;
+      position: relative;
+      @include res(l) {
+        width: 15%;
+        align-items: center;
+        img {
+          max-width: 100%;
+        }
+        margin-right: 15px;
+      }
+      @include res(s) {
+        width: 50%;
+      }
+
+      img {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+
+    &__title {
+      margin-top: 15px;
+      white-space: nowrap;
+      @include res(l) {
+        margin-top: 5px;
+      }
+    }
+
+    &__text {
+      margin-top: 25px;
+    }
+  }
+}
+
+.two-ways-content-mobile {
+  .flickity-button {
+    top: 150px;
+  }
+  .two-ways-text-block {
+    &__text-content {
+      display: flex;
+      flex-direction: column;
+    }
+    &__image {
+      width: 280px;
+      height: 280px;
+      position: relative;
+      margin: auto;
+    }
+    &__title {
+      margin-top: 20px;
+      font-size: 24px;
+      text-align: left;
+    }
+    &__text {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    &__watch {
+      br {
+        display: none;
+      }
+      .btn {
+        width: 45px;
+        height: 45px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  .two-ways-text-block-mobile {
+    width: 100%;
+  }
+}
+
+.how-much-orders {
+  &-content {
+    max-width: 1700px;
+    margin: auto;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}

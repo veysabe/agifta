@@ -1,0 +1,191 @@
+.interactive-pen {
+  position: relative;
+  height: 90px;
+  @include res(xl) {
+    height: 70px;
+  }
+  @include res(l) {
+    height: 60px;
+  }
+  @include res(m) {
+    height: 40px;
+    margin: 20px;
+  }
+
+  .body, .kernel, .cap {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-height: 100%;
+    }
+  }
+
+  .body {
+    left: -410px;
+    z-index: 20;
+    transition: .6s all ease-in-out;
+    .ip-two {
+      right: 25%;
+    }
+    @include res(s) {
+      .ip-one {
+        right: 100px;
+      }
+      .ip-two {
+        right: 10px;
+      }
+    }
+  }
+
+  .kernel {
+    left: -385px;
+    z-index: 10;
+    transition: .6s all ease-in-out;
+    .ip-one {
+      right: 20%;
+    }
+    @include res(xl) {
+      left: -220px;
+      height: 25px;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+    @include res(s) {
+      .ip-one {
+        right: 10%;
+      }
+    }
+  }
+
+  .cap {
+    right: 550px;
+    transition: all .6s ease-in-out;
+    top: -22px;
+    z-index: 30;
+    height: 150%;
+    .ip-one {
+      left: 5%;
+    }
+    @include res(l) {
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+
+  &.active {
+    .cap {
+      right: 140px;
+      @include res(l) {
+        right: -100px;
+      }
+      @include res(m) {
+        right: -60px;
+      }
+      @include res(s) {
+        right: -130px;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+    }
+    .kernel {
+      left: -155px;
+      @include res(xl) {
+        left: -115px;
+      }
+      @include res(l) {
+        height: 25px;
+        left: -160px;
+      }
+      @include res(m) {
+        height: 20px;
+        left: -255px;
+      }
+      @include res(s) {
+        height: 18px;
+        left: -420px;
+      }
+    }
+    .body {
+      left: -500px;
+      @include res(l) {
+        left: -400px;
+      }
+      @include res(m) {
+        left: -300px;
+      }
+      @include res(s) {
+        left: -480px;
+      }
+    }
+  }
+
+  &__info-point {
+    position: absolute;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+    &.active {
+      color: white;
+      background: black;
+    }
+    @include res(m) {
+      width: 17px;
+      height: 17px;
+      font-size: 12px;
+    }
+  }
+
+}
+
+.interactive-pen-badge {
+  padding: 35px 35px 70px 42px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: $shadow-block;
+  @include res(l) {
+    padding: 15px;
+  }
+  &__count {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 60px;
+    @include res(l) {
+      font-size: 18px;
+    }
+  }
+  &__text {
+    font-size: 24px;
+    @include res(l) {
+      font-size: 14px;
+    }
+  }
+}
+
+.interactive-pen-info {
+  padding: 85px 0 70px 20px;
+  &__text {
+    font-size: 24px;
+    border-top: 4px solid black;
+    padding-top: 22px;
+    padding-right: 30px;
+  }
+  @include res(l) {
+    display: none;
+  }
+}

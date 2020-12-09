@@ -1,88 +1,81 @@
 .mission {
+  @include res(xl) {
+    * {
+      transition: .3s all ease-in-out;
+    }
+  }
   &__tiles-block {
     margin-top: 100px;
     display: flex;
     flex-direction: row;
     margin-left: -25px;
     margin-right: -25px;
+    @include res(xl) {
+      flex-direction: column;
+      margin: 0;
+      margin-top: 60px;
+    }
+    @include res(s) {
+      margin-top: 40px;
+    }
 
     & > * {
       padding: 0 25px;
+      @include res(xl) {
+        padding: 25px 0;
+      }
+
+      img {
+        max-width: 100%;
+      }
     }
   }
 
   &__tile {
+
     &__text {
       margin-top: 20px;
 
       .h3 {
         text-align: left;
         margin-bottom: 20px;
+        @include res(xl) {
+          margin-bottom: 10px;
+        }
+      }
+
+      &__inner {
+        @include res(xl) {
+          font-size: 14px;
+        }
+      }
+
+      @include res(xl) {
+        margin-left: 25px;
+        width: 67%;
+        margin-top: 0;
+      }
+      @include res(s) {
+        margin: 10px 0 0 0;
+        width: 100%;
       }
     }
-  }
-}
 
-.catalog {
-  &-slider {
-    padding: 0 59px;
-
-    .flickity-prev-next-button.previous {
-      left: 0;
+    &__img {
+      @include res(xl) {
+        width: 20%;
+      }
+      @include res(s) {
+        width: 50%;
+      }
     }
 
-    .flickity-prev-next-button.next {
-      right: 0;
-    }
-
-    &__slide {
+    @include res(xl) {
       display: flex;
+      justify-content: flex-start;
+    }
+    @include res(s) {
       flex-direction: column;
-      align-items: center;
-      width: calc(100% / 5);
-
-      .h4 {
-        transition: .3s all;
-      }
-
-      &:hover {
-        .h4 {
-          transition: .3s all;
-          color: $purple-hover;
-        }
-      }
-
-      &.active {
-        .h4 {
-          color: $purple-hover;
-        }
-      }
-    }
-
-    &__img-wrap {
-      margin-bottom: 10px;
-    }
-
-    &-desc {
-      .btn {
-        margin-top: 50px;
-      }
-
-      &__item {
-        display: flex;
-        margin-left: -100px;
-        margin-right: -100px;
-        justify-content: space-between;
-
-        & > * {
-          padding: 0 100px;
-          width: 50%;
-        }
-
-        .h4 {
-          line-height: 36px;
-        }
-      }
     }
   }
 }
@@ -90,24 +83,47 @@
 .worldwide {
   position: relative;
   overflow: hidden;
+  width: 100%;
 
   &-map {
-    background-image: url("/img/about/map-shadow.png");
+    background-image: url("../img/about/map-shadow.png");
     background-size: contain;
 
-    img {
+    &__image {
       max-width: 100%;
     }
 
     &__pen {
+      & * {
+        transition: .3s all;
+      }
+
       &-body {
         right: -45%;
-        top: 8%;
+        top: 30%;
+        @include res(xl) {
+          right: -60%;
+          top: 20%;
+        }
+        @include res(l) {
+          right: -31%;
+          top: 40%;
+          width: 50%;
+        }
       }
 
       &-cap {
         left: -5%;
-        top: 50%;
+        top: 70%;
+        @include res(xl) {
+          left: -15%;
+          top: 70%;
+        }
+        @include res(l) {
+          left: 0%;
+          top: 75%;
+          width: 15%;
+        }
       }
 
       img {
@@ -120,18 +136,42 @@
 .reviews {
 
   &-block {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: -24px $gutter;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -12px;
     width: 100%;
+    justify-content: center;
+    @include res(xl) {
+      margin: 0;
+    }
   }
 
   &-item {
-    background: white;
+    width: calc(100% / 5);
     border-radius: 20px;
     overflow: hidden;
     transition: .3s all ease-in-out;
-    margin: 24px $gutter;
+    padding: 12px;
+    &__wrap {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    @include res(xl) {
+      width: calc(100% / 4);
+    }
+    @include res(l) {
+      width: calc(100% / 3);
+    }
+    @include res(m) {
+      width: calc(100% / 2);
+    }
+    @include res(xs) {
+      width: calc(100%);
+    }
 
     &:hover {
       box-shadow: $shadow-block;
@@ -144,8 +184,8 @@
       overflow: hidden;
 
       img {
-        height: 100%;
-        width: 100%;
+        min-height: 100%;
+        min-width: 100%;
       }
     }
 
@@ -175,6 +215,7 @@
     justify-content: center;
     margin-top: -15px;
   }
+
   &__item {
     margin-top: 15px;
     filter: grayscale(1);
@@ -201,6 +242,7 @@
       flex-direction: column;
       height: 330px;
       overflow: hidden;
+
       &-color {
         position: absolute;
         width: 100%;
@@ -210,6 +252,7 @@
         opacity: 0;
         transition: .3s all ease-in-out;
       }
+
       &__pic {
         top: 50px;
         position: relative;
@@ -221,15 +264,23 @@
       background: white;
       box-shadow: $shadow-block;
       transition: .3s all ease-in-out;
+
       .our-team__item__image {
         &-color {
           transition: .3s all ease-in-out;
           opacity: 1;
-          background-image: url(/img/about/our-team/item-bg.png);
+          background-image: url(../img/about/our-team/item-bg.png);
           background-size: 100%;
         }
       }
     }
+  }
+}
+
+.about-banner {
+  background-image: url(../img/about/banner-bg.png);
+  @include res(m) {
+    background: $selling-red;
   }
 }
 

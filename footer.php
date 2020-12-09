@@ -134,6 +134,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js-dev/vendors/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
 <script src="js/assets.js" type="text/javascript" ></script>
 <script src="js/main.js" type="text/javascript" ></script>
 

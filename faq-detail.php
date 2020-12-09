@@ -3,8 +3,8 @@
     <section class="faq-detail s-def">
         <div class="faq-detail-content">
             <div class="container">
-                <div class="row">
-                    <div class="grid-8 grid-12_l">
+                <div class="row detailed-article-wrap">
+                    <div class="grid-8 grid-12_xl flex-first-xl">
                         <div class="detailed-article">
                             <div class="title">
                                 Какие технологии мы используем?
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="grid-1"></div>
-                    <div class="grid-3 grid-12_l">
+                    <div class="grid-3 grid-12_xl mb-3-xl">
                         <div class="faq-detail-badge">
                             <div class="faq-detail-badge__accordion">
                                 <h3><i class="i-factory"></i>Производство</h3>

@@ -1,0 +1,180 @@
+.catalog {
+  &-tiles {
+    &-content {
+
+    }
+
+    &__item {
+      position: relative;
+      margin-top: 48px;
+      border-radius: 20px;
+      transition: .3s all;
+
+      &:hover {
+        box-shadow: $shadow-block;
+      }
+
+      @include res(s) {
+        margin-top: 20px;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      &__title, &__button {
+        position: absolute;
+        left: 25px;
+        width: 50%;
+        @include res(s) {
+          left: 15px;
+        }
+      }
+
+      &__title {
+        color: white;
+        top: 55px;
+        @include res(l) {
+          top: 25px;
+        }
+        @include res(s) {
+          font-size: 24px;
+        }
+      }
+
+      &__button {
+        bottom: 36px;
+        @include res(l) {
+          bottom: 20px;
+        }
+        @include res(m) {
+          bottom: 30px;
+        }
+        @include res(s) {
+          width: 50%;
+        }
+      }
+
+      &.orange {
+        background-color: $orange;
+
+        .btn {
+          background-color: transparentize($orange, 0.5);
+        }
+      }
+
+      &.green {
+        background-color: $green;
+
+        .btn {
+          background-color: transparentize($green, 0.5);
+        }
+      }
+
+      &.blue {
+        background-color: $blue;
+
+        .btn {
+          background-color: transparentize($blue, 0.5);
+        }
+      }
+
+      &.cyan {
+        background-color: $cyan;
+
+        .btn {
+          background-color: transparentize($cyan, 0.5);
+        }
+      }
+
+      &.red {
+        background-color: $selling-red;
+
+        .btn {
+          background-color: transparentize($selling-red, 0.5);
+        }
+      }
+    }
+  }
+}
+
+.catalog-section {
+  &-header {
+    padding-bottom: 50px;
+    box-shadow: $shadow-block;
+  }
+
+  &-filter {
+    &__title {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-bottom: 10px;
+      @include res(l) {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  &-video {
+    &-block {
+      .video {
+        height: 100%;
+        position: relative;
+        .video-play {
+          position: absolute;
+          right: -65px;
+          top: 50%;
+          transform: translate(0, -50%);
+          padding: 25px;
+          background: $bg-color;
+          border-radius: 50%;
+          @include res(l) {
+            right: 50%;
+            transform: translate(50%, -50%);
+            background: transparent;
+          }
+          .btn {
+            color: $purple-hover;
+            font-size: 28px;
+            padding: 25px;
+            i {
+              margin: 0;
+            }
+          }
+        }
+      }
+      height: 370px;
+      padding-right: 40px;
+      @include res(l) {
+        padding-right: 0;
+        height: 250px;
+      }
+    }
+
+    &__video {
+      border-radius: 20px;
+      height: 100%;
+      background-color: transparentize(black, 0.5);
+      background-blend-mode: color;
+      background-size: cover;
+    }
+  }
+}
+
+.catalog-element {
+  &-photo {
+    &__main-slider {
+      &__element {
+        border-radius: 20px;
+        overflow: hidden;
+        width: 100%;
+        background: white;
+        padding: 15px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

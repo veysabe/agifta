@@ -337,18 +337,20 @@ $reviewsItems = array(
                     <div class="reviews-block">
                 <? endif; ?>
                 <div class="reviews-item">
-                    <a href="#">
-                        <div class="reviews-item__image">
-                            <img src="<?= $item['IMG'] ?>" alt="">
-                        </div>
-                    </a>
-                    <div class="reviews-item__footer">
-                        <div class="reviews-item__footer__avatar">
-                            <img src="<?= $item['IG']['PICTURE'] ?>" alt="">
-                        </div>
-                        <div class="reviews-item__footer__info">
-                            <p><?= $item['NAME'] ?></p>
-                            <a href="#">@<?= $item['IG']['NICKNAME'] ?></a>
+                    <div class="reviews-item__wrap">
+                        <a href="#">
+                            <div class="reviews-item__image">
+                                <img src="<?= $item['IMG'] ?>" alt="">
+                            </div>
+                        </a>
+                        <div class="reviews-item__footer">
+                            <div class="reviews-item__footer__avatar">
+                                <img src="<?= $item['IG']['PICTURE'] ?>" alt="">
+                            </div>
+                            <div class="reviews-item__footer__info">
+                                <p><?= $item['NAME'] ?></p>
+                                <a href="#">@<?= $item['IG']['NICKNAME'] ?></a>
+                            </div>
                         </div>
                     </div>
                 </div>

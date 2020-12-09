@@ -1,13 +1,26 @@
 .reviews-widget {
   position: relative;
-  overflow: hidden;
   &__wrapper {
+    @include res(l)  {
+      overflow: hidden;
+    }
     position: relative;
     padding: 110px 0;
     background-color: $purple-hover;
     border-radius: 20px;
     width: 1700px;
     margin: auto;
+    @media (max-width: 1700px) {
+      width: auto;
+      margin: 0 12px;
+      transition: .3s all ease-in-out;
+    }
+    @include res(xl) {
+      padding: 110px 50px;
+    }
+    @include res(s) {
+      padding: 50px 15px;
+    }
   }
   &__content {
     position: relative;
@@ -20,12 +33,22 @@
       p {
         font-size: 24px;
         margin: 25px 0;
+        @include res(s) {
+          font-size: 16px;
+        }
+      }
+      @include res(l) {
+        width: 100%;
+        margin-bottom: 350px;
+      }
+      @include res(s) {
+        margin-bottom: 500px;
       }
     }
   }
   &__bg {
     z-index: 1;
-    background-image: url(/img/reviews/widget/widget-bg.png);
+    background-image: url(../img/reviews/widget/widget-bg.png);
     background-position: bottom;
     background-repeat: no-repeat;
     position: absolute;
@@ -39,17 +62,36 @@
     right: 182px;
     bottom: -7px;
     z-index: 2;
+    @include res(l) {
+      right: 48px;
+      bottom: -137px;
+    }
+    @include res(s) {
+      right: -10px;
+    }
   }
   &__like-1 {
     position: absolute;
     right: 70px;
     top: 100px;
     z-index: 2;
+    @include res(l) {
+      right: 180px;
+      top: -30px;
+    }
+    @include res(s) {
+      right: -50px;
+      top: 40px;
+    }
   }
   &__like-2 {
     position: absolute;
     left: -60px;
     top: 35px;
     z-index: 2;
+    @include res(s) {
+      left: -120px;
+      top: 40px;
+    }
   }
 }

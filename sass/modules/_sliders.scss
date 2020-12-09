@@ -65,7 +65,6 @@
 	}
 }
 
-
 .flickity-page-dots{
 	z-index: 1;
 	@include res(xl){
@@ -95,6 +94,122 @@
 		&.is-selected{
 			background: $text-color;
 			border-color: $text-color;
+		}
+	}
+}
+
+.catalog {
+	&-slider {
+		padding: 0 59px;
+
+		.flickity-prev-next-button.previous {
+			left: 0;
+		}
+
+		.flickity-prev-next-button.next {
+			right: 0;
+		}
+
+		@include res(l) {
+			padding: 0 45px;
+		}
+		@include res(xs) {
+			padding: 0 35px;
+		}
+
+		&__slide {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: calc(100% / 5);
+			@include res(xl) {
+				width: calc(100% / 4);
+			}
+			@include res(l) {
+				width: calc(100% / 3);
+			}
+			@include res(m) {
+				width: calc(100% / 2);
+			}
+			@include res(xs) {
+				width: 100%;
+			}
+
+			.h4 {
+				transition: .3s all;
+			}
+
+			&:hover {
+				.h4 {
+					transition: .3s all;
+					color: $purple-hover;
+				}
+			}
+
+			&.active {
+				.h4 {
+					color: $purple-hover;
+				}
+			}
+		}
+
+		&__img-wrap {
+			margin-bottom: 10px;
+			position: relative;
+		}
+
+		&__img-name {
+			position: absolute;
+			left: 55%;
+			top: 15px;
+			font-weight: bold;
+			font-size: 14px;
+		}
+
+		&-desc {
+			.btn {
+				margin-top: 50px;
+				@include res(xl) {
+					margin-top: 20px;
+				}
+			}
+
+			&__item {
+				display: flex;
+				margin-left: -100px;
+				margin-right: -100px;
+				justify-content: space-between;
+				@include res(xl) {
+					flex-direction: column;
+					margin: 0;
+					br {
+						display: none;
+					}
+				}
+
+				& > * {
+					padding: 0 100px;
+					width: 50%;
+					@include res(xl) {
+						width: 100%;
+						padding: 0;
+					}
+
+					& + * {
+						@include res(xl) {
+							margin-top: 20px;
+						}
+					}
+				}
+
+				.h4 {
+					line-height: 36px;
+					@include res(xl) {
+						line-height: 30px;
+						text-align: justify;
+					}
+				}
+			}
 		}
 	}
 }

@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-    <section class="main-banner">
+    <section class="main-banner about-banner w-image">
         <div class="container">
             <div class="main-banner__content">
                 <div class="main-banner__title">О нас</div>
@@ -8,13 +8,12 @@
         </div>
         <img src="/img/about/banner-image.png" class="main-banner__additional-image magazine"
              data-parallax='{"y" : 20}'>
-        <img src="/img/about/banner-bg.png" alt="intro">
     </section>
 
     <section class="mission s-def">
         <div class="container">
             <div class="big-title">Наша миссия</div>
-            <div class="h1">
+            <div class="h1 big-subtitle">
                 — предоставлять лучший клиентский сервис на рынке сувенирной продукции России
             </div>
             <div class="mission__tiles-block">
@@ -26,7 +25,7 @@
                         <div class="h3">
                             Люби клиента
                         </div>
-                        <div>
+                        <div class="mission__tile__text__inner">
                             Сервис и работа с клиентом для нас на первом месте. Если заказываете впервые, то
                             убедитесь в этом сами. Кто работал с нами, не дадут соврать.
                         </div>
@@ -40,7 +39,7 @@
                         <div class="h3">
                             Делай круто
                         </div>
-                        <div>
+                        <div class="mission__tile__text__inner">
                             Или не делай вообще. От качества деталей зависит результат, поэтому не позволяем себе
                             останавливаться на среднем варианте, даже если придется переделать еще раз.
                         </div>
@@ -54,7 +53,7 @@
                         <div class="h3">
                             Держи слово
                         </div>
-                        <div>
+                        <div class="mission__tile__text__inner">
                             Если обещали — то выполняем. Мы нацелены
                             на результат и сотрудничество, поэтому ничего
                             не скрываем. Исправим за свой счет, если результат
@@ -150,13 +149,13 @@
                                         class="i-arrow-right"></i></a>
                         </div>
                         <div>
-                    <span class="h4 regular">
-                        Набор бумажных ручек с логотипом —<br>
-                        <strong>универсальное решение для вашего бизнеса.</strong><br>
-                        Большой выбор цветов, детальная проработка<br>
-                        дизайн-макета и качественная печать.
-                        Ничего лишнего, только польза.
-                    </span>
+                            <span class="h4 text-regular">
+                                Набор бумажных ручек с логотипом —<br>
+                                <strong>универсальное решение для вашего бизнеса.</strong><br>
+                                Большой выбор цветов, детальная проработка<br>
+                                дизайн-макета и качественная печать.
+                                Ничего лишнего, только польза.
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -168,7 +167,7 @@
                                         class="i-arrow-right"></i></a>
                         </div>
                         <div>
-                    <span class="h4 regular">
+                    <span class="h4 text-regular">
                         Набор бумажных ручек с логотипом —<br>
                         <strong>универсальное решение для вашего бизнеса.</strong><br>
                         Большой выбор цветов, детальная проработка<br>
@@ -186,7 +185,7 @@
                                         class="i-arrow-right"></i></a>
                         </div>
                         <div>
-                    <span class="h4 regular">
+                    <span class="h4 text-regular">
                         Набор бумажных ручек с логотипом —<br>
                         <strong>универсальное решение для вашего бизнеса.</strong><br>
                         Большой выбор цветов, детальная проработка<br>
@@ -204,7 +203,7 @@
                                         class="i-arrow-right"></i></a>
                         </div>
                         <div>
-                    <span class="h4 regular">
+                    <span class="h4 text-regular">
                         Набор бумажных ручек с логотипом —<br>
                         <strong>универсальное решение для вашего бизнеса.</strong><br>
                         Большой выбор цветов, детальная проработка<br>
@@ -222,7 +221,7 @@
                                         class="i-arrow-right"></i></a>
                         </div>
                         <div>
-                    <span class="h4 regular">
+                    <span class="h4 text-regular">
                         Набор бумажных ручек с логотипом —<br>
                         <strong>универсальное решение для вашего бизнеса.</strong><br>
                         Большой выбор цветов, детальная проработка<br>
@@ -240,7 +239,7 @@
                                         class="i-arrow-right"></i></a>
                         </div>
                         <div>
-                    <span class="h4 regular">
+                    <span class="h4 text-regular">
                         Набор бумажных ручек с логотипом —<br>
                         <strong>универсальное решение для вашего бизнеса.</strong><br>
                         Большой выбор цветов, детальная проработка<br>
@@ -258,7 +257,7 @@
                                         class="i-arrow-right"></i></a>
                         </div>
                         <div>
-                    <span class="h4 regular">
+                    <span class="h4 text-regular">
                         Набор бумажных ручек с логотипом —<br>
                         <strong>универсальное решение для вашего бизнеса.</strong><br>
                         Большой выбор цветов, детальная проработка<br>
@@ -276,7 +275,7 @@
                                         class="i-arrow-right"></i></a>
                         </div>
                         <div>
-                    <span class="h4 regular">
+                    <span class="h4 text-regular">
                         Набор бумажных ручек с логотипом —<br>
                         <strong>универсальное решение для вашего бизнеса.</strong><br>
                         Большой выбор цветов, детальная проработка<br>
@@ -294,7 +293,7 @@
                                         class="i-arrow-right"></i></a>
                         </div>
                         <div>
-                    <span class="h4 regular">
+                    <span class="h4 text-regular">
                         Набор бумажных ручек с логотипом —<br>
                         <strong>универсальное решение для вашего бизнеса.</strong><br>
                         Большой выбор цветов, детальная проработка<br>
@@ -312,7 +311,7 @@
                                         class="i-arrow-right"></i></a>
                         </div>
                         <div>
-                    <span class="h4 regular">
+                    <span class="h4 text-regular">
                         Набор бумажных ручек с логотипом —<br>
                         <strong>универсальное решение для вашего бизнеса.</strong><br>
                         Большой выбор цветов, детальная проработка<br>
@@ -331,7 +330,7 @@
             <div class="big-title text-center">Работаем</div>
             <div class="h1 text-center s-def-bottom">По всему миру</div>
             <div class="worldwide-map" data-parallax='{"y" : -20}'>
-                <img src="/img/about/map.png" data-parallax='{"y" : 20}'>
+                <img src="/img/about/map.png" data-parallax='{"y" : 20}' class="worldwide-map__image">
                 <div class="worldwide-map__pen">
                     <img class="worldwide-map__pen-body" src="img/about/craft-pen.png">
                     <img class="worldwide-map__pen-cap" src="img/about/craft-pen-cap.png">
@@ -345,22 +344,25 @@
             <div class="h1 sec-title">Что клиенты говорят о нас</div>
             <div class="reviews-block">
                 <div class="reviews-item">
-                    <a href="#">
-                        <div class="reviews-item__image">
-                            <img src="img/about/reviews/1.png" alt="">
-                        </div>
-                    </a>
-                    <div class="reviews-item__footer">
-                        <div class="reviews-item__footer__avatar">
-                            <img src="img/about/reviews/icons/1.png" alt="">
-                        </div>
-                        <div class="reviews-item__footer__info">
-                            <p>Tatiana • Floral designer</p>
-                            <a href="#">@cloverandcat</a>
+                    <div class="reviews-item__wrap">
+                        <a href="#">
+                            <div class="reviews-item__image">
+                                <img src="img/about/reviews/1.png" alt="">
+                            </div>
+                        </a>
+                        <div class="reviews-item__footer">
+                            <div class="reviews-item__footer__avatar">
+                                <img src="img/about/reviews/icons/1.png" alt="">
+                            </div>
+                            <div class="reviews-item__footer__info">
+                                <p>Tatiana • Floral designer</p>
+                                <a href="#">@cloverandcat</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="reviews-item">
+                <div class="reviews-item__wrap">
                     <a href="#">
                         <div class="reviews-item__image">
                             <img src="img/about/reviews/2.png" alt="">
@@ -376,7 +378,9 @@
                         </div>
                     </div>
                 </div>
+                </div>
                 <div class="reviews-item">
+                <div class="reviews-item__wrap">
                     <a href="#">
                         <div class="reviews-item__image">
                             <img src="img/about/reviews/3.png" alt="">
@@ -392,7 +396,9 @@
                         </div>
                     </div>
                 </div>
+                </div>
                 <div class="reviews-item">
+                <div class="reviews-item__wrap">
                     <a href="#">
                         <div class="reviews-item__image">
                             <img src="img/about/reviews/4.png" alt="">
@@ -408,7 +414,9 @@
                         </div>
                     </div>
                 </div>
+                </div>
                 <div class="reviews-item">
+                <div class="reviews-item__wrap">
                     <a href="#">
                         <div class="reviews-item__image">
                             <img src="img/about/reviews/1.png" alt="">
@@ -423,6 +431,7 @@
                             <a href="#">@cloverandcat</a>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
             <div class="btn-center">
@@ -570,7 +579,7 @@ $teamArray = array(
             <div class="big-title sec-title">Наша команда</div>
             <div class="our-team-block row">
                 <? foreach ($teamArray as $item): ?>
-                    <div class="grid-3 grid-12_l">
+                    <div class="grid-3 grid-4_xl grid-6_l grid-12_m">
                         <div class="our-team__item">
                             <div class="our-team__item__image">
                                 <div class="our-team__item__image-color"

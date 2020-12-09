@@ -2,7 +2,7 @@
   background: $text-color;
   padding: 40px 0 20px 0;
   position: relative;
-  z-index: 10;
+  z-index: 1000;
   @include res(xl) {
     padding: 20px 0;
   }
@@ -94,40 +94,74 @@
   background: white;
   padding: 65px 0;
   width: 100%;
-  z-index: 3;
+  z-index: 999;
   font-weight: bold;
   font-size: 18px;
   text-align: center;
   border-radius: 0 0 20px 20px;
   visibility: hidden;
   transform: translate3d(0, -620px, 0);
-  transition: transform 0.3s ease, visibility 0.3s ease;
+  transition: .3s all ease-in-out;
+
   .catalog-elems {
     margin-right: -44px;
     margin-left: -44px;
     margin-top: -44px;
     margin-bottom: -44px;
+    display: flex;
+    flex-wrap: wrap;
+
+    * {
+      transition: .3s all ease-in-out;
+    }
+
+    @include res(xxl) {
+      justify-content: center;
+      margin: -44px 0;
+    }
+
     &__item {
       display: flex;
       flex-direction: column;
       align-items: center;
       border-radius: 20px;
+      padding: 44px;
+      @include res(xl) {
+        padding: 30px;
+      }
+
       &:hover {
         padding: 43px;
         border: 1px solid transparentize($gray-text, 0.8);
+        @include res(xl) {
+          padding: 29px;
+        }
       }
+
       img {
         height: 150px;
       }
+
       p {
         margin-top: 10px;
       }
-      padding: 44px;
     }
   }
+
   &.active {
     visibility: visible;
     transform: translate3d(0, 0, 0);
+  }
+
+  @include res(xl) {
+    font-size: 20px;
+    top: 135px;
+  }
+  @include res(l) {
+    font-size: 12px;
+    top: 50px;
+    border-radius: 0;
+    display: none;
   }
 }
 
@@ -145,22 +179,28 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+
   .burger {
     background: transparent;
     margin-right: 10px;
+
     &.active {
       background: transparent;
     }
+
     figure {
       background: white;
+
       &:after {
         background: white;
       }
+
       &:before {
         background: white;
       }
     }
   }
+
   @include res(xl) {
     font-size: 20px;
   }
@@ -271,10 +311,15 @@
   left: 0;
   background: transparentize(black, 0.5);
   transition: .3s all ease-in-out;
+
   &.active {
     z-index: 2;
     transition: .3s all ease-in-out;
     opacity: 1;
+  }
+
+  @include res(l) {
+    display: none;
   }
 }
 

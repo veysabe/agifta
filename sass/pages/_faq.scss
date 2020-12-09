@@ -1,44 +1,5 @@
 .faq {
-  &-nav-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
-  &-nav-button {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    padding: 20px 40px;
-    font-size: 18px;
-    font-family: $font;
-    line-height: 1;
-    font-weight: bold;
-    border-radius: 40px;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    background: transparent;
-    color: $gray-text;
-    border: 2px solid $gray-text;
-    @include res(l) {
-      font-size: 14px;
-      padding: 15px 20px;
-    }
-
-    &.active {
-      background: white;
-      color: black;
-      border: none;
-      box-shadow: $shadow-block;
-    }
-
-    & + & {
-      margin-left: 40px;
-    }
-
-  }
 }
 
 .faq-detail-badge {

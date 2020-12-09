@@ -1,55 +1,55 @@
 ﻿<?php include('header.php'); ?>
 
-<!--<section class="intro-slider">-->
-<!--    <a href="#" class="intro-slider__slide">-->
-<!--        <img src="/img/home/intro-slide-thumb.png" data-flickity-lazyload="/img/home/intro-banner.jpg" alt="intro">-->
-<!--    </a>-->
-<!--    <a href="#" class="intro-slider__slide">-->
-<!--        <img src="/img/home/intro-slide-thumb.png" data-flickity-lazyload="/img/home/intro-banner.jpg" alt="intro">-->
-<!--    </a>-->
-<!--    <a href="#" class="intro-slider__slide">-->
-<!--        <img src="/img/home/intro-slide-thumb.png" data-flickity-lazyload="/img/home/intro-banner.jpg" alt="intro">-->
-<!--    </a>-->
-<!--</section>-->
-
-<section class="main-banner intro-slider">
-    <div class="intro-slider__slide">
-        <div class="container">
-            <div class="main-banner__content">
-                <div class="main-banner__title">Ручки с твоей надписью</div>
-                <div class="main-banner__text">Сделай заказ с тиражом <strong>всего</strong> в 50<br class="visible-l"> бумажных ручек</div>
-                <div class="main-banner__button">
-                    <a href="#" class="btn btn--white">Узнать больше</a>
-                </div>
-            </div>
-        </div>
-        <img src="/img/home/banner-image.png" alt="intro">
-    </div>
-    <div class="intro-slider__slide">
-        <div class="container">
-            <div class="main-banner__content">
-                <div class="main-banner__title">Ручки с твоей надписью</div>
-                <div class="main-banner__text">Сделай заказ с тиражом <strong>всего</strong> в 50<br> бумажных ручек</div>
-                <div class="main-banner__button">
-                    <a href="#" class="btn btn--white">Узнать больше</a>
-                </div>
-            </div>
-        </div>
-        <img src="/img/home/banner-image.png" alt="intro">
-    </div>
-    <div class="intro-slider__slide">
-        <div class="container">
-            <div class="main-banner__content">
-                <div class="main-banner__title">Ручки с твоей надписью</div>
-                <div class="main-banner__text">Сделай заказ с тиражом <strong>всего</strong> в 50<br> бумажных ручек</div>
-                <div class="main-banner__button">
-                    <a href="#" class="btn btn--white">Узнать больше</a>
-                </div>
-            </div>
-        </div>
-        <img src="/img/home/banner-image.png" alt="intro">
-    </div>
+<section class="intro-slider">
+    <a href="#" class="intro-slider__slide">
+        <img src="/img/home/intro-slide-thumb.png" data-flickity-lazyload="/img/home/intro-banner.jpg" alt="intro">
+    </a>
+    <a href="#" class="intro-slider__slide">
+        <img src="/img/home/intro-slide-thumb.png" data-flickity-lazyload="/img/home/intro-banner.jpg" alt="intro">
+    </a>
+    <a href="#" class="intro-slider__slide">
+        <img src="/img/home/intro-slide-thumb.png" data-flickity-lazyload="/img/home/intro-banner.jpg" alt="intro">
+    </a>
 </section>
+
+<!--<section class="main-banner intro-slider">-->
+<!--    <div class="intro-slider__slide">-->
+<!--        <div class="container">-->
+<!--            <div class="main-banner__content">-->
+<!--                <div class="main-banner__title">Ручки с твоей надписью</div>-->
+<!--                <div class="main-banner__text">Сделай заказ с тиражом <strong>всего</strong> в 50<br class="visible-l"> бумажных ручек</div>-->
+<!--                <div class="main-banner__button">-->
+<!--                    <a href="#" class="btn btn--white">Узнать больше</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <img src="/img/home/banner-image.png" alt="intro">-->
+<!--    </div>-->
+<!--    <div class="intro-slider__slide">-->
+<!--        <div class="container">-->
+<!--            <div class="main-banner__content">-->
+<!--                <div class="main-banner__title">Ручки с твоей надписью</div>-->
+<!--                <div class="main-banner__text">Сделай заказ с тиражом <strong>всего</strong> в 50<br> бумажных ручек</div>-->
+<!--                <div class="main-banner__button">-->
+<!--                    <a href="#" class="btn btn--white">Узнать больше</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <img src="/img/home/banner-image.png" alt="intro">-->
+<!--    </div>-->
+<!--    <div class="intro-slider__slide">-->
+<!--        <div class="container">-->
+<!--            <div class="main-banner__content">-->
+<!--                <div class="main-banner__title">Ручки с твоей надписью</div>-->
+<!--                <div class="main-banner__text">Сделай заказ с тиражом <strong>всего</strong> в 50<br> бумажных ручек</div>-->
+<!--                <div class="main-banner__button">-->
+<!--                    <a href="#" class="btn btn--white">Узнать больше</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <img src="/img/home/banner-image.png" alt="intro">-->
+<!--    </div>-->
+<!--</section>-->
 
 
 <section class="s-home-pens s-def">

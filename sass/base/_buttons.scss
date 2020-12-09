@@ -25,6 +25,9 @@
   &:focus {
     outline: none;
   }
+  i {
+    margin-left: 15px;
+  }
 }
 
 button::-moz-focus-inner {
@@ -40,6 +43,16 @@ button::-moz-focus-inner {
   &:hover {
     background: $text-color;
     color: #FFF;
+  }
+  &.btn--white {
+    background: transparent;
+    outline: white;
+    color: white;
+    border: 2px solid white;
+    &:hover {
+      color: black;
+      border: 2px solid black;
+    }
   }
 }
 
@@ -57,7 +70,7 @@ button::-moz-focus-inner {
   border: 2px solid $gray-text;
   color: $gray-text;
   background: transparent;
-  padding: 15px 40px;
+  padding: 18px 40px;
 
   &:hover {
     border: 2px solid $text-color;
@@ -75,5 +88,17 @@ button::-moz-focus-inner {
     position: relative;
     margin-left: 5px;
     top: 3px;
+  }
+}
+
+.btn--round {
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.btn--play {
+  font-size: 32px;
+  i {
+    padding-left: 3px;
   }
 }

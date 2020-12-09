@@ -4,14 +4,14 @@
         <div class="faq-content">
             <div class="container">
                 <div class="big-title sec-title">Частые вопросы</div>
-                <div class="faq-nav-buttons" data-toggle="desc-toggle" data-target="faq-categories">
-                    <div class="faq-nav-button active" data-toggle-num="factory">
+                <div class="nav-buttons" data-toggle="desc-toggle" data-target="faq-categories">
+                    <div class="nav-button active" data-toggle-num="factory">
                         Производство
                     </div>
-                    <div class="faq-nav-button" data-toggle-num="sell">
+                    <div class="nav-button" data-toggle-num="sell">
                         Продажа
                     </div>
-                    <div class="faq-nav-button" data-toggle-num="delivery">
+                    <div class="nav-button" data-toggle-num="delivery">
                         Доставка
                     </div>
                 </div>

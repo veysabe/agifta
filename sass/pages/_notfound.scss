@@ -8,13 +8,15 @@
     line-height: 1;
     margin-bottom: 60px;
     .null-blob {
-      font-size: 350px;
-      background-image: url("/img/blob.png");
+      background-image: url("../img/blob.png");
       background-size: 100%;
       background-position: center;
       background-repeat: no-repeat;
       color: transparent;
       padding: 0 30px;
+    }
+    @include res(m) {
+      font-size: 120px;
     }
   }
   &-buttons {

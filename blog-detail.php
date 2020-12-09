@@ -4,14 +4,14 @@
         <div class="blog-detail-content">
             <div class="container">
                 <div class="row">
-                    <div class="grid-8 grid-12_l">
+                    <div class="grid-8 grid-11_l grid-12_s">
                         <div class="detailed-article">
                             <div class="title">
                                 Как выбрать корпоративный подарок и никого не обидеть
                             </div>
                             <div class="info row">
-                                <div class="grid-3"><i class="i-calendar"></i>18.12.2019</div>
-                                <div class="grid-3"><i class="i-stopwatch"></i>Время прочтения: 2 минуты</div>
+                                <div class="grid-3 grid-6_l grid-12_s mb-1"><i class="i-calendar"></i>18.12.2019</div>
+                                <div class="grid-3 grid-6_l grid-12_s"><i class="i-stopwatch"></i>Время прочтения: 2 минуты</div>
                             </div>
                             <p class="description">
                                 Подобрать универсальный подарок и уложиться в бюджет — непростая задача. Вот несколько
@@ -86,8 +86,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="grid-1"></div>
-                    <div class="grid-3 grid-12_l">
+                    <div class="grid-1 visible-l"></div>
+                    <div class="grid-1 visible-s">
                         <div class="social-networks-widget">
                             <div class="social-networks-widget__content">
                                 <a href="#">
