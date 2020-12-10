@@ -126,12 +126,12 @@
       align-items: center;
       border-radius: 20px;
       padding: 44px;
+      border: 1px solid transparent;
       @include res(xl) {
         padding: 30px;
       }
 
       &:hover {
-        padding: 43px;
         border: 1px solid transparentize($gray-text, 0.8);
         @include res(xl) {
           padding: 29px;
@@ -303,10 +303,10 @@
 
 .black-overflow {
   opacity: 0;
-  position: absolute;
+  position: fixed;
   z-index: -1;
   width: 100%;
-  height: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
   background: transparentize(black, 0.5);

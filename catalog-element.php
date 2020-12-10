@@ -231,7 +231,7 @@
         </div>
     </section>
 
-    <section class="s-photo-gallery s-def">
+    <section class="s-photo-gallery s-def visible-l">
         <div class="photo-gallery-block">
             <div class="container container--wide">
                 <div class="photo-gallery-wrapper">
@@ -341,7 +341,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grid-6 grid-12_l">
+                        <div class="grid-6 grid-12_l mt-5">
                             <div class="catalog-section-video-block testimonial left">
                                 <div class="video">
                                     <div class="youtube-video-frame"
@@ -453,14 +453,100 @@
         </div>
     </section>
 
-    <section class="s-remember-block s-def">
-        <div class="remember-block">
+    <section class="s-home-about s-def">
+        <div class="container home-about">
+            <div class="row">
+                <div class="grid-6 grid-5_xl grid-4_l grid-12_m">
+                    <img src="/img/home/about-img.jpg" alt="img" class="home-about__img">
+                </div>
+                <div class="grid-6 grid-7_xl grid-8_l grid-12_m">
+                    <div class="h1 home-about__title">Поможем вашему бренду запомниться</div>
+                    <div class="row home-about__items">
+                        <div class="grid-6 grid-12_xs home-about__item">
+                            <div class="h3">
+                                Работаем на собственном оборудовании
+                            </div>
+                            <div>
+                                Мы точно знаем, на что способен наш принтер и лазерный гравер. Это помогает уже на этапе
+                                разработки дизайна предложить вам оптимальную версию макета, чтобы в итоге получилось
+                                круто.
+                            </div>
+                        </div>
+                        <div class="grid-6 grid-12_xs home-about__item">
+                            <div class="h3">
+                                Мониторим интересные штуки
+                            </div>
+                            <div>
+                                Во всех уголках интернета мы ищем вдохновение и уникальные сувениры, которые помогут вам
+                                и вашему бренду запомниться. Наш поиск не прекращается никогда.
+                            </div>
+                        </div>
+                        <div class="grid-6 grid-12_xs home-about__item">
+                            <div class="h3">Остаемся на связи</div>
+                            <div>Предоставим личного менеджера, который будет держать с вами связь с момента первого
+                                обращения и до конечного результата. Поддерживаем общение по удобному для вас каналу:
+                                телефон, e-mail или мессенджеры.
+                            </div>
+                        </div>
+                        <div class="grid-6 grid-12_xs home-about__item">
+                            <div class="h3">Отвечаем за качество</div>
+                            <div>Относимся одинаково серьезно и трепетно ко всем заказам. Неважно, известный у вас бренд
+                                или вы только начали развиваться. Каждый раз, работая с нами, вы получите заботу и
+                                качественную сувенирную продукцию для своих клиентов.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s-useful-info s-def">
+        <div class="useful-info">
             <div class="container">
-                <div class="remember-block-container">
-                    <div class="row">
-                        <div class="grid-6 visible-l">
-                            <div class="remember-block-image">
-                                <img src="/img/catalog/pens-and-brushes-plus.png" alt="">
+                <div class="row">
+                    <div class="grid-6 grid-12_l">
+                        <div class="h4">Полезная информация</div>
+                        <div class="mt-3">Для нас сувенирная продукция — это не пустая формальность, а инструмент
+                            привлечения клиентов. У
+                            нас нет бесконечного каталога однотипных кружек, блокнотов и футболок. Вместо этого мы
+                            предлагаем несколько оригинальных позиций. Наши «Просторучки» и «Зубощетки» отличаются
+                            продуманным индивидуальным дизайном, который запомнится вашим клиентам.
+                        </div>
+                        <div class="mt-2">В основе нашего подхода — детальная проработка дизайн-макета и качество
+                            сервиса. Поэтому у нас
+                            штат дизайнеров и персональный менеджер для каждого клиента. Особое внимание уделяем печати.
+                            Используем технологии тампопечати и УФ-печать, которые позволяют решать разноплановые
+                            задачи.
+                            Не забываем автоматизировать процессы и переводить их в онлайн. Советуем заглянуть в личный
+                            кабинет с бонусной программой и возможностью отслеживать статус заказа.
+                        </div>
+                    </div>
+                    <div class="grid-6 grid-12_l">
+                        <div class="action-block">
+                            <div class="action-block-wrapper">
+                                <div class="row">
+                                    <div class="grid-6 grid-12_m">
+                                        <div class="action-block-text">
+                                            <div>
+                                                <div class="product-preview__label product-preview__label--new">Акция
+                                                </div>
+                                            </div>
+                                            <div class="h5">Минимальный тираж 50 штук</div>
+                                            <div>
+                                                Мы предлагаем ощутить качество нашей продукции и уровень нашего сервиса
+                                                на
+                                                первой партии в 50 шт., когда минимальный тираж 100 шт.
+                                            </div>
+                                            <div class="">
+                                                <a href="#" class="btn btn--white">Узнать подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-6 grid-12_m">
+                                        <div class="action-block-image"><img src="/img/home/box.png" alt=""></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

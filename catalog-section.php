@@ -50,311 +50,329 @@
                 </div>
             </div>
         </div>
-        <div class="s-def container">
-            <div class="product-grid row">
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+        <div class="s-def">
+            <div class="container">
+                <div class="product-grid row">
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="grid-3 grid-4_m grid-6_xs">
-                    <a href="#" class="product-preview">
-                        <div class="product-preview__imgwrap">
-                            <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                            <img src="/img/products/pen-1-hover.jpg" alt="product" class="product-preview__img-hover">
-                        </div>
-                        <div class="product-preview__labels">
-                            <div class="product-preview__label product-preview__label--hit">HIT!</div>
-                        </div>
-                        <div class="product-preview__info">
-                            <div class="product-preview__vendor-code">Артикул: 102</div>
-                            <div class="product-preview__name h3">Белые бумажные ручки</div>
-                            <div class="product-preview__price-wrap">
-                                <div class="product-preview__price">3 900 <small>&#8381;</small></div>
-                                <div class="product-preview__price-note">стоимость за 50 штук</div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
                             </div>
-                        </div>
-                    </a>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
+                            </div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
+                            </div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
+                            </div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
+                            </div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
+                            </div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
+                            </div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
+                            </div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
+                            </div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
+                            </div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid-3 grid-4_m grid-6_xs">
+                        <a href="#" class="product-preview">
+                            <div class="product-preview__imgwrap">
+                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                     class="product-preview__img-hover">
+                            </div>
+                            <div class="product-preview__labels">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                            </div>
+                            <div class="product-preview__info">
+                                <div class="product-preview__vendor-code">Артикул: 102</div>
+                                <div class="product-preview__name h3">Белые бумажные ручки</div>
+                                <div class="product-preview__price-wrap">
+                                    <div class="product-preview__price">3 900 <small>&#8381;</small></div>
+                                    <div class="product-preview__price-note">стоимость за 50 штук</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

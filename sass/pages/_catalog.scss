@@ -120,16 +120,32 @@
     &-block {
       &.right {
         padding-right: 40px;
+        @include res(l) {
+          padding-right: 20px;
+        }
+
         .video-play {
           right: -65px;
+          @include res(l) {
+            right: -40px;
+          }
         }
       }
+
       &.left {
         padding-left: 40px;
+        @include res(l) {
+          padding-left: 20px;
+        }
+
         .video-play {
           left: -65px;
+          @include res(l) {
+            left: -40px;
+          }
         }
       }
+
       .video {
         height: 100%;
         position: relative;
@@ -142,9 +158,11 @@
           background: $bg-color;
           border-radius: 50%;
           @include res(l) {
-            right: 50%;
-            transform: translate(50%, -50%);
-            background: transparent;
+            padding: 10px;
+            .btn {
+              font-size: 18px !important;
+              padding: 20px !important;
+            }
           }
 
           .btn {
@@ -158,9 +176,9 @@
           }
         }
       }
+
       height: 370px;
       @include res(l) {
-        padding-right: 0;
         height: 250px;
       }
     }
@@ -383,6 +401,7 @@
           border: none;
         }
       }
+
       font-weight: bold;
 
       & > span {
@@ -393,6 +412,7 @@
       .value {
         font-size: 36px;
         line-height: 1;
+
         span {
           font-size: 24px;
         }
@@ -403,37 +423,61 @@
 
 .photo-gallery {
   padding: 30px;
+
   .container {
     background-image: url(../img/catalog/photo-gallery/bg.png);
     background-size: contain;
   }
+
   &-block {
     overflow: hidden;
   }
+
   &-wrapper {
   }
+
   background-color: $blue;
   border-radius: 20px;
   color: white;
+
   &-slider {
     padding: 0 100px;
+    @include res(l) {
+      padding: 0px;
+
+    }
+
     .flickity-viewport {
       overflow: unset;
     }
+
     &__element {
       width: calc(100% / 3);
       padding: 0 47px;
       transition: .3s all;
+      @include res(xl) {
+        width: 50%;
+      }
+      @include res(l) {
+        width: 100%;
+      }
+
       &.is-selected &__image-wrap {
         box-shadow: 0 13px 30px 0px transparentize($gray-text, 0.4);
       }
+
       &:not(.is-selected) {
         transform: scale(0.6);
       }
+
       &__image-wrap {
         height: 353px;
         overflow: hidden;
         border-radius: 20px;
+        @include res(l) {
+          height: 200px;
+        }
+
         img {
           min-height: 100%;
           min-width: 100%;
@@ -453,9 +497,11 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+
     & + & {
       margin-top: 20px;
     }
+
     &:after {
       content: '';
       position: absolute;
@@ -464,16 +510,57 @@
       border-bottom: 1px dotted $gray-text;
       z-index: 0;
     }
+
     &__title, &__value {
       background: $bg-color;
       position: relative;
       z-index: 2;
     }
+
     &__title {
       color: $gray-text;
     }
+
     &__value {
       width: 40%;
+    }
+  }
+}
+
+.action-block {
+  background-color: $purple;
+  background-image: url(../img/home/box-bg.png);
+  @include res(l) {
+    margin-top: 20px;
+  }
+  @include res(m) {
+    background-image: none;
+  }
+  background-size: 100%;
+  border-radius: 20px;
+  color: white;
+
+  &-wrapper {
+    padding: 30px 20px;
+  }
+
+  &-text {
+    padding: 10px 0;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    & > * {
+      @include res(l) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &-image {
+    img {
+      max-width: 100%;
     }
   }
 }

@@ -429,21 +429,53 @@
     }
   }
 
-  &[data-label] {
-    & + .label-input-label.active {
-      top: 15px;
+  & + .label-input-label.active {
+    top: 15px;
+    font-size: 14px;
+    transition: .3s all ease-in-out;
+    @include res(l) {
+      font-size: 8px;
+      top: 7px;
+    }
+  }
+
+  &--small + &-label {
+    left: 26px;
+    font-size: 14px;
+  }
+
+  &--small {
+    padding: 6px 26px 8px 26px;
+    font-size: 16px;
+    &::placeholder {
       font-size: 14px;
-      transition: .3s all ease-in-out;
+      color: transparentize($gray-text, 0.4)
+    }
+
+    & + .label-input-label.active {
+      top: 8px;
+      font-size: 10px;
       @include res(l) {
         font-size: 8px;
         top: 7px;
       }
     }
   }
+
+  &--gray {
+    border: 1px solid transparentize($gray-text, 0.8);
+  }
+
+  &--no-label {
+    padding: 12px 22px;
+    border-radius: 20px;
+    line-height: 1;
+  }
 }
 
 .form-row {
   position: relative;
+
   &.radios {
     display: flex;
     @include res(l) {
@@ -456,8 +488,10 @@
   display: flex;
   align-items: center;
   line-height: 1;
+
   input {
     display: none;
+
     &:checked + .radio-radio:before {
       content: '';
       position: absolute;
@@ -469,6 +503,7 @@
       top: 2px;
     }
   }
+
   .radio-radio {
     margin-right: 12px;
     position: relative;
@@ -484,10 +519,12 @@
 
 .custom-select-basic {
   width: 100%;
+
   & + .select2-container {
     *:focus {
       outline: none;
     }
+
     .select2-selection--single {
       height: 34px;
       border: 1px solid transparentize($gray-text, 0.7);
@@ -495,6 +532,7 @@
       background: transparent;
       font-size: 14px;
     }
+
     .select2-selection__rendered {
       height: 100%;
       line-height: 34px;
@@ -503,6 +541,7 @@
       font-weight: 500;
       color: $gray-text;
     }
+
     .select2-selection__arrow {
       top: 5px;
       right: 15px;
@@ -514,12 +553,15 @@
   display: inline-flex;
   justify-content: stretch;
   align-items: center;
+
   input[type="number"]::-webkit-inner-spin-button,
   input[type="number"]::-webkit-outer-spin-button {
     appearance: none;
     margin: 0;
   }
+
   font-size: 20px;
+
   input {
     width: 50px;
     outline: none;
@@ -529,12 +571,15 @@
     font-size: 14px;
     background: transparent;
     font-weight: bold;
+
     &:focus {
       outline: none;
     }
   }
+
   vertical-align: top;
   position: relative;
+
   button {
     font-size: 20px;
     padding: 0 16px;
@@ -545,8 +590,24 @@
     outline: none;
     background: transparent;
   }
+
   border: 1px solid transparentize($gray-text, 0.8);
   border-radius: 18.5px;
+
+  &--solid {
+    background-color: transparentize($gray-text, 0.8);
+
+    input {
+      border: {
+        right: 1px solid transparentize($gray-text, 0.8);
+        left: 1px solid transparentize($gray-text, 0.8);
+      }
+    }
+
+    button {
+      font-weight: normal;
+    }
+  }
 }
 
 .info-hover {
@@ -563,6 +624,7 @@
     z-index: 5;
     top: -100%;
     left: 105%;
+
     &:before {
       content: '';
       position: absolute;
@@ -573,7 +635,20 @@
       transform: translate(0, -50%);
     }
   }
+
   &:hover + span {
     display: inline;
   }
+}
+
+.divider {
+  margin: 30px 0;
+  height: 1px;
+  width: 100%;
+  background: transparentize($gray-text, 0.8);
+}
+
+.purple-link {
+  color: #ac1f95;
+  transition: color 0.3s ease;
 }

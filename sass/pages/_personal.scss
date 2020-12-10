@@ -485,19 +485,6 @@
         margin-top: 12px;
       }
     }
-    &.edit-links {
-      display: flex;
-      font-size: 14px;
-      .edit {
-        color: $purple-hover;
-      }
-      .delete {
-        color: $selling-red;
-      }
-      i {
-        padding-right: 10px;
-      }
-    }
   }
   &-add-info {
     &__title {
@@ -509,5 +496,19 @@
 .add-info-form {
   .form-row {
     margin-top: 30px;
+  }
+}
+
+.edit-links {
+  display: flex;
+  font-size: 14px;
+  .edit {
+    color: $purple-hover;
+  }
+  .delete {
+    color: $selling-red;
+  }
+  i {
+    padding-right: 10px;
   }
 }
