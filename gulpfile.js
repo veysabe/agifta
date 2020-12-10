@@ -12,13 +12,13 @@ sass.compiler = require('node-sass');
 function style() {
     return gulp.src('./sass/main.scss')
         .pipe(sass()).on('error', sass.logError)
-        .pipe(
-            autoprefixer({
-                overrideBrowserslist: ["last 5 versions"],
-                cascade: true
-            })
-        )
-        .pipe(postcss([cssnano()]))
+        // .pipe(
+        //     autoprefixer({
+        //         overrideBrowserslist: ["last 5 versions"],
+        //         cascade: true
+        //     })
+        // )
+        // .pipe(postcss([cssnano()]))
         .pipe(gulp.dest('./css'))
         .pipe(brSync.stream());
 }

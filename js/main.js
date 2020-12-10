@@ -524,7 +524,7 @@ $(function () {
     });
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
     $('.custom-select-basic').select2();
 });
 
@@ -551,4 +551,49 @@ $(function () {
         draggable: false,
         prevNextButtons: false,
     });
+    $('.catalog-element-photo__elements-slider').flickity({
+        asNavFor: ".catalog-element-photo__main-slider",
+        contain: true,
+        pageDots: false,
+        imagesLoaded: true,
+        prevNextButtons: true,
+        groupCells: true,
+    });
+    $('.photo-gallery-slider').flickity({
+        contain: true,
+        pageDots: false,
+        prevNextButtons: true,
+        groupCells: true,
+        lazyLoad: true,
+    });
+})
+
+$(function () {
+    $('.cat-el-variety__item input[type=radio]').on('click', function () {
+        let ths = $(this),
+            parent = ths.parents('.cat-el-variety'),
+            title = parent.find('.cat-el-variety__current');
+        title.text(ths.val());
+    })
+})
+
+$(function () {
+    $('.custom-input-basic button').on('click', function () {
+        let ths = $(this),
+            container = ths.parents('.custom-input-basic'),
+            input = container.find('input'),
+            step = container.data('step');
+        let number = input.val() ? Number(input.val()) : 0;
+        if (ths.hasClass('plus')) {
+            number += step;
+        } else if (ths.hasClass('minus') && number > 1) {
+            number -= step;
+        }
+        input.val(number);
+    })
+    $('.custom-input-basic input').on('change', function () {
+        if (Number($(this).val()) < 0) {
+            $(this).val('0');
+        }
+    })
 })

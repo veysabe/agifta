@@ -12,16 +12,16 @@
                         <div class="login-form-content">
                             <div class="h4 mb-4">Вход в личный кабинет</div>
                             <form class="login-form__form">
-                                <div class="login-form__row">
+                                <div class="form-row">
                                     <label>
-                                        <input type="email" name="user_email" data-label="email"
+                                        <input type="text" name="" data-label=""
                                                class="label-input" data-req="true">
                                         <span class="label-input-label">E-mail</span>
                                     </label>
                                 </div>
-                                <div class="login-form__row">
+                                <div class="form-row">
                                     <label>
-                                        <input type="password" name="user_password" data-label="password"
+                                        <input type="password" name="" data-label=""
                                                class="label-input" data-req="true">
                                         <span class="label-input-label">Пароль</span>
                                     </label>

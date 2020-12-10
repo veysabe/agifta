@@ -509,3 +509,71 @@
     }
   }
 }
+
+.custom-input-basic {
+  display: inline-flex;
+  justify-content: stretch;
+  align-items: center;
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+  }
+  font-size: 20px;
+  input {
+    width: 50px;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    background: transparent;
+    font-weight: bold;
+    &:focus {
+      outline: none;
+    }
+  }
+  vertical-align: top;
+  position: relative;
+  button {
+    font-size: 20px;
+    padding: 0 16px;
+    font-weight: bold;
+    color: $gray-text;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  border: 1px solid transparentize($gray-text, 0.8);
+  border-radius: 18.5px;
+}
+
+.info-hover {
+  & + span {
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 4px;
+    width: 400px;
+    font-weight: normal;
+    text-transform: none;
+    z-index: 5;
+    top: -100%;
+    left: 105%;
+    &:before {
+      content: '';
+      position: absolute;
+      border: 5px solid transparent;
+      border-right: 5px solid white;
+      left: -10px;
+      top: 18px;
+      transform: translate(0, -50%);
+    }
+  }
+  &:hover + span {
+    display: inline;
+  }
+}

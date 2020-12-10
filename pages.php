@@ -18,4 +18,6 @@
     <a href="personal-info.php">Информация</a>
     <a href="requisites.php">Реквизиты</a>
     <a href="register.php">Регистрация</a>
+    <a href="catalog.php">Каталог</a>
+    <a href="catalog-section.php">Каталог бумажных ручек</a>
 </div>

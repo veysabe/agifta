@@ -338,6 +338,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .info {
+      font-size: 14px;
+      line-height: 1;
+      color: $gray-text;
+    }
 
     .show-order-content {
       position: relative;

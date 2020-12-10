@@ -23,6 +23,15 @@ i {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+.i-handle:before {
+	content: "\e91b";
+}
+.i-information:before {
+	content: "\e91a";
+}
+.i-bell:before {
+	content: "\e919";
+}
 .i-cross:before {
 	content: "\e918";
 }

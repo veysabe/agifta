@@ -366,7 +366,7 @@
         <div class="container">
             <div class="row">
                 <div class="grid-6 grid-12_l">
-                    <div class="catalog-section-video-block testimonial">
+                    <div class="catalog-section-video-block testimonial right">
                         <div class="video">
                             <div class="youtube-video-frame" data-src="https://www.youtube.com/embed/hg7NX2hOIlY?autoplay=1"></div>
                             <div class="catalog-section-video__video"

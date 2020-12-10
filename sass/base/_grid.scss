@@ -37,10 +37,12 @@
 	position: relative;
 	padding-left: 16px;
 	padding-right: 16px;
-}
-
-.container--small {
-	max-width: 620px;
+	&--wide {
+		max-width: 1700px;
+	}
+	&--small {
+		max-width: 620px;
+	}
 }
 
 .row {
