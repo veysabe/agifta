@@ -36,6 +36,9 @@
     padding: 25px;
     background: white;
     border-radius: 20px;
+    @include res(l) {
+      padding: 16px;
+    }
   }
 
   &-total {

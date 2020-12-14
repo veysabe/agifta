@@ -6,9 +6,11 @@
       background: $orange;
     }
   }
+
   .main-banner__button {
     display: flex;
     align-items: center;
+
     .btn {
       margin-left: 80px;
       position: relative;
@@ -18,9 +20,11 @@
       }
     }
   }
+
   .main-banner__content {
     width: 60%;
   }
+
   .main-banner__additional-image.cat {
     position: relative;
     width: 100%;
@@ -33,6 +37,7 @@
     @include res(s) {
       top: 240px;
     }
+
     img {
       position: absolute;
       right: 0;
@@ -43,17 +48,20 @@
       }
     }
   }
+
   .scratch-banner__action {
     font-size: 24px;
     @include res(l) {
       font-size: 18px;
     }
+
     &-timer {
       @include res(l) {
         display: none;
       }
     }
   }
+
   .action {
     &-current {
       padding: 5px;
@@ -62,9 +70,11 @@
       font-weight: bold;
       text-transform: uppercase;
     }
+
     &-old {
       font-weight: bold;
       position: relative;
+
       &:before {
         content: '';
         position: absolute;
@@ -83,35 +93,47 @@
   .big-title {
     line-height: 1;
   }
+
   .scratch-faq {
     display: flex;
     margin: 0 -24px;
+
     & > * {
       padding: 0 24px;
     }
   }
+
   .scratch-faq-block {
     width: 50%;
     @include res(l) {
       width: 100%;
     }
+    *:focus {
+      outline: none;
+    }
+
     h3 {
       margin-top: 30px;
       cursor: pointer;
+
       &:active {
         outline: none;
         border: none;
       }
     }
+
     div {
-      margin: 20px 0;
+      padding: 20px 0;
     }
   }
+
   .scratch-faq-image {
     width: 50%;
+
     img {
       width: 100%;
     }
+
     @include res(l) {
       display: none;
     }
@@ -128,22 +150,27 @@
       flex-direction: column;
       width: 100%;
       margin-top: 24px;
+
       &-wrap {
         display: flex;
         height: 100%;
       }
+
       &__info {
         display: flex;
         justify-content: space-between;
         font-weight: bold;
       }
+
       &__date {
         font-size: 14px;
       }
+
       &__name {
         font-size: 24px;
         line-height: 1;
       }
+
       &__photo {
         display: flex;
         align-items: center;
@@ -152,10 +179,12 @@
         border-radius: 50%;
         width: 75px;
         height: 75px;
+
         img {
           height: 100%;
         }
       }
+
       &__text {
         font-size: 14px;
         margin-top: 20px;
@@ -180,6 +209,7 @@
   @include res(l) {
     background: #11161e;
   }
+
   &__item {
     font-size: 18px;
     margin-top: 50px;
@@ -188,12 +218,14 @@
       font-size: 16px;
       margin-top: 25px;
     }
+
     &:before {
       content: '';
       border-radius: 50%;
       opacity: 0;
       transition: .3s all ease-in-out;
     }
+
     &__image {
       border-radius: 20px;
       overflow: hidden;
@@ -201,13 +233,16 @@
       align-items: center;
       justify-content: center;
       height: 140px;
+
       img {
         width: 100%;
       }
     }
   }
+
   &-radio {
     display: none;
+
     &:checked + .scratch-apply__item:before {
       opacity: 1;
       display: flex;
@@ -224,6 +259,7 @@
       box-shadow: $shadow-block;
     }
   }
+
   &__form {
     &__row {
       & + & {
@@ -232,6 +268,7 @@
           margin-top: 20px;
         }
       }
+
       .input-text {
         width: 100%;
       }

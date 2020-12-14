@@ -6,13 +6,13 @@
             <div class="container">
                 <div class="h1">Оформление заказа</div>
                 <div class="row">
-                    <div class="grid-8">
+                    <div class="grid-8 grid-12_l">
                         <div class="checkout-subtitle mt-2">
                             <div class="subtitle">
                                 Ускорьте процесс оформления, зайдите в свой личный кабинет, и данные,<br>
                                 занесенные ранее будутавтоматически подставлены в соответствующие поля
                             </div>
-                            <div class="">
+                            <div class="mt-3-l">
                                 <a href="#" class="btn btn--gray">Войти в личный кабинет</a>
                             </div>
                         </div>
@@ -34,7 +34,7 @@
                                                 <div class="radio-radio"></div>
                                                 <span>Физическое лицо</span>
                                             </label>
-                                            <label class="custom-radio ml-6 mrem-s">
+                                            <label class="custom-radio ml-6 ml-rem-l mt-2-l">
                                                 <input type="radio" name="type">
                                                 <div class="radio-radio"></div>
                                                 <span>Юридическое лицо</span>
@@ -145,7 +145,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="grid-5 grid-12_l">
+                                        <div class="grid-5 grid-12_l mt-3-l">
                                             <div class="checkout-tiles__current">
                                                 <div class="ch-tiles__cur-content">
                                                     <div class="text-bold">
@@ -227,7 +227,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="grid-5 grid-12_l">
+                                        <div class="grid-5 grid-12_l mt-3-l">
                                             <div class="checkout-tiles__current">
                                                 <div class="ch-tiles__cur-content">
                                                     <div class="text-bold">
@@ -278,29 +278,127 @@
                                             </label>
                                         </div>
                                         <div class="form-row">
-                                            <label>
+                                            <label class="custom-file-input">
                                                 <input type="file" name="" data-label=""
-                                                       class="label-input label-input--gray" data-req="true">
+                                                       class="" data-req="true">
+                                                Добавить логотип к заказу (.pdf, .cdr, .eps, .svg, .jpg, .png)
                                             </label>
                                         </div>
                                         <div class="form-row">
-                                            <textarea></textarea>
+                                            <textarea class="custom-textarea"
+                                                      placeholder="Комментарий к заказу"></textarea>
                                         </div>
                                     </form>
                                 </div>
                             </div>
                             <h3 class="my-3">5. Товары в заказе</h3>
                             <div class="basket-wrap">
-
+                                <div class="checkout-items">
+                                    <div class="checkout-item">
+                                        <div class="ch-item__image-title">
+                                            <img src="/img/catalog/black-pen.png" alt="">
+                                            <span class="ml-2">Черная бумажная ручка</span>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Артикул</p>
+                                            <div>101UV</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Цвет</p>
+                                            <div>Чёрный</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Печать</p>
+                                            <div>УФ-печать</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Нанесение</p>
+                                            <div>1 сторона</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Цена</p>
+                                            <div>3 900 Р</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Количество</p>
+                                            <div>100 шт.</div>
+                                        </div>
+                                    </div>
+                                    <div class="checkout-item">
+                                        <div class="ch-item__image-title">
+                                            <img src="/img/catalog/red-pen.png" alt="">
+                                            <span class="ml-2">Красная бумажная ручка</span>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Артикул</p>
+                                            <div>101UV</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Цвет</p>
+                                            <div>Чёрный</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Печать</p>
+                                            <div>УФ-печать</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Нанесение</p>
+                                            <div>1 сторона</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Цена</p>
+                                            <div>3 900 Р</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Количество</p>
+                                            <div>100 шт.</div>
+                                        </div>
+                                    </div>
+                                    <div class="checkout-item">
+                                        <div class="ch-item__image-title">
+                                            <img src="/img/catalog/purple-pen.png" alt="">
+                                            <span class="ml-2">Сиреневая бумажная ручка</span>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Артикул</p>
+                                            <div>101UV</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Цвет</p>
+                                            <div>Чёрный</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Печать</p>
+                                            <div>УФ-печать</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Нанесение</p>
+                                            <div>1 сторона</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Цена</p>
+                                            <div>3 900 Р</div>
+                                        </div>
+                                        <div class="ch-item__point">
+                                            <p>Количество</p>
+                                            <div>100 шт.</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="mt-3">
-                                <label class="style-check-ios">
-                                    <input type="checkbox" name="user_policy" data-label="Согласен с условиями"
-                                           value="yes" data-req="true" checked="">
-                                    <span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;
-                                    <a href="#">условиями политики конфиденциальности</a>
-                                </span>
-                                </label>
+                                <div class="row">
+                                    <div class="grid-8 grid-12_l"><label class="style-check-ios">
+                                            <input type="checkbox" name="user_policy" data-label="Согласен с условиями"
+                                                   value="yes" data-req="true" checked="">
+                                            <span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;
+                                            <a href="#">условиями политики конфиденциальности</a>
+                                        </span>
+                                        </label></div>
+                                    <div class="grid-4 grid-12_l mt-3-l">
+                                        <a href="#" class="btn btn--purple w-100">Оформить заказ</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="grid-1"></div>
@@ -316,26 +414,14 @@
                                         <div>В том числе НДС</div>
                                         <div class="nds-total-value">67 140 Р</div>
                                     </div>
-                                    <div class="basket-total-promocode mt-3">
-                                        <p>Есть промокод</p>
-                                        <div class="form-row">
-                                            <label>
-                                                <input type="text" name="" data-label=""
-                                                       class="label-input label-input--small label-input--gray"
-                                                       data-req="true" placeholder="Введите промокод">
-                                            </label>
-                                        </div>
+                                    <div class="basket-total-row subtitle">
+                                        <div>Доставка</div>
+                                        <div class="nds-total-value">Бесплатно</div>
                                     </div>
                                     <div class="divider"></div>
                                     <div class="basket-total-row mb-3">
                                         <div class="h4">Итого</div>
-                                        <div class="h4">300 000 Р</div>
-                                    </div>
-                                    <div>
-                                        <a href="#" class="btn btn--purple w-100">Оформить заказ</a>
-                                    </div>
-                                    <div class="w-100 mt-1">
-                                        <a href="#" class="d-flex flex-middle purple-link">Продолжить покупки</a>
+                                        <div class="h4">335 700 Р</div>
                                     </div>
                                 </div>
                             </div>

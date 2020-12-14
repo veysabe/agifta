@@ -305,9 +305,19 @@
         margin-bottom: 10px * $i !important;
       }
     }
+    .mb-rem-#{$breakpoint} {
+      @include res(#{$breakpoint}) {
+        margin-bottom: 0 !important;
+      }
+    }
     .mt-#{$i}-#{$breakpoint} {
       @include res(#{$breakpoint}) {
         margin-top: 10px * $i !important;
+      }
+    }
+    .mt-rem-#{$breakpoint} {
+      @include res(#{$breakpoint}) {
+        margin-top: 0 !important;
       }
     }
     .ml-#{$i}-#{$breakpoint} {
@@ -315,9 +325,19 @@
         margin-left: 10px * $i !important;
       }
     }
+    .ml-rem-#{$breakpoint} {
+      @include res(#{$breakpoint}) {
+        margin-left: 0 !important;
+      }
+    }
     .mr-#{$i}-#{$breakpoint} {
       @include res(#{$breakpoint}) {
         margin-right: 10px * $i !important;
+      }
+    }
+    .mr-rem-#{$breakpoint} {
+      @include res(#{$breakpoint}) {
+        margin-right: 0 !important;
       }
     }
     .my-#{$i}-#{$breakpoint} {
@@ -397,9 +417,9 @@
 .label-input {
   border: none;
   outline: none;
-  padding: 30px 40px 15px 40px;
+  padding: 20px 40px 10px 40px;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   width: 100%;
   position: relative;
@@ -419,7 +439,7 @@
     top: 50%;
     left: 40px;
     transform: translate(0, -50%);
-    font-size: 20px;
+    font-size: 16px;
     color: $gray-text;
     transition: .3s all ease-in-out;
     cursor: text;
@@ -607,6 +627,69 @@
     button {
       font-weight: normal;
     }
+  }
+}
+
+.custom-file-input {
+  padding: 15px 40px;
+  border-radius: 30px;
+  border: 1px solid transparentize($gray-text, .8);
+  width: 100%;
+  display: flex;
+  position: relative;
+  color: $gray-text;
+  input {
+    display: none;
+  }
+  &:after {
+    position: absolute;
+    content: 'Отправить';
+    right: 0;
+    top: 0;
+    padding: 15px 40px;
+    border: 2px solid $gray-text;
+    border-radius: 0 30px 30px 0;
+    font-weight: bold;
+    color: $gray-text;
+  }
+  @include res(l) {
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 30px 30px 0 0;
+    margin-bottom: 40px;
+    &:after {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: -2px;
+      bottom: 0;
+      top: calc(100% - 2px);
+      border-radius: 0 0 30px 30px;
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
+.custom-textarea {
+  border: 1px solid transparentize($gray-text, .8);
+  border-radius: 30px;
+  padding: 15px 40px;
+  font-size: 16px;
+  color: $gray-text;
+  font-family: inherit;
+  resize: none;
+  &::placeholder {
+    color: $gray-text;
+  }
+  &:focus {
+    outline: none;
+  }
+  width: 100%;
+  height: 200px;
+  @include res(l) {
+    font-size: 14px;
+    padding: 12px 20px;
   }
 }
 
