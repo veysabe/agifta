@@ -95,3 +95,19 @@
     }
   }
 }
+
+.reviews-slider {
+  .reviews-block {
+    width: 100%;
+  }
+  .reviews-block-wrap {
+    width: 100%;
+    padding: 30px;
+    @include res(s) {
+      padding: 0;
+      * {
+        box-shadow: none !important;
+      }
+    }
+  }
+}

@@ -50,12 +50,15 @@
     background-image: url(../img/login/badge-bg.png);
     background-position: 0 150%;
     background-repeat: no-repeat;
+
     &.no-bg {
       background-image: none;
+
       .login-block-badge-content {
         padding: 35px;
       }
     }
+
     @include res(l) {
       margin-top: 35px;
       background: white;
@@ -136,7 +139,7 @@
   &-manager {
     &-info {
       display: flex;
-      margin: 0 -35px;
+      margin-left: -35px;
       @include res(l) {
         margin: 0;
       }
@@ -301,6 +304,10 @@
       }
 
       &__tracking {
+        @include res(l) {
+          display: flex;
+          flex-direction: column;
+        }
         a {
           color: $purple-hover;
           text-decoration: underline;
@@ -338,6 +345,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    i {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     .info {
       font-size: 14px;
       line-height: 1;
@@ -373,7 +392,7 @@
         transform: rotate(90deg);
       }
 
-      @include res(xl) {
+      @include res(m) {
         width: 100%;
       }
     }
@@ -388,17 +407,33 @@
       }
     }
 
-    @include res(xl) {
+    @include res(m) {
       .btn {
         & + .btn {
-          margin: {
-            top: 15px;
-          }
         }
 
         width: 100%;
       }
+    }
+    @include res(m) {
       flex-direction: column;
+    }
+
+    &-wrap {
+      display: flex;
+      @include res(m) {
+        width: 100%;
+      }
+      @include res(s) {
+        flex-direction: column;
+      }
+
+      .btn--purple {
+        margin-right: 20px;
+        @include res(s) {
+          margin-bottom: 20px;
+        }
+      }
     }
   }
 }
@@ -457,6 +492,7 @@
       &.black {
         background: black;
       }
+
       &.red {
         background: $selling-red;
       }
@@ -470,15 +506,18 @@
     margin-bottom: 50px;
     border-bottom: 2px solid transparentize($gray-text, 0.7);
   }
+
   &-element {
     .title {
       line-height: 1;
       font-size: 14px;
       color: $gray-text;
     }
+
     .value {
       font-size: 20px;
     }
+
     & + & {
       margin-top: 30px;
       @include res(l) {
@@ -486,6 +525,7 @@
       }
     }
   }
+
   &-add-info {
     &__title {
       color: $gray-text;
@@ -502,12 +542,15 @@
 .edit-links {
   display: flex;
   font-size: 14px;
+
   .edit {
     color: $purple-hover;
   }
+
   .delete {
     color: $selling-red;
   }
+
   i {
     padding-right: 10px;
   }

@@ -4,7 +4,7 @@
         <div class="faq-detail-content">
             <div class="container">
                 <div class="row detailed-article-wrap">
-                    <div class="grid-8 grid-12_xl flex-first-xl">
+                    <div class="grid-8 grid-12_xl">
                         <div class="detailed-article">
                             <div class="title">
                                 Какие технологии мы используем?
@@ -16,66 +16,62 @@
                                 Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
                                 justo commodo. Proin sodales pulvinar sic tempor.
                             </p>
-                            <div class="subtitle">Подзаголовок</div>
-                            <p class="text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
-                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
-                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
-                                mollis orci, sed rhoncus pronin sapien nunc accuan eget.
-                            </p>
-                            <div class="image">
-                                <img src="img/faq/detail/1.png">
-                                <p class="image__desc">Фото:
-                                    https://print-luxlite.ru/services/tampopechat-na-produktsii/</p>
-                            </div>
-                            <div class="subtitle">Подзаголовок</div>
-                            <p class="text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
-                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
-                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
-                                mollis orci, sed rhoncus pronin sapien nunc accuan eget.
-                            </p>
-                            <p class="text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
-                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
-                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
-                                mollis orci, sed rhoncus pronin sapien nunc accuan eget.
-                            </p>
-                            <div class="image">
-                                <img src="img/faq/detail/2.png">
-                                <p class="image__desc">Фото:
-                                    https://print-luxlite.ru/services/tampopechat-na-produktsii/</p>
-                            </div>
-                            <p class="text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
-                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
-                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
-                                mollis orci, sed rhoncus pronin sapien nunc accuan eget.
-                            </p>
-                            <p class="text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
-                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
-                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
-                                mollis orci, sed rhoncus pronin sapien nunc accuan eget.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
-                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
-                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
-                                mollis orci, sed rhoncus pronin sapien nunc accuan eget.
-                            </p>
+<!--                            <h3>Подзаголовок</h3>-->
+<!--                            <p>-->
+<!--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum-->
+<!--                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin-->
+<!--                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,-->
+<!--                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus-->
+<!--                                mollis orci, sed rhoncus pronin sapien nunc accuan eget.-->
+<!--                            </p>-->
+<!--                            <img alt="https://print-luxlite.ru/services/tampopechat-na-produktsii/"-->
+<!--                                 src="img/faq/detail/1.png"-->
+<!--                                 title="https://print-luxlite.ru/services/tampopechat-na-produktsii/">-->
+<!--                            <h3>Подзаголовок</h3>-->
+<!--                            <p>-->
+<!--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum-->
+<!--                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin-->
+<!--                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,-->
+<!--                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus-->
+<!--                                mollis orci, sed rhoncus pronin sapien nunc accuan eget.-->
+<!--                            </p>-->
+<!--                            <p>-->
+<!--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum-->
+<!--                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin-->
+<!--                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,-->
+<!--                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus-->
+<!--                                mollis orci, sed rhoncus pronin sapien nunc accuan eget.-->
+<!--                            </p>-->
+<!--                            <img alt="Фото: https://print-luxlite.ru/services/tampopechat-na-produktsii/"-->
+<!--                                 src="img/faq/detail/2.png"-->
+<!--                                 title="Фото: https://print-luxlite.ru/services/tampopechat-na-produktsii/">-->
+<!--                            <p>-->
+<!--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum-->
+<!--                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin-->
+<!--                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,-->
+<!--                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus-->
+<!--                                mollis orci, sed rhoncus pronin sapien nunc accuan eget.-->
+<!--                            </p>-->
+<!--                            <p>-->
+<!--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum-->
+<!--                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin-->
+<!--                                sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes,-->
+<!--                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus-->
+<!--                                mollis orci, sed rhoncus pronin sapien nunc accuan eget. Lorem ipsum dolor sit amet,-->
+<!--                                consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit-->
+<!--                                amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis-->
+<!--                                natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam-->
+<!--                                fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin-->
+<!--                                sapien nunc accuan eget.<br>-->
+<!--                            </p>-->
                         </div>
                     </div>
                     <div class="grid-1"></div>
                     <div class="grid-3 grid-12_xl mb-3-xl">
-                        <div class="faq-detail-badge">
-                            <div class="faq-detail-badge__accordion">
+                        <div class="detail-badge fixed-pos" data-parent="detailed-article-wrap">
+                            <div class="detail-badge__accordion">
                                 <h3><i class="i-factory"></i>Производство</h3>
-                                <div class="faq-detail-badge__accordion__content">
+                                <div class="detail-badge__accordion__content">
                                     <div class="custom-list custom-list--count">
                                         <ol>
                                             <li class="active">
@@ -117,7 +113,7 @@
                                     </div>
                                 </div>
                                 <h3><i class="i-sell"></i>Продажа</h3>
-                                <div class="faq-detail-badge__accordion__content">
+                                <div class="detail-badge__accordion__content">
                                     <div class="custom-list custom-list--count">
                                         <ol>
                                             <li class="active">
@@ -159,7 +155,7 @@
                                     </div>
                                 </div>
                                 <h3><i class="i-delivery"></i>Доставка</h3>
-                                <div class="faq-detail-badge__accordion__content">
+                                <div class="detail-badge__accordion__content">
                                     <div class="custom-list custom-list--count">
                                         <ol>
                                             <li class="active">

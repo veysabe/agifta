@@ -8,7 +8,7 @@
 <!--            производству. Доставляем курьером до двери или в ближайший пункт выдачи.-->
 <!--        </div>-->
 <!--        <div class="main-banner__button"></div>-->
-<!--        <img src="/img/delivery/van.png" alt="intro" class="main-banner__additional-image van">-->
+<!--        <img src="img/delivery/van.png" alt="intro" class="main-banner__additional-image van">-->
 <!--    </div>-->
 <!--</section>-->
 
@@ -24,14 +24,14 @@
             <div class="main-banner__button"></div>
         </div>
     </div>
-    <img src="/img/delivery/van.png" alt="intro" class="main-banner__additional-image van">
+    <img src="img/delivery/van.png" alt="intro" class="main-banner__additional-image van">
 </section>
 
 <section class="pay-info s-def">
     <div class="container">
         <div class="big-title sec-title">Оплата</div>
         <div class="info-block row">
-            <div class="info-block__content grid-6 grid-12_l">
+            <div class="info-block__content grid-6 grid-12_m">
                 <div class="info-block__content__text">Оплатить заказ можно <strong>двумя способами</strong>:</div>
                 <div class="custom-list custom-list--purple">
                     <ul>
@@ -49,10 +49,10 @@
                     правок, сколько нужно.
                 </div>
             </div>
-            <div class="notice-badge grid-6 grid-12_l">
+            <div class="notice-badge grid-6 grid-12_m">
                 <div class="notice-badge__content">
                     <div class="notice-badge__title h3">
-                        <img src="/img/bell.svg" alt="">
+                        <img src="img/bell.svg" alt="">
                         <div>Важная информация</div>
                     </div>
                     <div class="notice-badge__text">
@@ -69,7 +69,7 @@
     <div class="container">
         <div class="big-title sec-title">Доставка</div>
         <div class="info-block row">
-            <div class="info-block__content grid-6 grid-12_l">
+            <div class="info-block__content grid-6 grid-12_m">
                 <div class="info-block__content__text">Доставить заказ можно <strong>тремя способами</strong>:</div>
                 <div class="custom-list custom-list--purple">
                     <ul>
@@ -103,10 +103,10 @@
                     </a>
                 </div>
             </div>
-            <div class="notice-badge grid-6 grid-12_l">
+            <div class="notice-badge grid-6 grid-12_m">
                 <div class="notice-badge__content">
                     <div class="notice-badge__title h3">
-                        <img src="/img/bell.svg" alt="">
+                        <img src="img/bell.svg" alt="">
                         <div>Важная информация</div>
                     </div>
                     <div class="notice-badge__text">
@@ -119,7 +119,7 @@
 </section>
 <section class="s-home-subscribe s-def">
     <div class="container home-subscribe">
-        <img src="/img/home/subscribe-bg.jpg" alt="img" class="home-subscribe__img">
+        <img src="img/home/subscribe-bg.jpg" alt="img" class="home-subscribe__img">
 
         <div class="h1 home-subscribe__title">Узнавайте о новинках первыми!</div>
         <div class="home-subscribe__descr">Подпишись на нашу новостную рассылку. Мы против спама и воды.<br>Только за

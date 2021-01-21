@@ -24,7 +24,7 @@
     <meta property="og:title" content="Шаблон проекта">
     <meta property="og:description" content="Описание проекта">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="/img/og.jpg">
+    <meta property="og:image" content="img/og.jpg">
     <!-- og -->
 
     <link href="css/main.css" rel="stylesheet">
@@ -40,7 +40,7 @@
 
         <div class="site-header-top">
             <a href="/" class="site-header-top__logo">
-                <img src="/img/logo.svg" alt="logotype">
+                <img src="img/logo.svg" alt="logotype">
                 <span class="site-header-top__descr">Сувенирная продукция с&nbsp;вашим логотипом</span>
             </a>
             <nav class="site-header-top__nav">
@@ -68,7 +68,7 @@
                 <a href="#">Бумажные карандаши</a>
             </nav>
             <div class="site-header-user">
-                <a href="#" class="site-header-user__lk">Кабинет</a>
+                <a href="#" class="site-header-user__lk">Вход</a>
                 <a href="#" class="site-header-user__cart">
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="50" viewBox="0 0 44.79 50" fill="#FFF">
                         <path d="M44.76,43.73l-3.54-30.4A1.5,1.5,0,0,0,39.73,12H32.26V10a10,10,0,1,0-20,0v2H5.07a1.5,1.5,0,0,0-1.49,1.33L0,43.73a5.65,5.65,0,0,0,1.38,4.4A5.57,5.57,0,0,0,5.58,50H39.22a5.56,5.56,0,0,0,4.15-1.87A5.65,5.65,0,0,0,44.76,43.73ZM15.26,10a7,7,0,0,1,14,0v2h-14ZM41.13,46.14a2.55,2.55,0,0,1-1.91.86H5.58a2.53,2.53,0,0,1-1.91-.86A2.63,2.63,0,0,1,3,44.08L6.4,15h5.86v2.5a1.5,1.5,0,0,0,3,0V15h14v2.5a1.5,1.5,0,1,0,3,0V15h6.13l3.39,29.08A2.66,2.66,0,0,1,41.13,46.14Z"/>
@@ -86,7 +86,7 @@
     <div class="container">
         <div class="site-header-mob">
             <a href="/" class="site-header-top__logo">
-                <img src="/img/logo.svg" alt="logotype">
+                <img src="img/logo.svg" alt="logotype">
             </a>
             <div class="site-header-user">
                 <a href="#" class="site-header-user__lk">Мой кабинет</a>

@@ -56,8 +56,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -76,8 +76,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -96,8 +96,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -116,8 +116,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -136,8 +136,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -156,8 +156,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -176,8 +176,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -196,8 +196,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -216,8 +216,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -236,8 +236,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -256,8 +256,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -276,8 +276,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -296,8 +296,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -316,8 +316,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -336,8 +336,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -356,8 +356,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -388,7 +388,7 @@
                         <div class="video">
                             <div class="youtube-video-frame" data-src="https://www.youtube.com/embed/hg7NX2hOIlY?autoplay=1"></div>
                             <div class="catalog-section-video__video"
-                                 style="background-image: url(/img/catalog/section-preview.png)">
+                                 style="background-image: url(img/catalog/section-preview.png)">
                             </div>
                             <div class="video-play">
                                 <div class="btn btn--round btn--white btn--play">

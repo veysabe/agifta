@@ -1,6 +1,7 @@
 .main-banner {
   position: relative;
-  height: 670px;
+  height: 700px;
+  background-repeat: no-repeat;
   @include res(xl) {
     height: auto;
   }
@@ -27,6 +28,9 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    @include res(xl) {
+      width: 50%;
+    }
   }
 
   &__title {
@@ -71,7 +75,7 @@
       top: -10%;
       max-width: 50%;
       @include res(xl) {
-        top: 0;
+        top: -150px;
       }
       @include res(l) {
         top: 15%;
@@ -91,33 +95,38 @@
     &.handles {
       right: 0;
       top: -20%;
-      max-width: 50%;
+      width: 50%;
       @include res(xl) {
         top: 0;
+        width: 35%;
+        right: 15%;
       }
       @include res(l) {
         top: 15%;
+        width: 50%;
+        right: 0;
       }
       @include res(m) {
         top: auto;
         bottom: -40px;
+        width: 60%;
       }
       @include res(s) {
-        right: 13%;
-        max-width: 60%;
+        right: -20px;
+        width: 60%;
         bottom: -90px;
       }
       @include res(xxs) {
-        max-width: 80%;
+        width: 90%;
       }
     }
   }
 
   &.w-image {
     @include res(xl) {
-      height: 670px;
+      height: 400px;
       .main-banner__content {
-        height: 560px;
+        height: 400px;
       }
     }
     @include res(m) {
@@ -178,6 +187,11 @@
         &:hover {
           color: $purple-hover;
         }
+        @include res(m) {
+          span {
+            opacity: 0;
+          }
+        }
       }
     }
 
@@ -209,13 +223,18 @@
       }
     }
 
-    .subtitle {
+    h3 {
+      color: $gray-text;
       font-weight: bold;
       font-size: 20px;
     }
 
-    .text {
+    p {
       margin: 10px 0;
+    }
+
+    img {
+      opacity: 0;
     }
 
     .image {
@@ -224,6 +243,7 @@
       img {
         border-radius: 20px;
         max-width: 100%;
+        opacity: 1;
       }
 
       &__desc {
@@ -234,5 +254,14 @@
         }
       }
     }
+  }
+}
+
+.fixed-pos {
+  //width: 100%;
+  &.fixed {
+    //width: auto;
+    position: fixed;
+    top: 30px;
   }
 }

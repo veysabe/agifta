@@ -4,7 +4,7 @@
 
 		<div class="site-footer-top">
 			<a href="/" class="site-footer-top__logo">
-				<img src="/img/logo.svg" alt="logotype">
+				<img src="img/logo.svg" alt="logotype">
 			</a>
 			<div class="breadcrumbs">
 				<a href="#">Каталог</a>
@@ -14,7 +14,7 @@
 		</div>
 
 		<div class="site-footer-middle">
-			<div class="site-footer-middle__col">
+			<div class="site-footer-middle__col visible-m">
 				<div class="site-footer-title">Каталог</div>
 				<nav class="site-footer-nav">
 					<a href="#">Бумажные ручки</a>
@@ -63,13 +63,13 @@
 				</div>
 				<div class="site-footer-socials">
 					<a href="#">
-						<img src="/img/icons/insta.svg" alt="insta">
+						<img src="img/icons/insta.svg" alt="insta">
 					</a>
 					<a href="#">
-						<img src="/img/icons/vk.svg" alt="vk">
+						<img src="img/icons/vk.svg" alt="vk">
 					</a>
 					<a href="#">
-						<img src="/img/icons/fb.svg" alt="fb">
+						<img src="img/icons/fb.svg" alt="fb">
 					</a>
 				</div>
 			</div>
@@ -90,7 +90,7 @@
 			<div class="site-footer-bottom__right">
 				<a href="https://penbrain.ru" target="_blank" class="penbrain">
 					<span>Дизайн<br>и разработка —</span>
-					<img src="/img/penbrain.svg" alt="penbrain">
+					<img src="img/penbrain.svg" alt="penbrain">
 				</a>
 			</div>
 		</div>

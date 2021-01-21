@@ -5,6 +5,24 @@
     @include res(l) {
       background: $orange;
     }
+    @include res(xl) {
+      @media (min-width: 1024px) {
+        height: 550px;
+        .main-banner__content {
+          height: 520px;
+          width: 65%;
+        }
+      }
+    }
+    @include res(s) {
+      height: 400px;
+    }
+  }
+
+  .main-banner__title {
+    br {
+      display: block !important;
+    }
   }
 
   .main-banner__button {
@@ -35,7 +53,6 @@
       top: 100px;
     }
     @include res(s) {
-      top: 240px;
     }
 
     img {
@@ -44,7 +61,10 @@
       bottom: 0;
       height: 100%;
       @include res(l) {
-        right: -200px;
+        height: auto;
+        max-width: 60%;
+        bottom: -10px;
+        //right: -200px;
       }
     }
   }
@@ -96,9 +116,11 @@
 
   .scratch-faq {
     display: flex;
-    margin: 0 -24px;
 
     & > * {
+      @include res(l) {
+        padding: 0;
+      }
       padding: 0 24px;
     }
   }
@@ -108,6 +130,7 @@
     @include res(l) {
       width: 100%;
     }
+
     *:focus {
       outline: none;
     }
@@ -194,6 +217,12 @@
         height: 100%;
       }
     }
+    .flickity-prev-next-button {
+      top: auto;
+    }
+    .flickity-viewport {
+      transition: .3s all ease-in-out;
+    }
   }
 }
 
@@ -204,7 +233,8 @@
 
 .scratch-apply {
   background-image: url("../img/scratch/apply-vectors-bg.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   padding-bottom: 100px;
   @include res(l) {
     background: #11161e;
@@ -263,9 +293,9 @@
   &__form {
     &__row {
       & + & {
-        margin-top: 40px;
+        margin-top: 20px;
         @include res(l) {
-          margin-top: 20px;
+          margin-top: 10px;
         }
       }
 

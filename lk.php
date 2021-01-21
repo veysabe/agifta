@@ -40,7 +40,7 @@
                                 <div class="personal-manager-data">
                                     <div class="personal-manager-data__general">
                                         <div class="personal-manager-photo">
-                                            <img src="/img/personal/manager.png">
+                                            <img src="img/personal/manager.png">
                                         </div>
                                         <div class="personal-manager-data__general__text">
                                             <div class="personal-manager-name h4">

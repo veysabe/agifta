@@ -37,8 +37,8 @@ $mail = new PHPMailer(true);
 
 try {
 	$mail->CharSet = 'utf-8';
-	$mail->setFrom('no-reply@mail.ru', 'Имя От Кого');
-	$mail->addAddress('andreiduffy@gmail.com');
+	$mail->setFrom('sale@bikstart.ru', 'Имя От Кого');
+	$mail->addAddress('pavel@bik-agency.ru');
 	$mail->isHTML(true);
 	$mail->Subject = $subject;
 	$mail->Body = $message;

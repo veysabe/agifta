@@ -1,3 +1,10 @@
+<style>
+    div a {
+        margin: 14px;
+    }
+</style>
+
+
 <div style="display: flex; flex-direction: column">
     <a href="index.php">Главная</a>
     <a href="about.php">О нас</a>
@@ -20,4 +27,7 @@
     <a href="register.php">Регистрация</a>
     <a href="catalog.php">Каталог</a>
     <a href="catalog-section.php">Каталог бумажных ручек</a>
+    <a href="catalog-element.php">Карточка товара</a>
+    <a href="basket.php">Корзина</a>
+    <a href="checkout.php">Оформление заказа</a>
 </div>

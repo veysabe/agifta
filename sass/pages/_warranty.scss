@@ -72,6 +72,9 @@
 .warranty-banner {
   &.main-banner {
     background-image: url(../img/warranty/banner-bg.png);
+    @include res(xl) {
+      background-position: top;
+    }
     @include res(m) {
       background: $cyan;
     }

@@ -5,7 +5,7 @@
     border-radius: 20px;
     &:hover{
       background: white;
-      box-shadow: $shadow-block;
+      box-shadow: 0 5px 10px 0 rgba(#6c81a0, 0.2);
     }
   }
   .flickity-slider {
@@ -17,4 +17,11 @@
 
 .blog-detail-content {
   overflow: hidden;
+}
+
+.blog-slider {
+  margin: 35px;
+  @include res(s) {
+    margin: 0;
+  }
 }

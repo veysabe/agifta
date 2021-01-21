@@ -96,7 +96,7 @@
                                                 <div class="ch-tiles__tile">
                                                     <div class="ch-tiles__tile-content">
                                                         <div class="ch-tiles__tile__img">
-                                                            <img src="/img/checkout/sdek.png">
+                                                            <img src="img/checkout/sdek.png">
                                                         </div>
                                                         <div class="ch-tiles__tile__title">
                                                             Самовывоз с пункта выдачи СДЭК 0 р.
@@ -106,7 +106,7 @@
                                                 <div class="ch-tiles__tile selected">
                                                     <div class="ch-tiles__tile-content">
                                                         <div class="ch-tiles__tile__img">
-                                                            <img src="/img/checkout/sdek.png">
+                                                            <img src="img/checkout/sdek.png">
                                                         </div>
                                                         <div class="ch-tiles__tile__title">
                                                             Доставка курьером СДЭК 500 р.
@@ -116,7 +116,7 @@
                                                 <div class="ch-tiles__tile">
                                                     <div class="ch-tiles__tile-content">
                                                         <div class="ch-tiles__tile__img">
-                                                            <img src="/img/checkout/russian-post.png">
+                                                            <img src="img/checkout/russian-post.png">
                                                         </div>
                                                         <div class="ch-tiles__tile__title">
                                                             В отделение Почты России
@@ -126,7 +126,7 @@
                                                 <div class="ch-tiles__tile">
                                                     <div class="ch-tiles__tile-content">
                                                         <div class="ch-tiles__tile__img">
-                                                            <img src="/img/checkout/samovivoz.png">
+                                                            <img src="img/checkout/samovivoz.png">
                                                         </div>
                                                         <div class="ch-tiles__tile__title">
                                                             Самовывоз с пункта выдачи СДЭК 0 р.
@@ -136,7 +136,7 @@
                                                 <div class="ch-tiles__tile">
                                                     <div class="ch-tiles__tile-content">
                                                         <div class="ch-tiles__tile__img">
-                                                            <img src="/img/checkout/courier.png">
+                                                            <img src="img/checkout/courier.png">
                                                         </div>
                                                         <div class="ch-tiles__tile__title">
                                                             Самовывоз с пункта выдачи СДЭК 0 р.
@@ -152,7 +152,7 @@
                                                         Доставка CDEK (Курьером до двери)
                                                     </div>
                                                     <div class="ch-tiles__cur__img">
-                                                        <img src="/img/checkout/sdek-big.png">
+                                                        <img src="img/checkout/sdek-big.png">
                                                     </div>
                                                     <div>
                                                         Доставка посылки курьером до двери получателя
@@ -178,7 +178,7 @@
                                                 <div class="ch-tiles__tile selected">
                                                     <div class="ch-tiles__tile-content">
                                                         <div class="ch-tiles__tile__img">
-                                                            <img src="/img/checkout/ya-kassa.png">
+                                                            <img src="img/checkout/ya-kassa.png">
                                                         </div>
                                                         <div class="ch-tiles__tile__title">
                                                             Яндекс.Касса
@@ -188,7 +188,7 @@
                                                 <div class="ch-tiles__tile">
                                                     <div class="ch-tiles__tile-content">
                                                         <div class="ch-tiles__tile__img">
-                                                            <img src="/img/checkout/bank-card.png">
+                                                            <img src="img/checkout/bank-card.png">
                                                         </div>
                                                         <div class="ch-tiles__tile__title">
                                                             Банковская карта
@@ -198,7 +198,7 @@
                                                 <div class="ch-tiles__tile">
                                                     <div class="ch-tiles__tile-content">
                                                         <div class="ch-tiles__tile__img">
-                                                            <img src="/img/checkout/check.png">
+                                                            <img src="img/checkout/check.png">
                                                         </div>
                                                         <div class="ch-tiles__tile__title">
                                                             Оформить счет без НДС
@@ -208,7 +208,7 @@
                                                 <div class="ch-tiles__tile">
                                                     <div class="ch-tiles__tile-content">
                                                         <div class="ch-tiles__tile__img">
-                                                            <img src="/img/checkout/cash.png">
+                                                            <img src="img/checkout/cash.png">
                                                         </div>
                                                         <div class="ch-tiles__tile__title">
                                                             Наличные курьеру
@@ -218,7 +218,7 @@
                                                 <div class="ch-tiles__tile">
                                                     <div class="ch-tiles__tile-content">
                                                         <div class="ch-tiles__tile__img">
-                                                            <img src="/img/checkout/percent.png">
+                                                            <img src="img/checkout/percent.png">
                                                         </div>
                                                         <div class="ch-tiles__tile__title">
                                                             Оформить счет с НДС
@@ -234,7 +234,7 @@
                                                         Оплата с Яндекс.Касса
                                                     </div>
                                                     <div class="ch-tiles__cur__img">
-                                                        <img src="/img/checkout/ya-kassa-big.png">
+                                                        <img src="img/checkout/ya-kassa-big.png">
                                                     </div>
                                                     <div>
                                                         Оплата онлайн с помощью карт Visa, MasterCard и МИР
@@ -296,7 +296,7 @@
                                 <div class="checkout-items">
                                     <div class="checkout-item">
                                         <div class="ch-item__image-title">
-                                            <img src="/img/catalog/black-pen.png" alt="">
+                                            <img src="img/catalog/black-pen.png" alt="">
                                             <span class="ml-2">Черная бумажная ручка</span>
                                         </div>
                                         <div class="ch-item__point">
@@ -326,7 +326,7 @@
                                     </div>
                                     <div class="checkout-item">
                                         <div class="ch-item__image-title">
-                                            <img src="/img/catalog/red-pen.png" alt="">
+                                            <img src="img/catalog/red-pen.png" alt="">
                                             <span class="ml-2">Красная бумажная ручка</span>
                                         </div>
                                         <div class="ch-item__point">
@@ -356,7 +356,7 @@
                                     </div>
                                     <div class="checkout-item">
                                         <div class="ch-item__image-title">
-                                            <img src="/img/catalog/purple-pen.png" alt="">
+                                            <img src="img/catalog/purple-pen.png" alt="">
                                             <span class="ml-2">Сиреневая бумажная ручка</span>
                                         </div>
                                         <div class="ch-item__point">
@@ -410,10 +410,10 @@
                                         <div>Итого</div>
                                         <div class="total-value">335 700 Р</div>
                                     </div>
-                                    <div class="basket-total-row subtitle">
-                                        <div>В том числе НДС</div>
-                                        <div class="nds-total-value">67 140 Р</div>
-                                    </div>
+<!--                                    <div class="basket-total-row subtitle">-->
+<!--                                        <div>В том числе НДС</div>-->
+<!--                                        <div class="nds-total-value">67 140 Р</div>-->
+<!--                                    </div>-->
                                     <div class="basket-total-row subtitle">
                                         <div>Доставка</div>
                                         <div class="nds-total-value">Бесплатно</div>

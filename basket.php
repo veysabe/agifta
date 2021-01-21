@@ -14,7 +14,7 @@
                             <div class="basket-items">
                                 <div class="basket-item">
                                     <div class="basket-item__image">
-                                        <img src="/img/catalog/black-pen.png" alt="">
+                                        <img src="img/catalog/black-pen.png" alt="">
                                     </div>
                                     <div class="basket-item__title">
                                         <p>Черная бумажная ручка</p>
@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="basket-item">
                                     <div class="basket-item__image">
-                                        <img src="/img/catalog/red-pen.png" alt="">
+                                        <img src="img/catalog/red-pen.png" alt="">
                                     </div>
                                     <div class="basket-item__title">
                                         <p>Красная бумажная ручка</p>
@@ -72,7 +72,7 @@
                                 </div>
                                 <div class="basket-item">
                                     <div class="basket-item__image">
-                                        <img src="/img/catalog/purple-pen.png" alt="">
+                                        <img src="img/catalog/purple-pen.png" alt="">
                                     </div>
                                     <div class="basket-item__title">
                                         <p>Сиреневая бумажная ручка</p>
@@ -111,10 +111,10 @@
                                     <div>Итого</div>
                                     <div class="total-value">335 700 Р</div>
                                 </div>
-                                <div class="basket-total-row subtitle">
-                                    <div>В том числе НДС</div>
-                                    <div class="nds-total-value">67 140 Р</div>
-                                </div>
+<!--                                <div class="basket-total-row subtitle">-->
+<!--                                    <div>В том числе НДС</div>-->
+<!--                                    <div class="nds-total-value">67 140 Р</div>-->
+<!--                                </div>-->
                                 <div class="basket-total-promocode mt-3">
                                     <p>Есть промокод</p>
                                     <div class="form-row">

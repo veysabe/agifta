@@ -32,7 +32,7 @@
   &.main-banner {
     background-image: url(../img/delivery/banner-bg.png);
     @include res(m) {
-      background: #dc00a4;
+      background: $purple;
     }
     .main-banner__additional-image {
       &.van {
@@ -44,7 +44,7 @@
         }
         @include res(m) {
           max-width: 100%;
-          bottom: -130px;
+          bottom: -60px;
         }
         @include res(xs) {
           bottom: -120px;

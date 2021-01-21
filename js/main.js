@@ -1,93 +1,93 @@
 /***********************
  Отправка формы в php BEGIN
  ***********************/
-$(function () {
-    $(".ajax-form").on("submit", function (event) {
-        const form = $(this);
-        const submitBtn = form.find('.btn');
-        let send = true;
-        event.preventDefault();
-
-        $(this).find("[data-req='true']").each(function () {
-            if ($(this).val() === "") {
-                $(this).addClass('error');
-                send = false;
-            }
-            if ($(this).is('select')) {
-                if ($(this).val() === null) {
-                    $(this).addClass('error');
-                    send = false;
-                }
-            }
-            if ($(this).is('input[type="checkbox"]')) {
-                if ($(this).prop('checked') !== true) {
-                    $(this).addClass('error');
-                    send = false;
-                }
-            }
-            if ($(this).is('input[type="tel"]')) {
-                if ($(this).cleanVal().length < 11) {
-                    $(this).addClass('error');
-                    send = false;
-                }
-            }
-        });
-
-        $(this).find("[data-req='true']").on('focus', function () {
-            $(this).removeClass('error');
-        });
-
-        // empty file inputs fix for mac
-        const fileInputs = $('input[type="file"]:not([disabled])', form);
-        fileInputs.each(function (_, input) {
-            if (input.files.length > 0) return;
-            $(input).prop('disabled', true)
-        });
-
-        const form_data = new FormData(this);
-
-        fileInputs.prop('disabled', false);
-
-        $("[data-label]").each(function () {
-            const input_name = $(this).attr('name');
-            const input_label__name = input_name + '_label';
-            const input_label__value = $(this).data('label').toString();
-            form_data.append(input_label__name, input_label__value)
-        });
-
-        if (send === true) {
-            submitBtn.prop('disabled', true);
-            $.ajax({
-                type: "POST",
-                async: true,
-                url: "/send.php",
-                cache: false,
-                contentType: false,
-                processData: false,
-                data: form_data,
-                success: (function (result) {
-                    console.log(result);
-                    $.fancybox.close();
-                    if (result.indexOf("Mail FAIL") !== -1) {
-                        $.fancybox.open({src: '#modal-error'});
-                    } else {
-                        setTimeout(function () {
-                            $.fancybox.open({src: '#modal-thanks'});
-                        }, 600);
-                        setTimeout(function () {
-                            $.fancybox.close();
-                        }, 4500);
-                        form[0].reset();
-                    }
-                    submitBtn.prop('disabled', false);
-                })
-            });
-            setTimeout(function () {
-                submitBtn.prop('disabled', false);
-            }, 4500);
-        }
-    });
-});
+// $(function () {
+//     $(".ajax-form").on("submit", function (event) {
+//         const form = $(this);
+//         const submitBtn = form.find('.btn');
+//         let send = true;
+//         event.preventDefault();
+//
+//         $(this).find("[data-req='true']").each(function () {
+//             if ($(this).val() === "") {
+//                 $(this).addClass('error');
+//                 send = false;
+//             }
+//             if ($(this).is('select')) {
+//                 if ($(this).val() === null) {
+//                     $(this).addClass('error');
+//                     send = false;
+//                 }
+//             }
+//             if ($(this).is('input[type="checkbox"]')) {
+//                 if ($(this).prop('checked') !== true) {
+//                     $(this).addClass('error');
+//                     send = false;
+//                 }
+//             }
+//             if ($(this).is('input[type="tel"]')) {
+//                 if ($(this).cleanVal().length < 11) {
+//                     $(this).addClass('error');
+//                     send = false;
+//                 }
+//             }
+//         });
+//
+//         $(this).find("[data-req='true']").on('focus', function () {
+//             $(this).removeClass('error');
+//         });
+//
+//         // empty file inputs fix for mac
+//         const fileInputs = $('input[type="file"]:not([disabled])', form);
+//         fileInputs.each(function (_, input) {
+//             if (input.files.length > 0) return;
+//             $(input).prop('disabled', true)
+//         });
+//
+//         const form_data = new FormData(this);
+//
+//         fileInputs.prop('disabled', false);
+//
+//         $("[data-label]").each(function () {
+//             const input_name = $(this).attr('name');
+//             const input_label__name = input_name + '_label';
+//             const input_label__value = $(this).data('label').toString();
+//             form_data.append(input_label__name, input_label__value)
+//         });
+//
+//         if (send === true) {
+//             submitBtn.prop('disabled', true);
+//             $.ajax({
+//                 type: "POST",
+//                 async: true,
+//                 url: "/send.php",
+//                 cache: false,
+//                 contentType: false,
+//                 processData: false,
+//                 data: form_data,
+//                 success: (function (result) {
+//                     console.log(result);
+//                     $.fancybox.close();
+//                     if (result.indexOf("Mail FAIL") !== -1) {
+//                         $.fancybox.open({src: '#modal-error'});
+//                     } else {
+//                         setTimeout(function () {
+//                             $.fancybox.open({src: '#modal-thanks'});
+//                         }, 600);
+//                         setTimeout(function () {
+//                             $.fancybox.close();
+//                         }, 4500);
+//                         form[0].reset();
+//                     }
+//                     submitBtn.prop('disabled', false);
+//                 })
+//             });
+//             setTimeout(function () {
+//                 submitBtn.prop('disabled', false);
+//             }, 4500);
+//         }
+//     });
+// });
 /***********************
  Отправка формы в php END
  ***********************/
@@ -130,13 +130,17 @@ $(function () {
  ***********************/
 
 $(function () {
-    $(".faq-detail-badge__accordion").accordion({
+    $(".detail-badge__accordion").accordion({
         heightStyle: "content",
         collapsible: true,
     });
     $(".scratch-faq-block").accordion({
         heightStyle: "content",
         collapsible: true,
+    })
+    $('.ui-accordion-header').on('click', function () {
+        // alert('??')
+        $(this).parents('.fixed-pos').css('height', 'auto');
     })
 });
 
@@ -297,21 +301,19 @@ $(function () {
  catalog END
  ***********************/
 
-
 /***********************
  Intro slider BEGIN
  ***********************/
 $(function ($) {
     $('.intro-slider').flickity({
-        contain: true,
         imagesLoaded: true,
-        lazyLoad: true
+        lazyLoad: true,
+        pageDots: true
     });
 });
 /***********************
  Intro slider END
  ***********************/
-
 
 /***********************
  Reviews slider BEGIN
@@ -319,8 +321,9 @@ $(function ($) {
 $(function ($) {
     let $slider = $('.reviews-slider').flickity({
         pageDots: false,
-        draggable: false,
         prevNextButtons: false,
+        draggable: true,
+        contain: true
     });
     $slider.on('change.flickity', function (event, index) {
         let pagerItem = $('.page-navigation').find(`[data-page=${index + 1}]`);
@@ -332,12 +335,15 @@ $(function ($) {
         $(this).siblings('.active').removeClass('active');
         $(this).addClass('active');
         $slider.flickity('select', index);
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
     });
 });
 /***********************
  Reviews slider END
  ***********************/
-
 
 /***********************
  Blog slider BEGIN
@@ -358,10 +364,51 @@ $(function ($) {
         $(this).siblings('.active').removeClass('active');
         $(this).addClass('active');
         $slider.flickity('select', index);
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
     });
 });
 /***********************
  Blog slider END
+ ***********************/
+
+/***********************
+ Interactive Pen Nav BEGIN
+ ***********************/
+$(function ($) {
+    let sliderWrap = $('.interactive-pen-description');
+    let $slider = $('.interactive-pen-description').flickity({
+        imagesLoaded: true,
+        lazyLoad: true,
+        pageDots: false,
+        prevNextButtons: false,
+        draggable: true
+    });
+    $slider.on('change.flickity', function (event, index) {
+        $('#interactive-pen').find(`.interactive-pen__info-point`).removeClass('active');
+        let pagerItem = $('#interactive-pen').find(`.interactive-pen__info-point[data-toggle=${index + 1}]`);
+        pagerItem.addClass('active');
+    });
+    $('.interactive-pen__info-point').on('click', function () {
+        let index = Number($(this).data('toggle')) - 1;
+        $('#interactive-pen').find(`.interactive-pen__info-point`).removeClass('active');
+        $(this).addClass('active');
+        $slider.flickity('select', index);
+    });
+    let digits = document.body.querySelectorAll('.interactive-pen__info-point');
+    setInterval(function () {
+        digits.forEach(item => {
+            item.classList.add('shine');
+            setTimeout(function () {
+                item.classList.remove('shine');
+            }, 500)
+        })
+    }, 1000)
+});
+/***********************
+ Interactive Pen Nav END
  ***********************/
 
 
@@ -409,11 +456,66 @@ $(function ($) {
         pageDots: false,
         groupCells: true,
         wrapAround: true,
-        draggable: false
+        draggable: true
     });
 });
 /***********************
  Catalog slider END
+ ***********************/
+
+/***********************
+ Advantages slider BEGIN
+ ***********************/
+$(function ($) {
+    if (screen.width <= 425) {
+        let slider = $('.home-about__items');
+        slider.removeClass('row');
+        slider.flickity({
+            contain: true,
+            imagesLoaded: true,
+            lazyLoad: true,
+            pageDots: false,
+            groupCells: true,
+            wrapAround: true,
+            draggable: true
+        });
+    }
+});
+/***********************
+ Advantages slider END
+ ***********************/
+
+/***********************
+ Reinit reviews slider BEGIN
+ ***********************/
+$(function ($) {
+    if (screen.width <= 425) {
+        let sliderReviews = $('.reviews-block.slider-re-init');
+        sliderReviews.removeClass('reviews-block');
+        sliderReviews.flickity({
+            contain: true,
+            imagesLoaded: true,
+            lazyLoad: true,
+            pageDots: false,
+            groupCells: true,
+            draggable: true
+        });
+        let sliderReviews2 = $('.reviews-grid.slider-re-init');
+        // sliderReviews2.removeClass('reviews-grid');
+        sliderReviews2.removeClass('row');
+        sliderReviews2.flickity({
+            contain: true,
+            imagesLoaded: true,
+            lazyLoad: true,
+            pageDots: false,
+            groupCells: true,
+            draggable: true,
+            adaptiveHeight: true
+        });
+    }
+});
+/***********************
+ Advantages slider END
  ***********************/
 
 
@@ -478,7 +580,7 @@ $(function () {
             pageDots: false,
             groupCells: true,
             wrapAround: true,
-            draggable: false
+            draggable: true
         });
     }
 });
@@ -509,6 +611,38 @@ $(function () {
  custom input animation END
  ***********************/
 
+/***********************
+ article desc photo START
+ ***********************/
+
+$(function () {
+    let images = document.querySelectorAll('.detailed-article img');
+
+    if (images.length > 0) {
+        for (let image of images) {
+            let titleText = image.getAttribute('title');
+            let newDiv = document.createElement('div');
+            let title = document.createElement('p');
+
+            title.className = 'image__desc';
+            newDiv.className = 'image';
+
+            title.innerText = titleText;
+            image.insertAdjacentElement("afterEnd", newDiv);
+            newDiv.appendChild(image);
+            newDiv.appendChild(title);
+        }
+    }
+});
+
+/***********************
+ article desc photo END
+ ***********************/
+
+/***********************
+ Show order content START
+ ***********************/
+
 $(function () {
     $('.show-order-content').on('click', function () {
         let ths = $(this);
@@ -524,9 +658,17 @@ $(function () {
     });
 });
 
+/***********************
+ Show order content END
+ ***********************/
+
 $(document).ready(function () {
     $('.custom-select-basic').select2();
 });
+
+/***********************
+ Video insert START
+ ***********************/
 
 $(document).ready(function () {
     $('.video').each(function () {
@@ -539,6 +681,14 @@ $(document).ready(function () {
         });
     });
 })
+
+/***********************
+ Video insert END
+ ***********************/
+
+/***********************
+ Catalog element photo START
+ ***********************/
 
 $(function () {
     $('.catalog-element-photo__main-slider').flickity({
@@ -567,6 +717,14 @@ $(function () {
         lazyLoad: true,
     });
 })
+
+/***********************
+ Catalog element photo END
+ ***********************/
+
+/***********************
+ Custom variety START
+ ***********************/
 
 $(function () {
     $('.cat-el-variety__item input[type=radio]').on('click', function () {
@@ -597,3 +755,78 @@ $(function () {
         }
     })
 })
+
+/***********************
+ Custom variety END
+ ***********************/
+
+/***********************
+ Fixed element position START
+ ***********************/
+
+$(function () {
+    let fixedElem = document.body.getElementsByClassName('fixed-pos')[0];
+
+    if (fixedElem && screen.width >= 465) {
+        let isScrolling = false;
+
+        window.addEventListener("scroll", throttleScroll, false);
+
+        let parent = fixedElem.getAttribute('data-parent');
+        parent = document.body.getElementsByClassName(`${parent}`)[0];
+        $('.fixed-pos').parent().attr('style', 'position: relative;');
+        let elemWidth = fixedElem.offsetWidth,
+            elemHeight = fixedElem.offsetHeight,
+            parentWidth = parent.offsetWidth,
+            parentHeight = parent.offsetHeight,
+            style = `width: ${parentWidth}px; height: ${parentHeight}px`;
+        parent.setAttribute('style', `${style}`);
+        style = `width: ${elemWidth}px; height: ${elemHeight}px`;
+        fixedElem.setAttribute('style', `${style}`);
+
+        function throttleScroll(e) {
+            if (isScrolling == false) {
+                window.requestAnimationFrame(function () {
+                    scrolling(e);
+                    isScrolling = false;
+                });
+            }
+
+            isScrolling = true;
+        }
+
+        let onBottom = false;
+        let onTop = true;
+
+        function scrolling(e) {
+            let coords = fixedElem.getBoundingClientRect(),
+                parentCoords = parent.getBoundingClientRect();
+            let startFromTop = (coords.top <= 30 && parentCoords.top <= 30 && !onBottom),
+                stopFromTop = (parentCoords.top >= 30),
+                startFromBottom = (coords.top <= 30 && parentCoords.top <= 30 && onBottom),
+                stopFromBottom = (coords.bottom >= parentCoords.bottom && !onTop)
+            if (startFromTop) {
+                fixedElem.classList.add('fixed');
+                onTop = false;
+            }
+            if (stopFromTop) {
+                fixedElem.classList.remove('fixed');
+                onTop = true;
+            }
+            if (startFromBottom) {
+                fixedElem.classList.add('fixed');
+                fixedElem.setAttribute('style', `${style}`);
+                onBottom = false;
+            }
+            if (stopFromBottom) {
+                fixedElem.classList.remove('fixed');
+                fixedElem.setAttribute('style', `position: absolute; bottom: 0; ${style}`)
+                onBottom = true;
+            }
+        }
+    }
+})
+
+/***********************
+ Fixed element position END
+ ***********************/

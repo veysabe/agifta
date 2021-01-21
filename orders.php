@@ -40,7 +40,7 @@
                                 <div class="order-badge sending">Оплачен, отправляем</div>
                             </div>
                             <div class="order-info row">
-                                <div class="grid-5 grid-12_l">
+                                <div class="grid-5 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-clock"></i>Дата заказа
@@ -48,7 +48,7 @@
                                         <div class="order-info__elem__text">5 декабря 2020</div>
                                     </div>
                                 </div>
-                                <div class="grid-7 grid-12_l">
+                                <div class="grid-7 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-rubl"></i>Стоимость заказа
@@ -56,7 +56,7 @@
                                         <div class="order-info__elem__text">7 800 Р</div>
                                     </div>
                                 </div>
-                                <div class="grid-5 grid-12_l">
+                                <div class="grid-5 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-marker-star"></i>Вид доставки
@@ -66,7 +66,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grid-7 grid-12_l">
+                                <div class="grid-7 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-pennant"></i>Номер отслеживания
@@ -81,9 +81,9 @@
                                 </div>
                             </div>
                             <div class="order-buttons">
-                                <div>
+                                <div class="order-buttons-wrap">
                                     <a href="#" class="btn btn--purple">Повторить заказ</a>
-                                    <a href="#" class="btn btn--gray">Скачать макет <i class="i-download"></i></a>
+<!--                                    <a href="#" class="btn btn--gray">Скачать макет <i class="i-download ml-2"></i></a>-->
                                 </div>
                                 <div class="show-order-content" data-order-num="1">
 
@@ -94,7 +94,7 @@
                                     <div class="order-content-item">
                                         <div class="d-flex flex-center">
                                             <div class="order-content-item__image">
-                                                <img src="/img/catalog/black-pen.png" alt="">
+                                                <img src="img/catalog/black-pen.png" alt="">
                                             </div>
                                             <div class="order-content-item__title ml-2">
                                                 <div class="name">
@@ -123,7 +123,7 @@
                                     <div class="order-content-item">
                                         <div class="d-flex flex-center">
                                             <div class="order-content-item__image">
-                                                <img src="/img/catalog/red-pen.png" alt="">
+                                                <img src="img/catalog/red-pen.png" alt="">
                                             </div>
                                             <div class="order-content-item__title ml-2">
                                                 <div class="name">
@@ -160,7 +160,7 @@
                                 <div class="order-badge done">Выполнен</div>
                             </div>
                             <div class="order-info row">
-                                <div class="grid-5 grid-12_l">
+                                <div class="grid-5 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-clock"></i>Дата заказа
@@ -168,7 +168,7 @@
                                         <div class="order-info__elem__text">5 декабря 2020</div>
                                     </div>
                                 </div>
-                                <div class="grid-7 grid-12_l">
+                                <div class="grid-7 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-rubl"></i>Стоимость заказа
@@ -176,7 +176,7 @@
                                         <div class="order-info__elem__text">7 800 Р</div>
                                     </div>
                                 </div>
-                                <div class="grid-5 grid-12_l">
+                                <div class="grid-5 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-marker-star"></i>Вид доставки
@@ -186,7 +186,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grid-7 grid-12_l">
+                                <div class="grid-7 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-pennant"></i>Номер отслеживания
@@ -201,9 +201,9 @@
                                 </div>
                             </div>
                             <div class="order-buttons">
-                                <div>
+                                <div class="order-buttons-wrap">
                                     <a href="#" class="btn btn--purple">Повторить заказ</a>
-                                    <a href="#" class="btn btn--gray">Скачать макет <i class="i-download"></i></a>
+<!--                                    <a href="#" class="btn btn--gray">Скачать макет <i class="i-download ml-2"></i></a>-->
                                 </div>
                                 <div class="show-order-content" data-order-num="1">
 
@@ -214,7 +214,7 @@
                                     <div class="order-content-item">
                                         <div class="d-flex flex-center">
                                             <div class="order-content-item__image">
-                                                <img src="/img/catalog/black-pen.png" alt="">
+                                                <img src="img/catalog/black-pen.png" alt="">
                                             </div>
                                             <div class="order-content-item__title ml-2">
                                                 <div class="name">
@@ -243,7 +243,7 @@
                                     <div class="order-content-item">
                                         <div class="d-flex flex-center">
                                             <div class="order-content-item__image">
-                                                <img src="/img/catalog/red-pen.png" alt="">
+                                                <img src="img/catalog/red-pen.png" alt="">
                                             </div>
                                             <div class="order-content-item__title ml-2">
                                                 <div class="name">
@@ -280,7 +280,7 @@
                                 <div class="order-badge done">Выполнен</div>
                             </div>
                             <div class="order-info row">
-                                <div class="grid-5 grid-12_l">
+                                <div class="grid-5 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-clock"></i>Дата заказа
@@ -288,7 +288,7 @@
                                         <div class="order-info__elem__text">5 декабря 2020</div>
                                     </div>
                                 </div>
-                                <div class="grid-7 grid-12_l">
+                                <div class="grid-7 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-rubl"></i>Стоимость заказа
@@ -296,7 +296,7 @@
                                         <div class="order-info__elem__text">7 800 Р</div>
                                     </div>
                                 </div>
-                                <div class="grid-5 grid-12_l">
+                                <div class="grid-5 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-marker-star"></i>Вид доставки
@@ -306,7 +306,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grid-7 grid-12_l">
+                                <div class="grid-7 grid-12_m">
                                     <div class="order-info__elem">
                                         <div class="order-info__elem__title">
                                             <i class="i-pennant"></i>Номер отслеживания
@@ -321,9 +321,9 @@
                                 </div>
                             </div>
                             <div class="order-buttons">
-                                <div>
+                                <div class="order-buttons-wrap">
                                     <a href="#" class="btn btn--purple">Повторить заказ</a>
-                                    <a href="#" class="btn btn--gray">Скачать макет <i class="i-download"></i></a>
+<!--                                    <a href="#" class="btn btn--gray">Скачать макет <i class="i-download ml-2"></i></a>-->
                                 </div>
                                 <div class="show-order-content" data-order-num="1">
 
@@ -334,7 +334,7 @@
                                     <div class="order-content-item">
                                         <div class="d-flex flex-center">
                                             <div class="order-content-item__image">
-                                                <img src="/img/catalog/black-pen.png" alt="">
+                                                <img src="img/catalog/black-pen.png" alt="">
                                             </div>
                                             <div class="order-content-item__title ml-2">
                                                 <div class="name">
@@ -363,7 +363,7 @@
                                     <div class="order-content-item">
                                         <div class="d-flex flex-center">
                                             <div class="order-content-item__image">
-                                                <img src="/img/catalog/red-pen.png" alt="">
+                                                <img src="img/catalog/red-pen.png" alt="">
                                             </div>
                                             <div class="order-content-item__title ml-2">
                                                 <div class="name">

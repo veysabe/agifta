@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<section class="s-login s-def mt-10 mt-1-s">
+<section class="s-login s-def">
     <div class="container">
         <div class="h1 sec-title">
             Регистрация
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="w-100 mt-3">
-                        <img src="/img/personal/register-action.png" alt="" class="w-100">
+                        <img src="img/personal/register-action.png" alt="" class="w-100">
                     </div>
                 </div>
             </div>

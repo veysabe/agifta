@@ -57,7 +57,7 @@
 
     <section class="s-home-subscribe s-def">
         <div class="container home-subscribe">
-            <img src="/img/home/subscribe-bg.jpg" alt="img" class="home-subscribe__img">
+            <img src="img/home/subscribe-bg.jpg" alt="img" class="home-subscribe__img">
 
             <div class="h1 home-subscribe__title">Узнавайте о новинках первыми!</div>
             <div class="home-subscribe__descr">Подпишись на нашу новостную рассылку. Мы против спама и воды.<br>Только за
@@ -96,7 +96,7 @@
 
             let marker = new ymaps.Placemark([55.784815, 49.136714], {}, {
                 iconLayout: 'default#image',
-                iconImageHref: '/img/icons/map-marker.png',
+                iconImageHref: 'img/icons/map-marker.png',
                 iconImageSize: [39, 48],
                 iconImageOffset: [-17.61, -48]
             });

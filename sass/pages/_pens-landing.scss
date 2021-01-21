@@ -3,6 +3,7 @@
     position: relative;
     z-index: 6;
   }
+
   &.main-banner {
     background-image: url(../img/paper-pens/banner-bg-color.png);
     background-size: cover;
@@ -73,14 +74,24 @@
 
     &__button {
       margin-top: 15px;
+      position: relative;
       @include res(l) {
-        display: none;
+        max-height: 40px;
+        margin-top: 5px;
+        z-index: 5;
       }
 
       .btn {
         position: relative;
         z-index: 2;
         color: $purple-hover;
+        @include res(l) {
+          height: 40px;
+          width: 40px;
+          font-size: 18px;
+          display: flex;
+          align-items: center;
+        }
       }
     }
 
@@ -120,6 +131,7 @@
     &.one {
       margin-right: 50%;
     }
+
     &.two {
       margin-left: 50%;
     }
@@ -133,9 +145,11 @@
     align-items: center;
     justify-content: center;
     background-color: $orange;
+
     img {
       max-height: 100%;
     }
+
     &.one {
       height: 250px;
       width: 250px;
@@ -143,6 +157,7 @@
       bottom: 0;
       z-index: 1;
     }
+
     &.two {
       height: 500px;
       width: 500px;
@@ -182,11 +197,13 @@
 .algorithm {
   &-grid {
     display: flex;
-    margin: 0 -50px;
     flex-wrap: wrap;
     align-items: flex-start;
     @include res(l) {
       margin: 0 -35px;
+    }
+    @include res(m) {
+      margin: 0;
     }
   }
 
@@ -203,6 +220,7 @@
       justify-content: flex-start;
     }
     @include res(s) {
+      padding: 0;
       flex-direction: column;
     }
 
@@ -236,6 +254,9 @@
     }
 
     &__text {
+      @include res(l) {
+        margin-top: 5px;
+      }
       margin-top: 25px;
     }
   }
@@ -245,30 +266,36 @@
   .flickity-button {
     top: 150px;
   }
+
   .two-ways-text-block {
     &__text-content {
       display: flex;
       flex-direction: column;
     }
+
     &__image {
       width: 280px;
       height: 280px;
       position: relative;
       margin: auto;
     }
+
     &__title {
       margin-top: 20px;
       font-size: 24px;
       text-align: left;
     }
+
     &__text {
       margin-top: 20px;
       margin-bottom: 10px;
     }
+
     &__watch {
       br {
         display: none;
       }
+
       .btn {
         width: 45px;
         height: 45px;
@@ -279,8 +306,13 @@
       }
     }
   }
+
   .two-ways-text-block-mobile {
     width: 100%;
+
+    .btn {
+      box-shadow: none;
+    }
   }
 }
 

@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<section class="s-login s-def mt-10 mt-1-s">
+<section class="s-login s-def">
     <div class="container">
         <div class="h1 sec-title">
             Вход или регистрация

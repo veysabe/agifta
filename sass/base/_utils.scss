@@ -230,7 +230,8 @@
   align-items: center;
   justify-content: center;
   @include res(s) {
-    flex-direction: column;
+    overflow: scroll;
+    justify-content: flex-start;
   }
 
   .nav-button {
@@ -260,16 +261,19 @@
       color: black;
       border: none;
       box-shadow: $shadow-block;
+      @include res(m) {
+        box-shadow: none;
+      }
     }
 
     & + .nav-button {
       margin-left: 40px;
       @include res(l) {
-        margin-left: 20px;
+        margin-left: 10px;
       }
       @include res(s) {
-        margin: 0;
-        margin-top: 20px;
+        //margin: 0;
+        //margin-top: 20px;
       }
     }
   }

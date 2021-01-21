@@ -334,6 +334,7 @@ $reviewsItems = array(
             <? $i = 0; ?>
             <? foreach ($reviewsItems as $count => $item): ?>
                 <? if ($i == 0): ?>
+                    <div class="reviews-block-wrap">
                     <div class="reviews-block">
                 <? endif; ?>
                 <div class="reviews-item">
@@ -355,6 +356,7 @@ $reviewsItems = array(
                     </div>
                 </div>
                 <? if ($i == 19): ?>
+                    </div>
                     </div>
                     <? $i = -1; ?>
                 <? endif; ?>

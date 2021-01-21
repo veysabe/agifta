@@ -5,49 +5,49 @@
 $catalogItem = array(
     [
         "NAME" => "Бумажные ручки",
-        "IMG" => "/img/catalog/tiles/bum-ruchki.png",
+        "IMG" => "img/catalog/tiles/bum-ruchki.png",
         "LINK" => "#",
         "COLOR" => "orange",
     ],
     [
         "NAME" => "Зубные щётки",
-        "IMG" => "/img/catalog/tiles/zubnie-shchetki.png",
+        "IMG" => "img/catalog/tiles/zubnie-shchetki.png",
         "LINK" => "#",
         "COLOR" => "green",
     ],
     [
         "NAME" => "Бумажные карандаши",
-        "IMG" => "/img/catalog/tiles/bum-kar.png",
+        "IMG" => "img/catalog/tiles/bum-kar.png",
         "LINK" => "#",
         "COLOR" => "blue"
     ],
     [
         "NAME" => "Деревянные расчеки",
-        "IMG" => "/img/catalog/tiles/rascheski.png",
+        "IMG" => "img/catalog/tiles/rascheski.png",
         "LINK" => "#",
         "COLOR" => "cyan"
     ],
     [
         "NAME" => "Закладки для книг",
-        "IMG" => "/img/catalog/tiles/zakladki.png",
+        "IMG" => "img/catalog/tiles/zakladki.png",
         "LINK" => "#",
         "COLOR" => "red"
     ],
     [
         "NAME" => "Когтеточки",
-        "IMG" => "/img/catalog/tiles/kogtetochki.png",
+        "IMG" => "img/catalog/tiles/kogtetochki.png",
         "LINK" => "#",
         "COLOR" => "orange"
     ],
     [
         "NAME" => "Шоколад",
-        "IMG" => "/img/catalog/tiles/shokolad.png",
+        "IMG" => "img/catalog/tiles/shokolad.png",
         "LINK" => "#",
         "COLOR" => "green"
     ],
     [
         "NAME" => "Блокноты",
-        "IMG" => "/img/catalog/tiles/bloknoti.png",
+        "IMG" => "img/catalog/tiles/bloknoti.png",
         "LINK" => "#",
         "COLOR" => "blue"
     ],

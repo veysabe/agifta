@@ -10,7 +10,7 @@
                 <div class="main-banner__button"></div>
             </div>
         </div>
-        <img src="/img/warranty/banner-handles.png" class="main-banner__additional-image handles"
+        <img src="img/warranty/banner-handles.png" class="main-banner__additional-image handles"
              data-parallax='{"y" : 20}'>
     </section>
 
@@ -55,7 +55,7 @@ $warrantyItems = array(
 )
 
 ?>
-    <section class="warranty-list s-def">
+    <section class="warranty-list s-def-top">
         <div class="container">
             <? foreach ($warrantyItems as $count => $item): ?>
                 <div class="warranty-item">
@@ -72,7 +72,7 @@ $warrantyItems = array(
     </section>
     <section class="s-home-subscribe s-def">
         <div class="container home-subscribe">
-            <img src="/img/home/subscribe-bg.jpg" alt="img" class="home-subscribe__img">
+            <img src="img/home/subscribe-bg.jpg" alt="img" class="home-subscribe__img">
 
             <div class="h1 home-subscribe__title">Узнавайте о новинках первыми!</div>
             <div class="home-subscribe__descr">Подпишись на нашу новостную рассылку. Мы против спама и воды.<br>Только

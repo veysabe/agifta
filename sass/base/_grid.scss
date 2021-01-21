@@ -71,12 +71,12 @@
 				padding-right: $gutter;
 			}
 		}
-		margin-left: -$gutter * 2;
-		margin-right: -$gutter * 2;
-		@include res(l) {
-			margin-left: -$gutter;
-			margin-right: -$gutter;
-		}
+		//margin-left: -$gutter * 2;
+		//margin-right: -$gutter * 2;
+		//@include res(l) {
+		//	margin-left: -$gutter;
+		//	margin-right: -$gutter;
+		//}
 	}
 }
 

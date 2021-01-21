@@ -1,42 +1,47 @@
 <?php include("header.php") ?>
 
 
-    <section class="s-catalog-element s-def-big">
+    <section class="s-catalog-element s-def">
         <div class="catalog-element">
             <div class="container">
                 <div class="catalog-element-info">
                     <div class="row row-col-medium">
-                        <div class="grid-6 grid-12_l">
+                        <div class="grid-6 grid-12_m">
+                            <div class="h1 hidden-m">Крафтовая бумажная ручка</div>
+                            <div class="cat-el-small-header hidden-m mt-3 mt-1-s">
+                                <div class="product-preview__label product-preview__label--hit">HIT!</div>
+                                <div class="product-preview__label ml-2">Артикул: 102</div>
+                            </div>
                             <div class="catalog-element-photo-block">
-                                <div class="catalog-element-photo__main-slider visible-l">
+                                <div class="catalog-element-photo__main-slider visible-m">
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -44,44 +49,44 @@
                                 <div class="catalog-element-photo__elements-slider">
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                     <div class="catalog-element-photo__slider-element">
                                         <div class="catalog-element-photo__slider-element-wrap">
-                                            <img src="/img/catalog/craft-pen.png" alt="">
+                                            <img src="img/catalog/craft-pen.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="grid-6 grid-12_l">
+                        <div class="grid-6 grid-12_m">
                             <div class="catalog-element-info-block">
-                                <div class="cat-el-small-header">
+                                <div class="cat-el-small-header visible-m">
                                     <div class="product-preview__label product-preview__label--hit">HIT!</div>
                                     <div class="product-preview__label ml-2">Артикул: 102</div>
                                 </div>
-                                <div class="h1">Крафтовая бумажная ручка</div>
+                                <div class="h1 visible-m">Крафтовая бумажная ручка</div>
                                 <div class="cat-el-variety">
                                     <div class="cat-el-variety__title mb-1">
                                         <span class="cat-el-variety__type">Цвет</span>
@@ -91,37 +96,37 @@
                                         <label class="cat-el-variety__item">
                                             <input type="radio" name="color-picker" value="Черный">
                                             <div class="cat-el-variety__item-content">
-                                                <img src="/img/catalog/black-pen.png">
+                                                <img src="img/catalog/black-pen.png">
                                             </div>
                                         </label>
                                         <label class="cat-el-variety__item">
                                             <input type="radio" name="color-picker" value="Красный">
                                             <div class="cat-el-variety__item-content">
-                                                <img src="/img/catalog/red-pen.png">
+                                                <img src="img/catalog/red-pen.png">
                                             </div>
                                         </label>
                                         <label class="cat-el-variety__item">
                                             <input type="radio" name="color-picker" value="Розовый">
                                             <div class="cat-el-variety__item-content">
-                                                <img src="/img/catalog/pink-pen.png">
+                                                <img src="img/catalog/pink-pen.png">
                                             </div>
                                         </label>
                                         <label class="cat-el-variety__item">
                                             <input type="radio" name="color-picker" value="Фиолетовый">
                                             <div class="cat-el-variety__item-content">
-                                                <img src="/img/catalog/purple-pen.png">
+                                                <img src="img/catalog/purple-pen.png">
                                             </div>
                                         </label>
                                         <label class="cat-el-variety__item">
                                             <input type="radio" name="color-picker" checked value="Крафтовый">
                                             <div class="cat-el-variety__item-content">
-                                                <img src="/img/catalog/craft-pen.png">
+                                                <img src="img/catalog/craft-pen.png">
                                             </div>
                                         </label>
                                         <label class="cat-el-variety__item">
                                             <input type="radio" name="color-picker" value="Зелёный">
                                             <div class="cat-el-variety__item-content">
-                                                <img src="/img/catalog/green-pen.png">
+                                                <img src="img/catalog/green-pen.png">
                                             </div>
                                         </label>
                                     </div>
@@ -215,8 +220,8 @@
                                     </div>
                                 </div>
                                 <div class="order-buttons">
-                                    <a href="#" class="btn btn--purple"><i class="i-handle mr-1"></i>В корзину</a>
-                                    <a href="#" class="btn btn--gray">Скачать макет <i class="i-download ml-1"></i></a>
+                                    <a href="#" class="btn btn--purple"><i class="i-handle mr-2"></i>В корзину</a>
+<!--                                    <a href="#" class="btn btn--gray">Скачать макет <i class="i-download ml-2"></i></a>-->
                                     <span class="info">
                                         Загрузить логотип вы
                                         сможете на этапе
@@ -243,47 +248,47 @@
                             <div class="photo-gallery-slider">
                                 <div class="photo-gallery-slider__element">
                                     <div class="photo-gallery-slider__element__image-wrap">
-                                        <img src="/img/catalog/photo-gallery/1.png" alt="">
+                                        <img src="img/catalog/photo-gallery/1.png" alt="">
                                     </div>
                                 </div>
                                 <div class="photo-gallery-slider__element">
                                     <div class="photo-gallery-slider__element__image-wrap">
-                                        <img src="/img/catalog/photo-gallery/2.png" alt="">
+                                        <img src="img/catalog/photo-gallery/2.png" alt="">
                                     </div>
                                 </div>
                                 <div class="photo-gallery-slider__element">
                                     <div class="photo-gallery-slider__element__image-wrap">
-                                        <img src="/img/catalog/photo-gallery/3.png" alt="">
+                                        <img src="img/catalog/photo-gallery/3.png" alt="">
                                     </div>
                                 </div>
                                 <div class="photo-gallery-slider__element">
                                     <div class="photo-gallery-slider__element__image-wrap">
-                                        <img src="/img/catalog/photo-gallery/4.png" alt="">
+                                        <img src="img/catalog/photo-gallery/4.png" alt="">
                                     </div>
                                 </div>
                                 <div class="photo-gallery-slider__element">
                                     <div class="photo-gallery-slider__element__image-wrap">
-                                        <img src="/img/catalog/photo-gallery/1.png" alt="">
+                                        <img src="img/catalog/photo-gallery/1.png" alt="">
                                     </div>
                                 </div>
                                 <div class="photo-gallery-slider__element">
                                     <div class="photo-gallery-slider__element__image-wrap">
-                                        <img src="/img/catalog/photo-gallery/2.png" alt="">
+                                        <img src="img/catalog/photo-gallery/2.png" alt="">
                                     </div>
                                 </div>
                                 <div class="photo-gallery-slider__element">
                                     <div class="photo-gallery-slider__element__image-wrap">
-                                        <img src="/img/catalog/photo-gallery/3.png" alt="">
+                                        <img src="img/catalog/photo-gallery/3.png" alt="">
                                     </div>
                                 </div>
                                 <div class="photo-gallery-slider__element">
                                     <div class="photo-gallery-slider__element__image-wrap">
-                                        <img src="/img/catalog/photo-gallery/4.png" alt="">
+                                        <img src="img/catalog/photo-gallery/4.png" alt="">
                                     </div>
                                 </div>
                                 <div class="photo-gallery-slider__element">
                                     <div class="photo-gallery-slider__element__image-wrap">
-                                        <img src="/img/catalog/photo-gallery/1.png" alt="">
+                                        <img src="img/catalog/photo-gallery/1.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -347,7 +352,7 @@
                                     <div class="youtube-video-frame"
                                          data-src="https://www.youtube.com/embed/hg7NX2hOIlY?autoplay=1"></div>
                                     <div class="catalog-section-video__video"
-                                         style="background-image: url(/img/catalog/section-preview.png)">
+                                         style="background-image: url(img/catalog/section-preview.png)">
                                     </div>
                                     <div class="video-play">
                                         <div class="btn btn--round btn--white btn--play">
@@ -371,8 +376,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -391,8 +396,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -411,8 +416,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -431,8 +436,8 @@
                     <div class="grid-3 grid-4_m grid-6_xs">
                         <a href="#" class="product-preview">
                             <div class="product-preview__imgwrap">
-                                <img src="/img/products/pen-1.jpg" alt="product" class="product-preview__img">
-                                <img src="/img/products/pen-1-hover.jpg" alt="product"
+                                <img src="img/products/pen-1.jpg" alt="product" class="product-preview__img">
+                                <img src="img/products/pen-1-hover.jpg" alt="product"
                                      class="product-preview__img-hover">
                             </div>
                             <div class="product-preview__labels">
@@ -457,7 +462,7 @@
         <div class="container home-about">
             <div class="row">
                 <div class="grid-6 grid-5_xl grid-4_l grid-12_m">
-                    <img src="/img/home/about-img.jpg" alt="img" class="home-about__img">
+                    <img src="img/home/about-img.jpg" alt="img" class="home-about__img">
                 </div>
                 <div class="grid-6 grid-7_xl grid-8_l grid-12_m">
                     <div class="h1 home-about__title">Поможем вашему бренду запомниться</div>
@@ -544,7 +549,7 @@
                                         </div>
                                     </div>
                                     <div class="grid-6 grid-12_m">
-                                        <div class="action-block-image"><img src="/img/home/box.png" alt=""></div>
+                                        <div class="action-block-image"><img src="img/home/box.png" alt=""></div>
                                     </div>
                                 </div>
                             </div>
